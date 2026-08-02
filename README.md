@@ -9,7 +9,7 @@ Built for one family (five kids); designed to be customized and shared, not obey
 
 ## What's here
 
-- **14 lanes, 189 skills** in `src/content/lanes/` — each node has an observable
+- **14 lanes, 202 skills** in `src/content/lanes/` — each node has an observable
   "got it when" description, concrete examples, build suggestions, prerequisites, and
   (on competence lanes) real-world unlocks. Two reference lanes set the style:
   **Money & Work** (competence) and **Facing Hard Things** (character).
