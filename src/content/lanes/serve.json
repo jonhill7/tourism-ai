@@ -1,0 +1,232 @@
+{
+  "id": "serve",
+  "name": "Serve & Give",
+  "emoji": "🤲",
+  "cluster": "Character",
+  "kind": "character",
+  "tagline": "Eyes that see the need and hands that move toward it — time, money, presence, and effort given gladly. Prerequisites here are suggestions; character grows in a spiral.",
+  "skills": [
+    {
+      "id": "serve.notice",
+      "name": "See who needs help",
+      "gotItWhen": "You spot the need before anyone points it out — the person carrying too much, the kid on the edge of the group, the job nobody's gotten to — because your eyes have gotten in the habit of sweeping the room for somebody besides you.",
+      "looksLike": [
+        "The teacher is juggling a box, a laptop, and a coffee, and you're holding the door before she asks.",
+        "You clock the kid sitting alone at lunch — whoever else doesn't.",
+        "Walking home, you notice the neighbor's yard is buried in leaves and file it away as something you could do."
+      ],
+      "waysToBuild": [
+        "Play the quiet game everywhere you go for a week: 'who in this room could use a hand right now?'",
+        "Trade at dinner: 'who did you notice today?' — noticing counts even before doing.",
+        "Walk your own street once with fresh eyes and list three needs you'd never spotted before."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["beyond", "relationships"]
+    },
+    {
+      "id": "serve.home",
+      "name": "Help without being asked",
+      "gotItWhen": "At home, when you see the need, you move toward it — the dishes get done, the crying sibling gets scooped up, the groceries come in from the car — before anyone asks, because being asked was never the point.",
+      "looksLike": [
+        "The dishwasher is clean and full, so you empty it — simply because you're the one standing there.",
+        "A little sibling is melting down while dinner's being cooked, and you're the one who swoops in.",
+        "The car pulls in from the grocery run and you're already at the trunk."
+      ],
+      "waysToBuild": [
+        "Pick one daily window — right after school, right before dinner — and hunt for one unasked help in it.",
+        "Run a private streak: one unasked help a day for two weeks, no announcing.",
+        "Watch what a parent always ends up doing, and quietly take one of those jobs over."
+      ],
+      "comesAfter": ["serve.notice"],
+      "assessment": "observed",
+      "outcomes": ["beyond", "household"]
+    },
+    {
+      "id": "serve.give",
+      "name": "Give some of what you have",
+      "gotItWhen": "Some of what's yours — money, things, treats — regularly goes to someone else, given gladly and by your own choice, at a size that actually costs you something.",
+      "looksLike": [
+        "You split the treat and hand over the bigger half without ceremony.",
+        "Something you've outgrown but still like goes to a kid who'd love it — not to the top shelf of your closet.",
+        "There's real money in your giving envelope, from your own pocket, and you're the one who put it there."
+      ],
+      "waysToBuild": [
+        "When money comes in (allowance, gifts, jobs — see Money & Work's earning skills), decide the give-portion before you spend anything.",
+        "Once a season, give away one thing you still actually like — and notice what that feels like versus giving leftovers.",
+        "Pick one cause or person you genuinely care about, so your giving has a face."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["beyond", "financial", "faith"]
+    },
+    {
+      "id": "serve.show-up",
+      "name": "Show up for people",
+      "gotItWhen": "When it matters to someone you care about — the recital, the hospital room, the worst week of their year — you're there on purpose, because you've learned that presence is a gift only you can give.",
+      "looksLike": [
+        "Your sibling's concert has you in the audience — no dragging required.",
+        "A friend's grandparent dies; you don't know what to say, and you go anyway.",
+        "A teammate is out for the season, and you're still checking in after everyone else has moved on."
+      ],
+      "waysToBuild": [
+        "Say yes to the next three invitations that feel skippable, and notice what your being there did.",
+        "When someone's hurting and you have no words, go anyway — 'I'm here' is a complete sentence.",
+        "Keep other people's big days on your own calendar, so showing up is planned, not lucky."
+      ],
+      "comesAfter": ["serve.notice"],
+      "assessment": "observed",
+      "outcomes": ["beyond", "relationships"]
+    },
+    {
+      "id": "serve.hidden",
+      "name": "Serve where no one sees",
+      "gotItWhen": "Some of your serving happens where nobody will ever know it was you — done quietly, credit never collected — and the doing itself has become the whole reward.",
+      "looksLike": [
+        "A sibling's dreaded chore is mysteriously already done, and you let the mystery stand.",
+        "You clean up a mess nobody saw you near, and dinner passes without you mentioning it.",
+        "Someone else gets thanked for a thing you did — and you let them keep it."
+      ],
+      "waysToBuild": [
+        "Do one secret act of service a week for a month; if you get caught, shrug and change the subject.",
+        "Notice the itch to be credited when it comes — outlasting that itch is the actual training.",
+        "Find a job that's invisible by nature (the mud on the cleats, the crumbs under the toaster) and own it silently."
+      ],
+      "comesAfter": ["serve.home"],
+      "ageFloor": 11,
+      "assessment": "self-check",
+      "outcomes": ["beyond", "faith"]
+    },
+    {
+      "id": "serve.unwanted",
+      "name": "Take the job nobody wants",
+      "gotItWhen": "When the worst job in the room is up for grabs — the trash bag, the crying toddler, the cleanup after everyone drifts off — you're the one who volunteers, and you do it with genuine cheer, like it's a privilege someone had to win.",
+      "looksLike": [
+        "The party is winding down and you're bagging trash while everyone else says long goodbyes.",
+        "The carpool toddler is screaming, and you climb into the back seat next to the car seat.",
+        "The group project's boring job sits unclaimed until you take it — and then it's done well."
+      ],
+      "waysToBuild": [
+        "At the next family event, find the worst job and claim it before anyone has to ask.",
+        "Do it cheerfully enough that nobody feels they owe you — the cheer is half the gift.",
+        "Trade stories at dinner about the worst jobs anyone took that week, and let them be funny instead of noble."
+      ],
+      "comesAfter": ["serve.home"],
+      "assessment": "observed",
+      "outcomes": ["beyond", "adversity"]
+    },
+    {
+      "id": "serve.team",
+      "name": "Serve alongside others",
+      "gotItWhen": "You can join an organized effort — a food bank shift, a church workday, a mission team — take direction from whoever's running it, pull your real weight from start time through cleanup, and be someone the organizers hope comes back.",
+      "looksLike": [
+        "At the food bank you're still boxing cans at the end, when the first-hour energy is long gone.",
+        "Your task finishes and you find the leader to ask 'what's next?' instead of drifting to your phone.",
+        "The workday organizer greets you by name — because you're the kid who finishes things."
+      ],
+      "waysToBuild": [
+        "Sign up for one real shift — food bank, park cleanup, church workday — and stay through the un-fun ending.",
+        "Ask the person in charge which job nobody wants, and take that one.",
+        "Bring a friend next time and show them the ropes — pulling others in is part of pulling your weight."
+      ],
+      "comesAfter": ["serve.show-up"],
+      "assessment": "observed",
+      "outcomes": ["beyond", "relationships"]
+    },
+    {
+      "id": "serve.champion",
+      "name": "Speak up for someone",
+      "gotItWhen": "When someone is being left out, mocked, or talked over, you can put your voice on their side — the left-out kid gets your invitation, the pile-on stops at your message, the unheard idea gets repeated with their name on it — even when it costs you a little standing.",
+      "looksLike": [
+        "There's a new kid eating alone, and 'come sit with us' is your line.",
+        "The group chat turns on someone, and your message is the one that breaks the pile-on instead of joining it.",
+        "The quiet kid's idea gets steamrolled, and you say 'wait — go back to what she said,' with her name attached."
+      ],
+      "waysToBuild": [
+        "Decide your lines before you need them — an invitation line, a pile-on-breaker — so they're loaded when it counts.",
+        "Practice the credit relay: restate a steamrolled idea with the person's name until it's a reflex.",
+        "After a real moment, debrief it with a parent: what it cost you, and what it bought them."
+      ],
+      "comesAfter": ["serve.notice"],
+      "ageFloor": 11,
+      "assessment": "debrief",
+      "outcomes": ["beyond", "relationships", "adversity"]
+    },
+    {
+      "id": "serve.littles",
+      "name": "Look after littler ones",
+      "gotItWhen": "Younger kids are safe with you and glad to see you — you get down on their level, keep them out of harm's way, keep it genuinely fun, and hand them back happier than you found them; you're the big kid the little ones hope shows up.",
+      "looksLike": [
+        "At the family gathering, you've got the toddler cousins running a game so the adults can actually talk.",
+        "A shy little kid is frozen at the edge of the party, and you're the one who folds them in.",
+        "The neighborhood littles spot you at the park and light up."
+      ],
+      "waysToBuild": [
+        "Own a regular slot with a younger sibling or cousin — bath time, book time, the after-dinner wiggles hour.",
+        "Learn five games that need zero equipment, so you're never the big kid standing around.",
+        "Take a babysitting course, or apprentice as a mother's helper while a parent is still in the house."
+      ],
+      "comesAfter": ["serve.show-up"],
+      "assessment": "observed",
+      "outcomes": ["beyond", "relationships", "household"]
+    },
+    {
+      "id": "serve.different",
+      "name": "Serve people not like you",
+      "gotItWhen": "You've served people whose lives are genuinely unlike yours — a different age, ability, language, neighborhood, or need — with respect instead of pity, learning their names and their stories, and you've let the experience actually change how you see them and yourself.",
+      "looksLike": [
+        "At the nursing home you know the residents' names and stories — not just the visit schedule.",
+        "You serve alongside people who don't share your language, and you find ways to work and laugh together anyway.",
+        "At the shelter you slow down and talk with someone, and come home thinking about a person, not a project."
+      ],
+      "waysToBuild": [
+        "Pick one service opportunity that honestly stretches you — through church, school, or a local organization — and go more than once.",
+        "Make learning names your first job at any new place; everything real starts there.",
+        "Debrief afterward with someone you trust: what surprised you, what was uncomfortable, what changed?"
+      ],
+      "comesAfter": ["serve.team"],
+      "ageFloor": 12,
+      "assessment": "debrief",
+      "outcomes": ["beyond", "relationships", "faith"]
+    },
+    {
+      "id": "serve.regular",
+      "name": "Give your time regularly",
+      "gotItWhen": "One cause or person gets your time on a rhythm — steady, scheduled, real — across a whole season, and you keep showing up after the shine wears off, because by now they're counting on you.",
+      "looksLike": [
+        "The Sunday kids' room roster has your name on it, and most weeks it has you in it.",
+        "Deep into the season it's a lot less exciting than week one — and you're still there.",
+        "When you truly can't make it, you arrange your own coverage instead of just not appearing."
+      ],
+      "waysToBuild": [
+        "Pick one commitment sized honestly — a month, a semester — and put it in your calendar like school.",
+        "Expect the week the shine wears off (it's usually around week three) and decide now that you'll show up through it.",
+        "At the end of the season, decide on purpose: renew, resize, or hand it off well."
+      ],
+      "comesAfter": ["serve.team"],
+      "ageFloor": 12,
+      "assessment": "self-check",
+      "outcomes": ["beyond", "adversity"]
+    },
+    {
+      "id": "serve.finale",
+      "name": "Own a corner of the world",
+      "gotItWhen": "Some person, place, or cause is simply yours now — nobody assigned it, nobody backs you up on it, and everyone around it has learned they can count on you: the walk gets shoveled, the kid gets mentored, the shelf gets stocked, because you exist and you decided.",
+      "looksLike": [
+        "First snow falls, and the elderly neighbor's walk is clear before school — no arrangement, no reminder; it's just what happens now.",
+        "A younger kid at church or school is your kid to encourage, and you track their games and their hard weeks like they matter — because they do.",
+        "If you moved away, something in your corner of the world would quietly go undone until somebody noticed the hole you left."
+      ],
+      "waysToBuild": [
+        "Look back at what noticing, hidden service, and your regular commitment have been pointing at — a corner is probably already choosing you.",
+        "Claim it quietly; no announcement required, and none wanted.",
+        "Keep it through at least one full season — through the boring stretch — before you even think about adding another."
+      ],
+      "comesAfter": ["serve.regular", "serve.hidden"],
+      "ageFloor": 13,
+      "assessment": "debrief",
+      "finale": true,
+      "outcomes": ["beyond", "faith", "relationships"]
+    }
+  ]
+}

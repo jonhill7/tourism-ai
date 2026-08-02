@@ -1,0 +1,275 @@
+{
+  "id": "food",
+  "name": "Food & Kitchen",
+  "emoji": "🍳",
+  "cluster": "Home Base",
+  "kind": "competence",
+  "tagline": "From first scrambled eggs to feeding a houseful — cook real food and run a real kitchen, so you're never at the mercy of a menu.",
+  "skills": [
+    {
+      "id": "food.breakfast",
+      "name": "Make your own breakfast",
+      "gotItWhen": "You can get yourself a real breakfast on an ordinary morning — made, eaten, and cleaned up after — and the kitchen you leave behind looks like nobody needs to follow you through it.",
+      "looksLike": [
+        "It's a school morning, everyone's busy, and eggs and toast appear on your plate because you made them.",
+        "You go beyond cereal — oatmeal from the pot, a fried egg, french toast — and it comes out the way you meant it to.",
+        "A friend sleeps over and Saturday breakfast for both of you is your show."
+      ],
+      "waysToBuild": [
+        "Learn three breakfasts you actually like: one fast (toast and fruit), one hot (eggs), one weekend-fancy (pancakes).",
+        "Own your own breakfast every school morning for a week — including wiping the counter and putting the milk back.",
+        "Have a parent teach you their best breakfast once, then make it solo the next day."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["household"]
+    },
+    {
+      "id": "food.knife",
+      "name": "Use a knife safely",
+      "gotItWhen": "You can pick the right knife for the job and use it the way that protects your fingers — claw grip on the food, a board that doesn't slide, blade motion away from you — and you can explain why a sharp knife is safer than a dull one while you cut what a real recipe needs.",
+      "looksLike": [
+        "You slice an apple with your knuckles guiding the blade and your fingertips tucked out of its way.",
+        "Handed an onion for dinner, you halve it, peel it, and dice it into pieces that mostly match.",
+        "You notice the cutting board sliding, stop, and put a damp towel under it before making another cut."
+      ],
+      "waysToBuild": [
+        "Learn the claw grip on soft things first — bananas, mushrooms, bread — before graduating to onions and carrots.",
+        "Be the family's official vegetable-chopper for a week of dinners.",
+        "Get shown how to tell sharp from dull, and how to carry, wash, and store a knife so it never surprises anyone."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["household"]
+    },
+    {
+      "id": "food.recipe",
+      "name": "Follow a recipe",
+      "gotItWhen": "You can take a recipe you've never made, read it all the way through before starting, get every ingredient and tool out first, follow the steps in order and on time, and end with something that resembles what the recipe promised.",
+      "looksLike": [
+        "You read to the end first and catch that the dough needs an hour to rise — before it's already dinnertime.",
+        "Everything is measured and lined up before the pan gets hot, so nothing burns while you dig for the paprika.",
+        "You make a new-to-you dish for the family and it tastes like it was supposed to."
+      ],
+      "waysToBuild": [
+        "Cook three recipes you've never tried, each one a notch harder than the last.",
+        "Practice mise en place: set out every ingredient before you turn anything on, and notice how much calmer cooking gets.",
+        "Pick a recipe with a timing trap (marinate, chill, preheat) and plan backwards from when you want to eat."
+      ],
+      "comesAfter": ["food.breakfast"],
+      "assessment": "self-check",
+      "outcomes": ["household", "learning"]
+    },
+    {
+      "id": "food.lunch",
+      "name": "Pack your own lunch",
+      "gotItWhen": "Packing your own lunch is just something you do — by habit, ahead of the morning rush — and what goes in the bag is food that actually carries you through the afternoon: something real to run on, not a bag of snacks wearing a lunch costume.",
+      "looksLike": [
+        "The night before a school day, your lunch is in the fridge, made, with nobody having mentioned it.",
+        "There's a main thing, something that grew in the ground, and a drink — and you'd genuinely eat all of it.",
+        "On a field-trip day you adjust the formula: more water, food that survives a warm backpack."
+      ],
+      "waysToBuild": [
+        "Pack your lunch every school day for two weeks straight — evenings, not mornings.",
+        "Build a rotation of four or five lunches you actually like, so it never gets boring or skipped.",
+        "Check yourself mid-afternoon for a week: still running fine, or dragging? Let the answer redesign tomorrow's bag."
+      ],
+      "comesAfter": ["food.breakfast"],
+      "assessment": "self-check",
+      "outcomes": ["household", "wellbeing"]
+    },
+    {
+      "id": "food.hot-meal",
+      "name": "Cook a hot meal for yourself",
+      "gotItWhen": "You can stand at a stove or oven and turn ingredients into a hot meal you'd happily eat — you have a handful of go-to dishes you cook with confidence, and heat, oil, and timing are things you manage rather than things that happen to you.",
+      "looksLike": [
+        "Home alone at dinnertime, you make quesadillas or pasta instead of waiting hungry for someone to return.",
+        "You run the pan — turning the heat down when things spit or brown too fast — instead of the pan running you.",
+        "Someone asks what you can cook and you have real answers, plural."
+      ],
+      "waysToBuild": [
+        "Build a personal menu of three go-to meals and cook each until you no longer need the recipe.",
+        "Cook yourself dinner once a week for a month.",
+        "Master one foundation at a time: eggs your favorite way, a pasta with real sauce, a stir-fry."
+      ],
+      "comesAfter": ["food.knife", "food.recipe"],
+      "assessment": "observed",
+      "outcomes": ["household"]
+    },
+    {
+      "id": "food.safety",
+      "name": "Handle food safely",
+      "gotItWhen": "You handle food in the ways that keep foodborne illness out of your kitchen — raw meat gets its own board and a hand-wash after, meat gets cooked through and checked, leftovers get cooled fast and eaten or tossed on time, dates get read and believed — and you can explain why each habit matters.",
+      "looksLike": [
+        "After cutting chicken, the board and knife go straight to the sink and your hands get soap — before anything else gets touched.",
+        "You check that the chicken is done with a thermometer instead of trusting the color of the outside.",
+        "You find week-old rice in the fridge and know it's a toss, not a lunch."
+      ],
+      "waysToBuild": [
+        "Learn the safe temperatures for chicken, ground beef, and pork, and use a meat thermometer until checking is a reflex.",
+        "Do a fridge audit with a parent: what goes on which shelf, what's expired, and what the different date labels actually mean.",
+        "Narrate cross-contamination out loud while cooking one raw-meat meal: what touched what, and what needs washing before it touches anything else."
+      ],
+      "comesAfter": ["food.hot-meal"],
+      "assessment": "observed",
+      "outcomes": ["household", "wellbeing"]
+    },
+    {
+      "id": "food.clean-go",
+      "name": "Keep the kitchen clean as you cook",
+      "gotItWhen": "You clean as you cook — wiping, rinsing, and putting away in the gaps while things simmer and bake — so that when the meal is ready the kitchen is nearly ready too, and finishing up takes minutes instead of a second shift.",
+      "looksLike": [
+        "The cutting board is washed and the spills are wiped while the sauce simmers.",
+        "Dinner comes out of your kitchen and the counters behind you are already mostly clear.",
+        "Someone could start cooking right after you without excavating first."
+      ],
+      "waysToBuild": [
+        "Fill the sink with soapy water before you start, and wash each tool the moment you're done with it.",
+        "Cook one full meal with the rule: every pause in the recipe is a cleaning move.",
+        "Time your after-dinner cleanup for a week of cooking and watch it shrink as clean-as-you-go kicks in."
+      ],
+      "comesAfter": ["food.hot-meal"],
+      "assessment": "observed",
+      "outcomes": ["household"]
+    },
+    {
+      "id": "food.family-dinner",
+      "name": "Cook dinner for the family",
+      "gotItWhen": "You can put a whole dinner on the table for the family — a main and its sides, planned and timed by you — so that everything lands hot at the same time and the cook everyone thanks is you.",
+      "looksLike": [
+        "You make taco night happen: meat cooked, toppings prepped, everything out together.",
+        "You work backwards from dinnertime — rice on first, vegetables last — and it all finishes together instead of in shifts.",
+        "The family sits down to a full meal you planned, shopped in the fridge for, and cooked, start to serving."
+      ],
+      "waysToBuild": [
+        "Cook family dinner once a week for a month, starting with your surest go-to meal.",
+        "Write the timeline on paper for your first few dinners: what starts when, counted back from serving time.",
+        "Level up one component per dinner: first a main, then a main plus a side, then the whole plate."
+      ],
+      "comesAfter": ["food.hot-meal", "food.safety"],
+      "assessment": "observed",
+      "unlock": {
+        "text": "The kitchen is yours to run solo — cook unsupervised, and have a friend over to cook together.",
+        "coSign": true
+      },
+      "outcomes": ["household", "relationships"]
+    },
+    {
+      "id": "food.plan-week",
+      "name": "Plan a week of meals",
+      "gotItWhen": "You can plan a real week of dinners — meals the family will actually eat, varied enough that nobody sighs, with leftovers used on purpose and the quick meals landing on the busy nights — and the plan survives contact with the actual week.",
+      "looksLike": [
+        "Wednesday has practice until late, so Wednesday's plan is leftovers or the slow cooker.",
+        "Sunday's roast chicken shows up again on purpose as Tuesday's soup.",
+        "The family eats off your plan for a week and nobody stages a mutiny."
+      ],
+      "waysToBuild": [
+        "Plan one full week — seven dinners — on paper, post it on the fridge, and note afterward what actually happened.",
+        "Interview the family: everyone's top three dinners become the backbone of your rotation.",
+        "Plan next week around what's already in the fridge and freezer before adding anything new."
+      ],
+      "comesAfter": ["food.family-dinner"],
+      "ageFloor": 12,
+      "assessment": "debrief",
+      "outcomes": ["household"]
+    },
+    {
+      "id": "food.shop-list",
+      "name": "Turn a meal plan into a shopping list",
+      "gotItWhen": "You can turn a week's meal plan into a shopping list that works — every recipe broken down into ingredients, checked against what the pantry already holds, with real quantities on each line, organized by aisle so the trip is one clean pass.",
+      "looksLike": [
+        "The list says how much — two pounds of chicken, one can of tomatoes — instead of just naming things.",
+        "You check the pantry first and skip buying a fourth bottle of soy sauce.",
+        "Your list is grouped the way the store is laid out, and the trip has no backtracking in it."
+      ],
+      "waysToBuild": [
+        "Build the list for one real week and let a parent shop from it cold — every gap they hit is your feedback.",
+        "Walk your store once just to learn its layout, then order your next list to match it.",
+        "Do the full loop: your plan, your list, your trip, and a dinner cooked entirely from what came home."
+      ],
+      "comesAfter": ["food.plan-week", "money.compare"],
+      "assessment": "self-check",
+      "outcomes": ["household", "financial"]
+    },
+    {
+      "id": "food.pantry",
+      "name": "Keep a pantry stocked",
+      "gotItWhen": "You keep track of the kitchen's staples so the basics are simply there — you notice what's running low before it runs out, put it on the list, use the oldest first, and nothing quietly dies in the back of a shelf.",
+      "looksLike": [
+        "You use the last of the flour and it's on the list before the empty bag hits the recycling.",
+        "New cans go in behind old cans, so the oldest always gets used first.",
+        "Deep in the cabinet there's no fossil layer — you know what's back there because you put it there."
+      ],
+      "waysToBuild": [
+        "Own the running grocery list on the fridge for a month: anything low goes on it, no exceptions.",
+        "Do one full pantry excavation: pull everything out, toss the expired, restock it oldest-in-front.",
+        "Pick ten staples the family always needs and make yourself the person who never lets them hit zero."
+      ],
+      "comesAfter": ["food.shop-list"],
+      "ageFloor": 13,
+      "assessment": "self-check",
+      "outcomes": ["household"]
+    },
+    {
+      "id": "food.adapt",
+      "name": "Make a recipe your own",
+      "gotItWhen": "You can treat a recipe as a starting point instead of a law — swap what's missing for what works, scale it up or down for the crowd you're actually feeding, adjust it for taste or a dietary need — and when a dish starts going sideways, you can usually pull it back.",
+      "looksLike": [
+        "There's no buttermilk, and you know milk plus lemon juice will do — dinner doesn't stall.",
+        "You halve a recipe for two people and the math holds all the way through, pan size and timing included.",
+        "The sauce comes out too salty and you fix it — more liquid, a potato, a splash of acid — instead of starting over."
+      ],
+      "waysToBuild": [
+        "Make one favorite recipe three times: once as written, once with a substitution, once adjusted to your taste — and compare.",
+        "Cook one meal for a real dietary need (vegetarian, gluten-free, dairy-free) that the eater genuinely enjoys.",
+        "Learn the classic rescues — too salty, too spicy, too thin, too thick — and keep them in your back pocket."
+      ],
+      "comesAfter": ["food.family-dinner"],
+      "assessment": "self-check",
+      "outcomes": ["household", "learning"]
+    },
+    {
+      "id": "food.crowd",
+      "name": "Cook for a crowd",
+      "gotItWhen": "You can cook at quantity for a real occasion — scale a dish up for many mouths, spread the prep across the hours or days before, and have it ready, hot or properly chilled, when the event actually starts.",
+      "looksLike": [
+        "Your tray of brownies for the class party is done the night before — cut, covered, ready to travel.",
+        "You triple a chili recipe for a game-day crowd and it holds together: seasoning, pot size, timing and all.",
+        "Thanksgiving morning, your assigned dish claims its slot in the oven schedule and lands on the table on time."
+      ],
+      "waysToBuild": [
+        "Claim one dish at the next holiday and own it start to finish, including negotiating its oven time.",
+        "Cook once for a group of ten or more — a team dinner, a youth-group night — and write down what you'd change.",
+        "Practice scaling on paper: take a four-person recipe to twelve and find what doesn't simply multiply (pans, salt, time)."
+      ],
+      "comesAfter": ["food.family-dinner"],
+      "ageFloor": 13,
+      "assessment": "observed",
+      "outcomes": ["household", "relationships"]
+    },
+    {
+      "id": "food.finale",
+      "name": "Feed yourself for a week",
+      "gotItWhen": "Given a budget and a week, you can run the whole engine yourself — plan every meal, shop for it, cook it, and keep the kitchen clean behind you — eating real food all week, landing inside the budget, with nobody stepping in to rescue dinner.",
+      "looksLike": [
+        "Monday through Sunday, every dinner on the table came from your plan, your cart, and your hands.",
+        "Midweek a late practice knocks out your cooking window, and the plan flexes — leftovers move up a day, the quick meal slides in.",
+        "At week's end the receipts add up to less than the budget, and the kitchen looks like a professional passed through."
+      ],
+      "waysToBuild": [
+        "Do a trial run first: plan, shop, and cook three days in a row before attempting the full seven.",
+        "Agree the budget with your parents up front and keep every receipt in one envelope for the reckoning.",
+        "Run the real week during school-term chaos, not vacation — the schedule is part of the test."
+      ],
+      "comesAfter": ["food.plan-week", "food.shop-list", "money.errand"],
+      "ageFloor": 14,
+      "assessment": "observed",
+      "finale": true,
+      "unlock": {
+        "text": "🎉 A real slice of the family food budget is yours — you plan and cook a night every week, menu and shopping included, your call.",
+        "coSign": true
+      },
+      "outcomes": ["household", "financial"]
+    }
+  ]
+}

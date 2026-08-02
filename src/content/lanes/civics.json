@@ -1,0 +1,242 @@
+{
+  "id": "civics",
+  "name": "Civics & Community",
+  "emoji": "🏛️",
+  "cluster": "World",
+  "kind": "competence",
+  "tagline": "Know the place you live and the systems that run it — the people, the paperwork, and the process — so you can get real things done in the world as it actually works.",
+  "skills": [
+    {
+      "id": "civics.town",
+      "name": "Know how your town works",
+      "gotItWhen": "You can explain who actually runs the pieces of your town — who fixes the roads, who runs the schools, who takes the trash, who decides about the park — and where those decisions get made, so if something needed changing you'd know which door to knock on.",
+      "looksLike": [
+        "There's a pothole swallowing bikes on your street, and you know whether that's the city's problem or the county's.",
+        "You can name your mayor and say in one sentence what a city council actually does.",
+        "A new stop sign shows up at the corner and you know roughly which meeting decided it and how someone asked for it."
+      ],
+      "waysToBuild": [
+        "Sit through one real city council or school board meeting — the agenda is the town's to-do list.",
+        "Trace one service backwards with a parent: the water from the tap, the trash from the curb — who does it, who pays for it?",
+        "Find your town's website and locate three things: how to report a problem, when the council meets, and who represents your street."
+      ],
+      "comesAfter": [],
+      "assessment": "debrief",
+      "outcomes": ["adultworld"]
+    },
+    {
+      "id": "civics.neighbors",
+      "name": "Know your neighbors",
+      "gotItWhen": "You know the people who live around you by name and face, they know you, and there's enough real relationship there that you could knock on their door — to borrow something, offer help, or check on them — and it wouldn't be strange for either of you.",
+      "looksLike": [
+        "You wave at the neighbor by name, and they wave back by yours.",
+        "A package lands on the wrong porch and you're comfortable walking it over.",
+        "When the older couple down the street hasn't been seen in a while, you're one of the people who notices."
+      ],
+      "waysToBuild": [
+        "Learn the names of the five nearest households — draw the map, fill in the blanks over a month.",
+        "Deliver something once: cookies, extra garden tomatoes, a returned trash can rolled up the driveway.",
+        "Be outside more than you're inside for a season — most neighbor relationships start in front yards."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["relationships"]
+    },
+    {
+      "id": "civics.join",
+      "name": "Join something and show up",
+      "gotItWhen": "You belong to something beyond your family — a team, a club, a troop, a group at church — you show up consistently and carry your part, and when you miss, people actually notice the gap.",
+      "looksLike": [
+        "Practice is on your calendar and you're there, on time, in the rain-or-shine weeks too.",
+        "Someone at the meeting says 'where were you last week?' — because your absence registered.",
+        "You stick with the group through the boring middle of the season, not just the exciting start."
+      ],
+      "waysToBuild": [
+        "Pick one thing and commit for a full season before judging it — a semester, a sports season, a scouting year.",
+        "Show up to the unglamorous meetings, not just the games and parties — that's where members are made.",
+        "If nothing fits, start small: a weekly pickup game or book club counts if you keep it alive."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["relationships", "beyond"]
+    },
+    {
+      "id": "civics.role",
+      "name": "Help run something",
+      "gotItWhen": "You hold a real job inside a group — money to track, a crew to lead, equipment to manage, setup to run — and the group can count on that piece being done well without anyone chasing you for it.",
+      "looksLike": [
+        "You're the one with the cash box at the club fundraiser, and the count is right at the end.",
+        "Setup crew starts when you say go, because you got there early with the plan.",
+        "The coach hands you the new-kid orientation because you've become the one who does it well."
+      ],
+      "waysToBuild": [
+        "Volunteer for one named role in a group you already belong to — treasurer, captain, snack coordinator, greeter.",
+        "Run one event end to end: the plan, the people, the day-of, the cleanup.",
+        "Ask the adult who runs the group: 'what's a job I could take off your plate for the rest of the season?'"
+      ],
+      "comesAfter": ["civics.join"],
+      "ageFloor": 12,
+      "assessment": "observed",
+      "outcomes": ["beyond", "learning"]
+    },
+    {
+      "id": "civics.issue",
+      "name": "Follow a local issue",
+      "gotItWhen": "You've followed one real issue in your town over time — not just one headline — you know the players and what's at stake, and you can lay out the strongest honest case for each side before you say where you land.",
+      "looksLike": [
+        "The town is arguing about the new development, and you can explain why the neighbors object and why the town wants the tax base.",
+        "You can steelman the side you disagree with well enough that someone on that side would say 'yes, that's our argument.'",
+        "When the issue finally comes to a vote or a decision, you already know the background — nothing about the outcome confuses you."
+      ],
+      "waysToBuild": [
+        "Pick one live local issue and follow it for three months: news coverage, the meeting agenda, both sides' flyers.",
+        "Attend one public meeting where your issue comes up and watch who speaks and how.",
+        "Write both sides' best arguments on one page, then — only then — your own view underneath.",
+        "Interview two adults who disagree about it and just listen."
+      ],
+      "comesAfter": ["civics.town"],
+      "ageFloor": 13,
+      "assessment": "debrief",
+      "outcomes": ["adultworld", "learning"]
+    },
+    {
+      "id": "civics.rights",
+      "name": "Know your rights",
+      "gotItWhen": "You can say what police can and can't require of you as a minor — your right to ask for a parent, your right to stay silent, what a school official can and can't do — and you can stay calm, respectful, and polite in any encounter while quietly knowing exactly where the lines are.",
+      "looksLike": [
+        "Stopped and questioned, you know you can say, respectfully: 'I'd like my parent here before I answer questions.'",
+        "You know the difference between what a school can search and what police need a warrant or a parent for.",
+        "You can explain to a friend why being respectful and knowing your rights are the same skill, not opposites."
+      ],
+      "waysToBuild": [
+        "Walk through the big three scenarios with a parent — stopped on the street, questioned at school, pulled over someday — and script your calm responses.",
+        "Learn your state's actual rules for minors (they vary) from a real source, not a movie.",
+        "Role-play it once: a parent plays the officer, you practice being both respectful and clear."
+      ],
+      "comesAfter": [],
+      "ageFloor": 12,
+      "assessment": "debrief",
+      "outcomes": ["adultworld", "adversity"]
+    },
+    {
+      "id": "civics.forms",
+      "name": "Do your own paperwork",
+      "gotItWhen": "Handed a real form — an application, a registration, a permission slip, your own ID application — you can read the whole thing, fill every field correctly and legibly, ask about the parts you don't understand before guessing, and get it where it needs to go on time.",
+      "looksLike": [
+        "The camp form comes home and it's back at school the next day, complete, with only the parent-signature line left for a parent.",
+        "You fill out your own library card or rec league registration at the counter, without handing the clipboard to an adult.",
+        "You hit a field you don't understand — 'emergency contact relationship?' — and ask, instead of leaving it blank."
+      ],
+      "waysToBuild": [
+        "Take over every form that's actually about you for a season: school, sports, camp, doctor's office clipboards.",
+        "Learn the standard fields cold — full legal name, date of birth, address, phone — so they never slow you down.",
+        "Fill out a real application (a library card, a learner's permit form) start to finish with a parent watching but silent."
+      ],
+      "comesAfter": [],
+      "ageFloor": 12,
+      "assessment": "observed",
+      "outcomes": ["adultworld"]
+    },
+    {
+      "id": "civics.documents",
+      "name": "Keep the documents that prove you're you",
+      "gotItWhen": "You can name the documents that prove you're you — birth certificate, social security card, ID — explain what each one is for and when it gets asked for, say exactly where yours are kept, and explain why the number stays guarded: identity thieves can open accounts in your name and leave you cleaning up the mess for years.",
+      "looksLike": [
+        "Asked 'where's your birth certificate?', you can answer without a house-wide search.",
+        "A form asks for your social security number and you pause to ask why they need it before writing it anywhere.",
+        "You can explain to a sibling why you don't carry the social security card in your wallet."
+      ],
+      "waysToBuild": [
+        "Do a documents tour with a parent: hold each one, learn what it's for, and note where it lives.",
+        "Set up your own folder (or your section of the family fireproof box) and be the one who files your documents in it.",
+        "Read one real story of identity theft together and trace exactly which leaked piece made it possible."
+      ],
+      "comesAfter": ["civics.forms"],
+      "ageFloor": 14,
+      "assessment": "debrief",
+      "outcomes": ["adultworld", "financial"]
+    },
+    {
+      "id": "civics.bureaucracy",
+      "name": "Get something from a bureaucracy",
+      "gotItWhen": "You can take a real need into a real agency — the DMV, a records office, the post office — figure out what's required before you go, show up with the right documents at the right window, and stay patient and persistent through lines, redirects, and second trips until you walk out with the thing you came for.",
+      "looksLike": [
+        "You check the website first and arrive with the two proofs of address they require — instead of finding out at the counter.",
+        "Sent to the wrong window, you thank them, find the right one, and keep your good humor in line number two.",
+        "The first visit fails on a technicality; the second visit succeeds, because you wrote down exactly what was missing."
+      ],
+      "waysToBuild": [
+        "Run one real errand at a real agency yourself — mail a package with customs forms, request a record, book and keep a permit appointment — with a parent along but silent.",
+        "Before any agency trip, make the checklist: what do I need, what do I bring, what are the hours, what's plan B?",
+        "Debrief a failed attempt like a pro: what was missing, whose rule was it, what does round two look like?"
+      ],
+      "comesAfter": ["civics.forms"],
+      "ageFloor": 14,
+      "assessment": "observed",
+      "outcomes": ["adultworld", "adversity"]
+    },
+    {
+      "id": "civics.law",
+      "name": "Know the law that touches you",
+      "gotItWhen": "You can explain what changes on the day you become a legal adult — contracts that bind you, jury duty, selective service where it applies, a criminal record that follows you — and why your signature suddenly carries full weight, so nothing about that birthday's fine print takes you by surprise.",
+      "looksLike": [
+        "You can explain why the same shoplifting incident plays out very differently at seventeen and at eighteen.",
+        "A jury summons arrives for an older sibling and you can say what it is, why it matters, and what happens if it's ignored.",
+        "You know which things you could soon sign alone — a lease, a loan, an enlistment — and what each one commits you to."
+      ],
+      "waysToBuild": [
+        "Make the 'day I turn 18' list with a parent: everything that legally changes, one line each.",
+        "Walk through one real contract a young adult typically signs (phone plan, apartment lease, car loan) and find what it binds you to.",
+        "If selective service applies to you, learn what registering means and when it happens — before the deadline does."
+      ],
+      "comesAfter": ["civics.rights"],
+      "ageFloor": 15,
+      "assessment": "debrief",
+      "outcomes": ["adultworld"]
+    },
+    {
+      "id": "civics.vote",
+      "name": "Be ready to vote",
+      "gotItWhen": "You know how to register, where and when you'd vote, and how to research what's actually on your ballot — candidates and measures both — and you've worked through a real ballot top to bottom, making choices you can defend, like the vote counted.",
+      "looksLike": [
+        "You can say exactly how and where you'll register the moment you're eligible.",
+        "Handed a sample ballot, you recognize most of what's on it — and know how to look up the rest.",
+        "For a ballot measure written in legalese, you find what a yes actually does and who's funding each side."
+      ],
+      "waysToBuild": [
+        "Before the next election, print the real sample ballot for your address and research every line like your vote counts.",
+        "Go along to vote with a parent and walk through their ballot reasoning with them.",
+        "Register (or pre-register, where your state allows it) the first day you can.",
+        "Find two voter guides from opposing perspectives and read both on the same race."
+      ],
+      "comesAfter": ["civics.issue"],
+      "ageFloor": 16,
+      "assessment": "debrief",
+      "outcomes": ["adultworld"]
+    },
+    {
+      "id": "civics.finale",
+      "name": "Handle your own official business",
+      "gotItWhen": "Real official tasks are simply yours now, run start to finish, solo — renewing an ID, filing a form, resolving an error in a record or a bill, booking an official appointment and keeping it — with your documents organized, the details handled, and nobody managing the process behind you.",
+      "looksLike": [
+        "Your ID is expiring; you notice, book the appointment, gather the documents, and handle the renewal before anyone mentions it.",
+        "A bill or record comes back with an error, and you make the calls and send the paperwork until it's fixed.",
+        "A parent realizes they can't remember the last time they had to handle something official for you."
+      ],
+      "waysToBuild": [
+        "Take over one official task fully — your ID renewal, your sports physical paperwork, your passport application — with parents on call but hands off.",
+        "Keep your own documents folder current for six months: nothing expired, nothing missing, nothing 'somewhere.'",
+        "When the family hits a real bureaucratic snag, volunteer to be the one who untangles it."
+      ],
+      "comesAfter": ["civics.bureaucracy", "civics.documents"],
+      "ageFloor": 16,
+      "assessment": "observed",
+      "finale": true,
+      "unlock": {
+        "text": "🎉 Your documents move into your keeping — ID, records, and accounts in your name, held and managed by you.",
+        "coSign": true
+      },
+      "outcomes": ["adultworld", "household"]
+    }
+  ]
+}

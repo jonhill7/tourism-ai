@@ -1,0 +1,270 @@
+{
+  "id": "around",
+  "name": "Getting Around",
+  "emoji": "🗺️",
+  "cluster": "World",
+  "kind": "competence",
+  "tagline": "From your own street to a solo trip — know where you are, how to get there, and what to do when the plan falls apart.",
+  "skills": [
+    {
+      "id": "around.home-base",
+      "name": "Know your way home",
+      "gotItWhen": "You know your full address and your parents' phone numbers by heart, you stay oriented in your own neighborhood, and from anywhere familiar — school, church, a friend's street — you could get yourself home.",
+      "looksLike": [
+        "Asked for your address and a parent's number, you rattle off both without reaching for a device.",
+        "Walking back from the park, you can stop anywhere on the route and point toward home.",
+        "A ride falls through at a friend's house nearby, and you could walk home from there without directions."
+      ],
+      "waysToBuild": [
+        "Drill your address and both parents' numbers until you can say them half-asleep, and re-test once a month.",
+        "Play the pointing game on walks: stop somewhere random, point toward home, then check.",
+        "Navigate the family car home from three familiar places, calling every turn from the back seat."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["adultworld", "wellbeing"]
+    },
+    {
+      "id": "around.foot",
+      "name": "Cross town on foot or bike",
+      "gotItWhen": "On foot or on your bike you handle real streets like a road user — you read the traffic before it reads you, follow the road rules for bikes, keep yourself visible and predictable, and pick sensible routes to the places you go.",
+      "looksLike": [
+        "At a crossing you catch the driver's eyes before you commit — a green light is an invitation, not a guarantee.",
+        "You signal your turns and ride with traffic on your own, because that's just how riding works.",
+        "You choose the route with the bike lane and the safe crossing over the fast shortcut, and you can say why."
+      ],
+      "waysToBuild": [
+        "Ride your three most-wanted routes — friend's house, store, park — with a parent trailing, talking through every decision.",
+        "Learn the bike rules of the road (signals, riding with traffic, lights at dusk) and teach them back on a family ride.",
+        "Do a solo round trip to an agreed spot, with a check-in text from the far end."
+      ],
+      "comesAfter": ["around.home-base"],
+      "ageFloor": 10,
+      "assessment": "observed",
+      "unlock": {
+        "text": "your roam radius grows — solo trips to the places we've agreed, no escort",
+        "coSign": true
+      },
+      "outcomes": ["adultworld", "wellbeing"]
+    },
+    {
+      "id": "around.map",
+      "name": "Read a map and follow directions",
+      "gotItWhen": "With a paper map or an app, you can orient yourself, plan a route, follow it turn by turn, and re-plan on the fly when a road closes or you drift off course.",
+      "looksLike": [
+        "Handed the trail map at a state park, you find the you-are-here and pick the loop that fits the afternoon.",
+        "You navigate the family drive from the passenger seat, calling the turns before the app does.",
+        "The planned road turns out to be closed, and you work out the way around instead of handing the phone back."
+      ],
+      "waysToBuild": [
+        "Be the family navigator for a month — every trip, every turn, paper or app.",
+        "Do one deliberately-lost drill: a parent drives you somewhere unfamiliar, and you navigate everyone home.",
+        "Plan and lead a walk using a paper map only, phone zipped away for emergencies."
+      ],
+      "comesAfter": ["around.home-base"],
+      "assessment": "observed",
+      "outcomes": ["adultworld", "learning"]
+    },
+    {
+      "id": "around.transit",
+      "name": "Ride public transit",
+      "gotItWhen": "You can ride a bus or train system for real — plan the trip, pay the fare, board the right vehicle going the right direction, make your transfer, and get off at the right stop — with your head up the whole way.",
+      "looksLike": [
+        "You check the headsign before boarding, because the right route going the wrong way is still wrong.",
+        "The transfer window is tight, and you know exactly which platform you're walking to before the doors open.",
+        "In a city you've never visited, you work out the system from the map on the station wall."
+      ],
+      "waysToBuild": [
+        "Ride your local routes with a parent three times, with you doing every step: fare, boarding, stops, transfer.",
+        "Do one 'you lead, we follow' trip where the parent is cargo and says nothing.",
+        "On the next family trip, plan and lead one transit journey from the hotel and back."
+      ],
+      "comesAfter": ["around.map"],
+      "ageFloor": 12,
+      "assessment": "observed",
+      "unlock": {
+        "text": "solo transit rides on routes you've done with us",
+        "coSign": true
+      },
+      "outcomes": ["adultworld"]
+    },
+    {
+      "id": "around.new-place",
+      "name": "Find your way in a new place",
+      "gotItWhen": "Dropped into somewhere big and unfamiliar — an airport, a campus, a stadium — you can read the signage, find your gate or room or exit, and when the signs run out, you ask staff instead of wandering.",
+      "looksLike": [
+        "First time in a new building, you find the room from its number: floor, wing, corridor.",
+        "At the airport you get from the curb to the gate — check-in, security, the tram to the right concourse — reading signs the whole way.",
+        "The signs stop making sense at the arena, and your next move is a staff member, not a guess."
+      ],
+      "waysToBuild": [
+        "On the next family flight, lead the whole way through the airport — everyone follows you and the signs.",
+        "At any big venue, be the one who finds the seats, the bathrooms, and two exits.",
+        "Practice the ask: at the next confusing building, you're the one who walks up to the desk."
+      ],
+      "comesAfter": ["around.map"],
+      "assessment": "observed",
+      "outcomes": ["adultworld"]
+    },
+    {
+      "id": "around.lost",
+      "name": "Handle being lost",
+      "gotItWhen": "When the route dissolves and you genuinely don't know where you are, you run the drill: stop moving, get oriented, backtrack to the last ground you're sure of, pick the right stranger to ask — staff, a family, someone at a fixed post — and call in so your people know where you stand.",
+      "looksLike": [
+        "You come out of a store by the wrong door, feel the world spin, and stand still until the map in your head rights itself.",
+        "On a trail the blazes disappear, and you backtrack to the last one you're certain of instead of pushing hopefully on.",
+        "Genuinely turned around downtown, you step into a shop, ask the person at the register, and text a parent your location before you move."
+      ],
+      "waysToBuild": [
+        "Learn the drill as words first — stop, orient, backtrack, ask, call — and recite it until it's boring.",
+        "Run practice-lost drills: a parent walks you into an unfamiliar spot and shadows silently while you work your way out.",
+        "Learn to share your live location and drop a pin, and do it once for real from somewhere random."
+      ],
+      "comesAfter": ["around.map"],
+      "assessment": "debrief",
+      "outcomes": ["adversity", "adultworld"]
+    },
+    {
+      "id": "around.bike-fix",
+      "name": "Keep a bike rolling",
+      "gotItWhen": "Your bike stays rideable because of you — you can fix a flat, get a dropped chain back on, check that the brakes actually bite, and set the seat where your legs want it.",
+      "looksLike": [
+        "The chain drops mid-ride: greasy fingers, half a minute, rolling again.",
+        "You patch or swap a tube in the driveway with your own hands, and it holds air.",
+        "A friend's brakes feel mushy, and you're the one who tightens them up."
+      ],
+      "waysToBuild": [
+        "Do one full flat-fix start to finish with a parent or a video coaching you — then do the next one alone.",
+        "Give your bike the ABC check (air, brakes, chain) once a month.",
+        "Watch a bike-shop tune-up once and ask the mechanic what wears out first."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["household", "adultworld"]
+    },
+    {
+      "id": "around.plan-route",
+      "name": "Plan a full route",
+      "gotItWhen": "For a real trip with several legs — walk, bus, walk, maybe a train — you can build the plan yourself: connections that line up, buffer built in on purpose, and a backup ready for the leg most likely to fail.",
+      "looksLike": [
+        "You plan your own way across town to a class: which bus, which stop, and how much walking margin.",
+        "Your plan names its plan B: if the 4:10 bus doesn't show, here's exactly what happens instead.",
+        "You brief the family on the route to the game — legs, times, and a meeting point if anyone gets separated — and it works."
+      ],
+      "waysToBuild": [
+        "Plan one real multi-leg trip a month and lead it — appointments, practices, and events all count.",
+        "Do the buffer math out loud: what's the latest bus that technically works, and which earlier one do you actually take?",
+        "For your next plan, write the plan B before you leave: which leg is most likely to fail, and what you'll do."
+      ],
+      "comesAfter": ["around.transit"],
+      "ageFloor": 13,
+      "assessment": "debrief",
+      "outcomes": ["adultworld", "learning"]
+    },
+    {
+      "id": "around.drive",
+      "name": "Drive safely",
+      "gotItWhen": "Behind the wheel you drive like the stakes are real — smooth car control, speed that fits the conditions, honest following distance, phone away and out of reach — because you know distraction and speed kill more teen drivers than anything else, and your driving shows that you know it.",
+      "looksLike": [
+        "Your phone rides in the glovebox or a zipped bag, every trip — including the five-minute ones.",
+        "Rain starts, and your speed and following distance change before anyone suggests it.",
+        "Friends in the car, music on — and your driving is exactly what it was when the examiner was watching."
+      ],
+      "waysToBuild": [
+        "Log practice hours across conditions on purpose — night, rain, highway, gravel — not just sunny errands.",
+        "Adopt the phone rule from drive one: glovebox or bag, every single trip, no exceptions to negotiate later.",
+        "Narrate one full drive out loud to your teaching parent — hazards, mirrors, gaps — so they can hear what you're seeing."
+      ],
+      "comesAfter": ["facing.steady"],
+      "ageFloor": 15,
+      "assessment": "observed",
+      "unlock": {
+        "text": "solo driving, expanding with your graduated license",
+        "coSign": true
+      },
+      "outcomes": ["adultworld", "wellbeing"]
+    },
+    {
+      "id": "around.car-care",
+      "name": "Keep a car alive",
+      "gotItWhen": "The car you drive stays healthy because of you — you keep it fueled, keep the tires at pressure and check their tread, check the oil, keep the wipers and washer fluid working, can jump-start a dead battery, and when a warning light comes on you know what it means and what to do next.",
+      "looksLike": [
+        "The low-tire light comes on, and you're at the air pump that same day, gauge in hand.",
+        "You check the oil in the driveway — pull, wipe, dip, read — and know what a good level looks like.",
+        "A friend's car won't start, and you're the one hooking up the jumper cables in the right order."
+      ],
+      "waysToBuild": [
+        "Do a monthly ten-minute check on the family car — tires, oil, washer fluid, lights — with a written checklist until you don't need it.",
+        "Learn the tread test and the pressure sticker inside the driver's door, then teach both to a sibling.",
+        "Jump-start a car once with a parent supervising, saying the cable order out loud as you go.",
+        "Go through the owner's manual warning-light pages once, sorting them into 'pull over now' versus 'book the shop.'"
+      ],
+      "comesAfter": ["around.drive"],
+      "ageFloor": 15,
+      "assessment": "observed",
+      "outcomes": ["adultworld", "household"]
+    },
+    {
+      "id": "around.car-trouble",
+      "name": "Handle car trouble and traffic stops",
+      "gotItWhen": "When driving goes wrong, you know the drill and run it calmly: a flat gets you fully off the road with hazards on before anything else; a dead battery gets a safe jump or a call; a fender-bender gets photos and insurance details exchanged with no roadside argument; and at a traffic stop you pull over promptly, keep your hands visible on the wheel, and say what you're reaching for before you reach.",
+      "looksLike": [
+        "A tire lets go on the highway, and you get all the way onto the shoulder, hazards on, out the passenger side — before you think about the tire.",
+        "After a parking-lot bump, you photograph everything and swap insurance info, polite and brief, leaving fault to the insurers.",
+        "Pulled over, your hands stay on the wheel and you say 'my license is in my backpack — okay if I reach for it?' before moving."
+      ],
+      "waysToBuild": [
+        "Change a tire in the driveway until the whole job takes you under twenty minutes.",
+        "Run the traffic-stop script with a parent playing officer: hands, words, documents — in that order.",
+        "Build the car's trouble kit together — cables, flashlight, phone charger, insurance card — and know where everything lives."
+      ],
+      "comesAfter": ["around.drive"],
+      "ageFloor": 16,
+      "assessment": "debrief",
+      "outcomes": ["adultworld", "adversity"]
+    },
+    {
+      "id": "around.book",
+      "name": "Book your own travel",
+      "gotItWhen": "You can book real travel yourself — find the right tickets at sane prices, check the times and seats before paying, know what documents the trip requires, and keep the confirmations where you can produce them at a counter.",
+      "looksLike": [
+        "You book your own bus ticket to a cousin's, checking the arrival time against the pickup plan before you pay.",
+        "At check-in, the confirmation is on your screen before the agent finishes asking for it.",
+        "Booking for a family trip, you catch that the cheap flight lands at midnight — and weigh whether cheap is worth it."
+      ],
+      "waysToBuild": [
+        "Book one leg of the next family trip yourself, start to finish, with the card handed over only at checkout.",
+        "Price the same trip three ways — the carrier's own site, an aggregator, in person — and find where the fees hide.",
+        "Make a confirmations folder (an email label or a screenshots album) and use it for every booking from now on."
+      ],
+      "comesAfter": ["around.plan-route"],
+      "ageFloor": 14,
+      "assessment": "observed",
+      "outcomes": ["adultworld", "financial"]
+    },
+    {
+      "id": "around.finale",
+      "name": "Take a trip on your own",
+      "gotItWhen": "You can plan and pull off a real trip with an overnight, no adult along — transport booked, a place to sleep arranged, a budget that survives contact with reality, check-ins that actually happen — and when something goes sideways en route, you handle it and keep the trip alive.",
+      "looksLike": [
+        "You take the bus to a cousin's city for a weekend: tickets yours, transfer yours, pickup coordinated by you.",
+        "A delay eats your connection mid-trip, and the folks at home hear how you solved it after it's already solved.",
+        "You come home from a trip you planned with money left over, stories to tell, and hosts who'd have you back."
+      ],
+      "waysToBuild": [
+        "Do a dry run first: a full solo day-trip to another town — there, lunch, back — with a check-in at every leg.",
+        "Plan the real trip on paper: every leg, every cost, one backup per leg — then walk a parent through it like a briefing.",
+        "Pack from your own written list, live out of the bag the whole trip, and add whatever you forgot to next trip's list."
+      ],
+      "comesAfter": ["around.plan-route", "around.book", "around.lost"],
+      "ageFloor": 15,
+      "assessment": "debrief",
+      "finale": true,
+      "unlock": {
+        "text": "🎉 travel privileges — trips with friends or solo, planned by you, on your signature",
+        "coSign": true
+      },
+      "outcomes": ["adultworld", "adversity", "financial"]
+    }
+  ]
+}

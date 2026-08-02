@@ -1,0 +1,251 @@
+{
+  "id": "learn",
+  "name": "Learn How to Learn",
+  "emoji": "📚",
+  "cluster": "Self-Management",
+  "kind": "competence",
+  "tagline": "The skill underneath every other skill — how to get from 'I can't' to 'I figured it out,' on purpose, for the rest of your life.",
+  "skills": [
+    {
+      "id": "learn.lookup",
+      "name": "Find the answer yourself",
+      "gotItWhen": "When you hit something you don't know — a word, a rule, a how-do-I — your first move is to go find out: the manual, a search, a video, the box it came in — and you usually come back with the answer before anyone else is involved.",
+      "looksLike": [
+        "The board game argument ends because you looked up the actual rule.",
+        "The new gadget gets figured out from the manual and a video before it ever reaches a parent's hands.",
+        "Homework hits a wall, and you try the textbook's worked example and a search before declaring it impossible."
+      ],
+      "waysToBuild": [
+        "Run a personal rule for two weeks: look in two places before asking anyone.",
+        "Next time something breaks or confuses you, race yourself — how fast can you find a credible answer?",
+        "Keep a 'things I found out myself' list for a month and watch it grow."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["learning"]
+    },
+    {
+      "id": "learn.question",
+      "name": "Ask a good question",
+      "gotItWhen": "When you do ask for help, your question shows your work — here's what I'm trying to do, here's what I tried, here's exactly where it went sideways — and it goes to a person who can actually answer it.",
+      "looksLike": [
+        "Instead of 'this doesn't work,' you say 'it worked until this step — here's the message it gave me.'",
+        "You ask the coach one specific question about your swing, not just 'how do I get better?'",
+        "You email the right teacher, with the assignment named and your attempt attached."
+      ],
+      "waysToBuild": [
+        "Before asking anything this week, write the question down first — half of them will answer themselves.",
+        "Use a three-line template: what I want, what I tried, where it broke.",
+        "Practice matching questions to people: who actually knows this — the teacher, the manual, the forum, the grandparent?"
+      ],
+      "comesAfter": ["learn.lookup"],
+      "assessment": "observed",
+      "outcomes": ["learning", "relationships"]
+    },
+    {
+      "id": "learn.practice",
+      "name": "Practice on purpose",
+      "gotItWhen": "You can find the weak spot in something you're learning and aim your practice straight at it — slowing down, isolating the hard part, repeating it until it changes — instead of only replaying the parts you already do well.",
+      "looksLike": [
+        "You play the hard four measures over and over, instead of the whole song from the top again.",
+        "In shooting practice you go to the corner you always miss from, not the spot that feels good.",
+        "You quiz yourself on the words you got wrong, not the whole list."
+      ],
+      "waysToBuild": [
+        "Before any practice session, name out loud the one specific thing you're working on today.",
+        "Try the hard-part rule for two weeks: the first ten minutes go to the ugliest piece.",
+        "Record yourself — audio, video, or a timed score — find the weakest moment, and make it the next session's target."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["learning"]
+    },
+    {
+      "id": "learn.mistake",
+      "name": "Learn from a mistake",
+      "gotItWhen": "After something goes wrong, you can look at it squarely, say plainly what happened and why, pull out the lesson, and change something specific in how you do it next time — so the mistake buys you something.",
+      "looksLike": [
+        "You bomb a quiz and work out it was the word problems specifically — so that's what next week's practice becomes.",
+        "Your cake sinks, and you go back through the recipe until you find the step you skipped.",
+        "A friendship blow-up gets an honest look afterward: what did I do, and what would I do differently?"
+      ],
+      "waysToBuild": [
+        "After your next flop, write three lines: what happened, why, what changes.",
+        "Ask an adult at dinner to tell you a good mistake of theirs and what it taught them.",
+        "Revisit an old mistake you've stopped feeling bad about, and mine it for the lesson you missed at the time."
+      ],
+      "comesAfter": [],
+      "assessment": "debrief",
+      "outcomes": ["learning", "adversity"]
+    },
+    {
+      "id": "learn.feedback-use",
+      "name": "Use feedback to get better",
+      "gotItWhen": "When someone gives you real feedback, it shows up in your work — you sort out what to act on, change the next attempt because of it, and can point to exactly what's different this time because of what they said.",
+      "looksLike": [
+        "The teacher's margin notes from the last essay are visibly fixed in this one.",
+        "The coach says you drop your elbow, and your next fifty swings are about that elbow.",
+        "You ask 'what one thing would most improve this?' — and in the next version, that thing is different."
+      ],
+      "waysToBuild": [
+        "Take your last graded work, list every comment, and fix each one in a revision nobody asked for.",
+        "After feedback, say back what you heard and what you'll change — then do it within the week.",
+        "Keep a feedback log for a season: what was said, what you changed, what happened."
+      ],
+      "comesAfter": ["facing.feedback"],
+      "assessment": "observed",
+      "outcomes": ["learning", "relationships"]
+    },
+    {
+      "id": "learn.teach",
+      "name": "Teach someone something",
+      "gotItWhen": "You can take something you know and get it into someone else's head — meet them where they are, explain it more than one way, check whether it landed, and adjust until they can do it themselves.",
+      "looksLike": [
+        "You teach a younger sibling to tie shoes, keeping your hands off the laces and coaching with words.",
+        "You teach a grandparent to video call — and they can do it later, without you.",
+        "You walk a stuck classmate through a math concept, then have them work one alone to prove it stuck."
+      ],
+      "waysToBuild": [
+        "Teach one real thing to one real person this month, and count it done only when they can do it without you.",
+        "Run the explain-it-three-ways drill: words, a drawing, an example.",
+        "Prepare a five-minute how-to for family dinner on something you know cold."
+      ],
+      "comesAfter": ["learn.practice"],
+      "assessment": "observed",
+      "outcomes": ["learning", "beyond"]
+    },
+    {
+      "id": "learn.study",
+      "name": "Study for a test that matters",
+      "gotItWhen": "Facing a real test, you study in ways that actually build memory — quizzing yourself, spacing it over days, working problems cold — and you walk in knowing which parts you know, because you tested yourself before the test did.",
+      "looksLike": [
+        "Your notes turn into flashcards or practice questions, and you drill the ones you miss.",
+        "You start days early and study in short passes, and the night before is review, not discovery.",
+        "Before the exam you can predict your weakest topics — and your last session went to exactly those."
+      ],
+      "waysToBuild": [
+        "For the next test, make a self-quiz from your notes and take it cold three days out.",
+        "Trade tests with a study partner: each of you writes five questions for the other.",
+        "Try cover-and-recite instead of rereading: recite, check, repeat — and notice which one sticks."
+      ],
+      "comesAfter": ["learn.practice"],
+      "assessment": "self-check",
+      "outcomes": ["learning"]
+    },
+    {
+      "id": "learn.sources",
+      "name": "Find a trustworthy answer",
+      "gotItWhen": "When an answer matters, you can judge where it came from — who says so, how they know, what they gain — cross-check it against an independent source, and say honestly how sure you are and whether it's solid enough to act on.",
+      "looksLike": [
+        "Two websites disagree about whether the food is safe for your dog, and you keep going until you find a vet source.",
+        "You notice the glowing review lives on the seller's own site, and you go find one that doesn't.",
+        "For a school paper you can say why each source deserves to be believed — not just that it agreed with you."
+      ],
+      "waysToBuild": [
+        "For your next real question, require two independent sources before you act on the answer.",
+        "Practice the three questions on any claim: who says so, how do they know, what do they gain?",
+        "Take one 'fact' the family repeats and run it down to its actual origin."
+      ],
+      "comesAfter": ["learn.lookup"],
+      "assessment": "debrief",
+      "outcomes": ["learning", "adultworld"]
+    },
+    {
+      "id": "learn.mentor",
+      "name": "Learn from a person",
+      "gotItWhen": "You can find someone who genuinely knows what you want to learn, approach them respectfully, ask questions that make good use of their time, actually try what they tell you, and come back to show them what happened.",
+      "looksLike": [
+        "You ask the neighbor who keeps bees if you can watch a hive check — and you show up with questions.",
+        "After the woodworker shows you a joint, your next visit starts with the one you made.",
+        "You email a local expert with a short, specific ask — and they answer, because it was easy to answer."
+      ],
+      "waysToBuild": [
+        "List three adults who know things you want to know, and make one real ask this month.",
+        "Bring an attempt or a made thing to every second conversation — mentors invest in people who use what they give.",
+        "Close each conversation with 'what should I go try before I come back?' — then go try it."
+      ],
+      "comesAfter": ["learn.question"],
+      "assessment": "debrief",
+      "outcomes": ["learning", "relationships"]
+    },
+    {
+      "id": "learn.zero",
+      "name": "Take on a skill from zero",
+      "gotItWhen": "You can pick something you can't do at all, map a way in — what to learn first, what to practice, where the knowledge lives — and work the plan until you're honestly competent, the kind of competent you could demonstrate on request.",
+      "looksLike": [
+        "You decide to learn to juggle, find a progression, and a few weeks later you're doing it at dinner.",
+        "You go from never-touched-a-guitar to playing three real songs, on a plan you built yourself.",
+        "You learn to solve a Rubik's cube from guides and drills — and now do it on demand, not by luck."
+      ],
+      "waysToBuild": [
+        "Pick something learnable in about a month, and write your plan on one page before you start.",
+        "Find how the best beginners learned it — search for 'how I learned' stories — and steal the progression.",
+        "Schedule a demo date: family show-and-tell in four weeks, ready or not."
+      ],
+      "comesAfter": ["learn.practice"],
+      "assessment": "observed",
+      "outcomes": ["learning"]
+    },
+    {
+      "id": "learn.hard-read",
+      "name": "Read something hard",
+      "gotItWhen": "You can work through a text above your level — dense chapters, old language, technical instructions — using rereading, notes, and looking things up, slowing down where it's thick, until you can say what it means in your own words.",
+      "looksLike": [
+        "The rulebook for the complicated game gets conquered paragraph by paragraph, and you end up the table's rules expert.",
+        "Shakespeare's actual lines start making sense because you use the notes column and reread out loud.",
+        "You get through a real article on something you care about, looking up every term that blocks you."
+      ],
+      "waysToBuild": [
+        "Pick one text a level above comfortable and read it with a pencil: mark, question, look up.",
+        "Run the paragraph test: after each hard paragraph, say it back in one plain sentence.",
+        "Read a hard thing in the same room as someone you could ask — and notice how few times you actually need to."
+      ],
+      "comesAfter": ["learn.lookup"],
+      "assessment": "self-check",
+      "outcomes": ["learning"]
+    },
+    {
+      "id": "learn.style",
+      "name": "Know how you learn best",
+      "gotItWhen": "You know your own operating conditions — when in the day your brain is sharpest, what environments help you focus, which methods actually stick for you — because you've tested them on yourself, and you set up your learning to use them on purpose.",
+      "looksLike": [
+        "You do the hardest homework first thing, because you've learned your sharpest hours come early.",
+        "You memorize best out loud while pacing — so that's what the hallway is for before a test.",
+        "Choosing where to study, you pick the kitchen table over your room, because you know what happens in each."
+      ],
+      "waysToBuild": [
+        "Run experiments on yourself for a month: same kind of task, different times and places, honest notes on what worked.",
+        "After each test or project, add one line to a 'what works for me' page.",
+        "Compare notes with a sibling or friend, and notice where your best conditions differ — that difference is the point."
+      ],
+      "comesAfter": ["learn.study", "learn.mistake"],
+      "ageFloor": 12,
+      "assessment": "self-check",
+      "outcomes": ["learning", "wellbeing"]
+    },
+    {
+      "id": "learn.finale",
+      "name": "Teach yourself something real",
+      "gotItWhen": "With no class, no teacher, and no parent driving, you take yourself from zero to demonstrable competence in something that matters to you — you choose it, plan it, find the sources and the people, push through the plateaus, and can prove it works in front of anyone.",
+      "looksLike": [
+        "You teach yourself to code and there's a working game to play — or to bake bread, and there's a loaf on the table.",
+        "Weeks in, the first method stops working, so you find better sources and a better plan — and keep going.",
+        "Someone asks where you took lessons, and the honest answer is that you built the course yourself."
+      ],
+      "waysToBuild": [
+        "Choose a skill with a public finish line — perform it, serve it, publish it, sell it — and announce the date.",
+        "Keep a learning log: sources tried, what each one gave you, what you'd tell the next learner.",
+        "Run monthly milestone demos for the family across a whole season."
+      ],
+      "comesAfter": ["learn.zero", "learn.sources"],
+      "ageFloor": 13,
+      "assessment": "observed",
+      "finale": true,
+      "unlock": {
+        "text": "🎉 You can steer a real slice of your own education — swap in a course, curriculum, or project you choose, and we fund the books and tools.",
+        "coSign": true
+      },
+      "outcomes": ["learning", "adversity"]
+    }
+  ]
+}

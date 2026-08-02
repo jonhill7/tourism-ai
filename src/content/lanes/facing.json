@@ -1,0 +1,376 @@
+{
+  "id": "facing",
+  "name": "Facing Hard Things",
+  "emoji": "⛰️",
+  "cluster": "Character",
+  "kind": "character",
+  "tagline": "Meeting what happens to you — disappointment, fear, failure, loss — with honesty, courage, and recovery. Prerequisites here are suggestions; character grows in a spiral.",
+  "skills": [
+    {
+      "id": "facing.name-it",
+      "name": "Name what you're feeling",
+      "gotItWhen": "When something's going on inside you, you can find a word for it — angry, embarrassed, jealous, left out, worried — and say it out loud to someone, or at least to yourself.",
+      "looksLike": [
+        "You stomp upstairs, and later you can say 'I was embarrassed, not just mad.'",
+        "Before a tryout you notice 'this is nerves' and can tell the difference between nerves and dread.",
+        "A friend gets the thing you wanted, and you can admit — at least to yourself — that it's jealousy, and that jealousy is survivable."
+      ],
+      "waysToBuild": [
+        "Use a feelings wheel at dinner: everyone names their day's biggest feeling, parents included.",
+        "After a blowup has cooled, do the replay: what was the feeling under the behavior?",
+        "Keep a one-line journal for a couple of weeks: today's strongest feeling, one word."
+      ],
+      "comesAfter": [],
+      "assessment": "debrief",
+      "outcomes": ["adversity", "wellbeing"]
+    },
+    {
+      "id": "facing.settle",
+      "name": "Settle yourself down",
+      "gotItWhen": "When your body floods — heart pounding, face hot, tears or fury rising — you have ways that work to bring yourself back to steady, and you reach for them yourself.",
+      "looksLike": [
+        "You feel the surge coming in an argument and step out to breathe before you say the thing.",
+        "After a scary near-miss on your bike, you get yourself breathing slow again before riding on.",
+        "You know your own early-warning signs — clenched jaw, hot face — and treat them as the signal to act."
+      ],
+      "waysToBuild": [
+        "Find your two go-to tools (slow breathing, cold water, walking, counting) by testing them when you're calm.",
+        "Agree on a family 'pause' signal anyone can use — including you, on yourself.",
+        "After the next flood, note what worked, what didn't, and what you'd try sooner."
+      ],
+      "comesAfter": ["facing.name-it"],
+      "assessment": "observed",
+      "outcomes": ["adversity", "wellbeing"]
+    },
+    {
+      "id": "facing.wait",
+      "name": "Wait well",
+      "gotItWhen": "When there's a gap between wanting and getting — a line, a countdown, a slow answer, a someday — you can hold the wait with patience and even make something of it, keeping your good mood and your good behavior intact.",
+      "looksLike": [
+        "The road trip is long, the tablet is dead, and you find a way to be decent company anyway.",
+        "Your birthday is weeks out; you're excited without being unbearable about it.",
+        "The answer is 'we'll see,' and you can live inside 'we'll see' without reopening it hourly."
+      ],
+      "waysToBuild": [
+        "Practice tiny waits on purpose: dessert after everyone's served, opening the package after dinner.",
+        "On the next long wait, bring nothing — and see what your head finds to do.",
+        "Save the best part of something (last chapter, last bite) deliberately, just to feel the muscle work."
+      ],
+      "comesAfter": ["facing.settle"],
+      "assessment": "observed",
+      "outcomes": ["adversity"]
+    },
+    {
+      "id": "facing.scared",
+      "name": "Do it scared",
+      "gotItWhen": "When something worth doing frightens you — the audition, the phone call, the high dive, the new group — you can feel the fear fully and go anyway, because you've learned fear is information, not a stop sign.",
+      "looksLike": [
+        "Your hand is shaking when you knock on the neighbor's door to ask for the job — and you knock.",
+        "You sign up for the solo, spend a week nervous, and sing it.",
+        "First day at a new team practice: you walk in alone, heart going, and introduce yourself."
+      ],
+      "waysToBuild": [
+        "Keep a 'did it scared' list — every entry is proof for the next one.",
+        "Pick one small scary thing a week for a month; size doesn't matter, going does.",
+        "Learn your own pattern: is the fear worst before, during, or after? (It's almost always before.)"
+      ],
+      "comesAfter": ["facing.settle"],
+      "assessment": "self-check",
+      "outcomes": ["adversity", "learning"]
+    },
+    {
+      "id": "facing.help",
+      "name": "Ask for help",
+      "gotItWhen": "When you're stuck, hurting, or in over your head, you can go to the right person and say what's actually going on — because you've learned that asking is a strength move, and that carrying it alone is the riskier choice.",
+      "looksLike": [
+        "You're drowning in a class and tell the teacher before the grade does the telling.",
+        "Something happened online that scares you, and you bring it to a parent even though it's awkward.",
+        "You watch a friend struggle alone and realize you'd never want to be that stuck — so you don't let yourself be."
+      ],
+      "waysToBuild": [
+        "Name your people: for each kind of trouble (school, friends, scary stuff), who's your first call?",
+        "Practice the opening line — 'I need help with something' — until it's boring to say.",
+        "Watch how the adults you respect ask for help, and notice how often they do."
+      ],
+      "comesAfter": ["facing.name-it"],
+      "assessment": "debrief",
+      "outcomes": ["adversity", "wellbeing", "relationships"]
+    },
+    {
+      "id": "facing.feedback",
+      "name": "Take feedback",
+      "gotItWhen": "When someone tells you something you did could be better — a coach, a teacher, a parent, a friend — you can hear them out, look for the true part, and thank them, even when it stings and even when they said it clumsily.",
+      "looksLike": [
+        "Your coach corrects your form in front of everyone; you nod, try it their way, and it's better.",
+        "An essay comes back covered in red; after the first wave of ugh, you read every comment.",
+        "A friend says you've been kind of a lot lately — and instead of firing back, you ask what they mean."
+      ],
+      "waysToBuild": [
+        "Ask for feedback on purpose once a week — 'what's one thing I could do better?' — from someone who'll be honest.",
+        "Practice the two-step: say 'tell me more' before you say anything else.",
+        "Sort a real piece of criticism into true / partly true / not true, on paper, after the sting fades."
+      ],
+      "comesAfter": ["facing.name-it"],
+      "assessment": "debrief",
+      "outcomes": ["adversity", "learning", "relationships"]
+    },
+    {
+      "id": "facing.lose",
+      "name": "Lose well",
+      "gotItWhen": "When you lose — the game, the election, the part, the argument — you can congratulate the winner and mean at least half of it, feel the disappointment honestly, and be someone people still want to play with tomorrow.",
+      "looksLike": [
+        "You lose the board game on the last turn and shake your head, laugh, and set up the next round.",
+        "Someone else gets the part you wanted; you tell them congratulations before you go feel your feelings.",
+        "Your team gets crushed and you're the one who keeps the sideline from turning sour."
+      ],
+      "waysToBuild": [
+        "Play more games you might lose — losing practice only comes from losing.",
+        "Adopt a losing ritual: handshake, one honest sentence about the disappointment, done.",
+        "Watch how your favorite athletes lose, and steal from the ones who do it well."
+      ],
+      "comesAfter": ["facing.settle"],
+      "assessment": "observed",
+      "outcomes": ["adversity", "relationships"]
+    },
+    {
+      "id": "facing.retry",
+      "name": "Try again after it goes wrong",
+      "gotItWhen": "When an honest attempt fails — the tryout, the test, the recipe, the plan — you can absorb the miss, figure out what it taught you, and take another real swing instead of quietly retiring from the thing.",
+      "looksLike": [
+        "You get cut from the team, cry about it, and start planning for next season's tryout.",
+        "The cake comes out flat; the second cake happens the same week.",
+        "You bomb a test, find out what went wrong, and show up different for the next one."
+      ],
+      "waysToBuild": [
+        "After a miss, write the two-line report: what happened, what changes next time.",
+        "Tell the story of a failure at dinner and let the family cheer the retry, not the result.",
+        "Pick one abandoned thing you quietly quit and give it one honest second attempt."
+      ],
+      "comesAfter": ["facing.lose", "facing.scared"],
+      "assessment": "debrief",
+      "outcomes": ["adversity", "learning"]
+    },
+    {
+      "id": "facing.boredom",
+      "name": "Be okay with nothing to do",
+      "gotItWhen": "When there's empty time and no screen to fill it, you can settle into it and let it be — and more often than not, the boredom turns into something: an idea, a project, a wander, a rest you needed.",
+      "looksLike": [
+        "The wifi is down and within the hour you're building something, reading something, or outside.",
+        "You wait at a restaurant with no phone and manage to just… be there, maybe even talk.",
+        "You've learned that your best ideas show up about ten minutes into being bored, so you let it run."
+      ],
+      "waysToBuild": [
+        "Do a screen-free stretch every week — long enough to get past the itchy part.",
+        "Keep a 'bored list' of things you always wish you had time for, posted where boredom strikes.",
+        "Sit somewhere with literally nothing for a while, and just watch what your brain does."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["adversity", "wellbeing"]
+    },
+    {
+      "id": "facing.plans",
+      "name": "Roll with changed plans",
+      "gotItWhen": "When the thing you were counting on changes — the trip's canceled, the friend bails, the rain comes — you can absorb the hit, adjust, and find what's still good in the day that actually happened.",
+      "looksLike": [
+        "The beach day gets rained out and you're part of inventing the backup plan, not the storm cloud over it.",
+        "A friend cancels last minute; you're disappointed out loud once, then you make other plans.",
+        "The order comes out wrong at the restaurant and you either fix it politely or shrug and eat."
+      ],
+      "waysToBuild": [
+        "Have a parent 'change the plan' on purpose sometimes, small stakes, and debrief after.",
+        "Build the family reflex of asking 'okay — what's plan B?' out loud, together.",
+        "After a real derailment, name one thing that turned out fine, or better, because of it."
+      ],
+      "comesAfter": ["facing.wait"],
+      "assessment": "observed",
+      "outcomes": ["adversity"]
+    },
+    {
+      "id": "facing.own-it",
+      "name": "Own your mistakes",
+      "gotItWhen": "When you've done the wrong thing — broken it, said it, forgotten it — you can say so plainly and let the confession stand on its own, apologize like you mean it, and take a real step to repair the damage.",
+      "looksLike": [
+        "You broke the window playing ball inside, and you're the one who tells them, before they find it.",
+        "Your apology names what you did — 'I read your messages, that was wrong' — not 'sorry you're upset.'",
+        "You forgot your part of the group project, say so to the group, and take the worst remaining job."
+      ],
+      "waysToBuild": [
+        "Learn the three-part repair: what I did, what it cost you, what I'll do about it.",
+        "Watch for the excuse reflex — 'but you' / 'it's just' — and practice cutting a confession off before it turns.",
+        "Notice how the adults you trust apologize, and hold the family to it both directions — parents owe kids real apologies too."
+      ],
+      "comesAfter": ["facing.name-it", "facing.feedback"],
+      "assessment": "debrief",
+      "outcomes": ["adversity", "relationships"]
+    },
+    {
+      "id": "facing.no",
+      "name": "Take no for an answer",
+      "gotItWhen": "When a decision goes against you and it's not yours to make, you can hear the no, make your case once — calmly, if it really matters — and then genuinely accept the answer and stay warm with the person who gave it.",
+      "looksLike": [
+        "The answer to the sleepover is no; you make one real argument, hear the reasons, and let it go — actually go.",
+        "The coach benches you for the big game and you stay on the sideline cheering.",
+        "You're told the concert's out of budget, and the rest of the evening isn't a hostage situation."
+      ],
+      "waysToBuild": [
+        "Learn the 'one appeal' rule: everyone gets one calm, well-argued appeal — and then the answer stands.",
+        "After a no you took well, have a parent tell you they noticed; after one you didn't, replay it cold.",
+        "Watch what campaigning after a no does to trust — and what accepting one does."
+      ],
+      "comesAfter": ["facing.wait"],
+      "assessment": "observed",
+      "outcomes": ["adversity", "relationships"]
+    },
+    {
+      "id": "facing.choose-hard",
+      "name": "Choose hard on purpose",
+      "gotItWhen": "You sometimes pick the harder thing when the easy one was right there — the cold water, the long route, the heavy chore, the early morning — because you've learned that deliberately chosen discomfort makes the unchosen kind smaller.",
+      "looksLike": [
+        "You take the stairs, the cold shower, the heavy end of the couch — small, chosen, regularly.",
+        "You sign up for the harder class or the longer race knowing exactly what you're signing up for.",
+        "When real hardship shows up uninvited, part of you recognizes it: you've trained in this weather."
+      ],
+      "waysToBuild": [
+        "Adopt one small chosen hardship for a month and keep it privately — no announcing.",
+        "Do a family hard thing — a long hike, a fast, a dawn start — and talk after about what it built.",
+        "Notice the moment of the flinch, and practice stepping toward instead of away."
+      ],
+      "comesAfter": ["facing.scared"],
+      "ageFloor": 11,
+      "assessment": "self-check",
+      "outcomes": ["adversity"]
+    },
+    {
+      "id": "facing.fear",
+      "name": "Face a fear that's been chasing you",
+      "gotItWhen": "You can pick a fear that's actually been shaping your choices — the dog, the deep end, the speaking up, the dark — walk toward it on purpose, in steps, and shrink it until it no longer decides things for you.",
+      "looksLike": [
+        "You've been quietly routing around dogs for years; this season, you learn to greet one.",
+        "The deep end has kept you at the shallow rope; you work the ladder of it until you're jumping in.",
+        "You realize you never raise your hand because of one bad moment in third grade — and you retire that rule."
+      ],
+      "waysToBuild": [
+        "Name your top fear honestly, then build a ladder: the tiniest version of facing it, up to the real thing.",
+        "Take one rung a week, with someone you trust who knows what you're doing.",
+        "Keep the before-and-after note: what the fear used to cost you, and what it costs now."
+      ],
+      "comesAfter": ["facing.scared", "facing.retry"],
+      "assessment": "debrief",
+      "outcomes": ["adversity", "wellbeing"]
+    },
+    {
+      "id": "facing.stand",
+      "name": "Stand alone",
+      "gotItWhen": "When the group is moving toward something you know is wrong — the shoplifting dare, the pile-on, the cruel joke, the party plan — you can hold your ground, say your no out loud, and stay or leave with your own mind intact, even at the cost of belonging.",
+      "looksLike": [
+        "Everyone's mocking the new kid in the group chat, and your message is the one that doesn't join.",
+        "The dare is to take something small from the store; your 'nah, I'm out' costs you some cool and you pay it.",
+        "At a sleepover the video everyone wants to watch crosses your line, and you actually leave the room."
+      ],
+      "waysToBuild": [
+        "Decide your lines before you need them — it's a hundred times easier than deciding under pressure.",
+        "Rehearse two exit lines that work at your school and don't sound preachy.",
+        "Set up a no-questions-asked extraction code with your parents, and know it will be honored."
+      ],
+      "comesAfter": ["facing.no"],
+      "ageFloor": 11,
+      "assessment": "debrief",
+      "outcomes": ["adversity", "relationships", "faith"]
+    },
+    {
+      "id": "facing.grieve",
+      "name": "Let yourself grieve",
+      "gotItWhen": "When you lose something that mattered — a pet, a friendship, a grandparent, a big hope — you can let the sadness be real and let it take the time it takes, keep talking to your people through it, and carry the loss as a true part of your story.",
+      "looksLike": [
+        "The dog dies and you cry, tell stories about her, and don't apologize for either.",
+        "Your best friend moves away and you let it hurt — and you say so instead of going quiet.",
+        "Months after a loss, a wave hits out of nowhere, and you've learned that waves are how it works."
+      ],
+      "waysToBuild": [
+        "When loss comes, mark it — a burial, a photo book, a letter — rituals give grief somewhere to stand.",
+        "Keep one open conversation going with a parent through a real loss, even just minutes at a time.",
+        "Learn the family's stories of grief: who was lost, how it felt, what helped."
+      ],
+      "comesAfter": ["facing.name-it", "facing.help"],
+      "assessment": "debrief",
+      "outcomes": ["adversity", "wellbeing", "faith"]
+    },
+    {
+      "id": "facing.steady",
+      "name": "Stay steady when everything goes sideways",
+      "gotItWhen": "When something genuinely goes wrong around you — blood, a crash, a fire alarm that isn't a drill, a lost little kid — you can keep your head, do the next useful thing, and get the right help moving, becoming part of the response instead of part of the scene.",
+      "looksLike": [
+        "Your sibling gashes a knee and you're the one getting pressure on it and calling for a parent.",
+        "The kitchen pan flares up and you remember: lid, not water.",
+        "A little kid is lost and crying at the park; you stay with them and flag down the right adult."
+      ],
+      "waysToBuild": [
+        "Learn what to do *before* you need it — first aid basics buy calm in the moment.",
+        "Run family drills seriously enough that your body knows the way out.",
+        "After any real scare, debrief it: what did you do, what would you do sooner next time?"
+      ],
+      "comesAfter": ["facing.settle"],
+      "ageFloor": 12,
+      "assessment": "observed",
+      "outcomes": ["adversity", "household"]
+    },
+    {
+      "id": "facing.embarrass",
+      "name": "Bounce back from embarrassment",
+      "gotItWhen": "After a public faceplant — the wrong note, the tripped entrance, the mispronounced word everyone caught — you can feel the burn, keep your sense of humor about yourself, and get back into the room, the game, or the group without letting the moment write the story.",
+      "looksLike": [
+        "Your voice cracks in the presentation; you grin, say 'well then,' and finish the presentation.",
+        "You call the teacher 'mom' and survive the laughter — laughing along is what disarms it.",
+        "A week after the cafeteria trip-and-spill, you're eating in the cafeteria, not the library."
+      ],
+      "waysToBuild": [
+        "Collect the family's most embarrassing stories and notice: everyone has them, everyone lived.",
+        "Learn the recovery line — a small joke at your own expense — and keep one loaded.",
+        "After a burn, apply the ten-year test: will this matter in ten years? Will anyone else even remember it in ten days?"
+      ],
+      "comesAfter": ["facing.retry"],
+      "assessment": "self-check",
+      "outcomes": ["adversity", "relationships"]
+    },
+    {
+      "id": "facing.hope",
+      "name": "Keep hope in a hard season",
+      "gotItWhen": "When a hard stretch drags on — the injury, the friendless semester, the family crisis — you can be honest about how bad it is and still hold on to the belief, out loud, that this is a season and not the whole story, and act like someone with a future.",
+      "looksLike": [
+        "Months into the injury, you're honest that it stinks — and you're still doing the rehab.",
+        "In a lonely stretch at a new school you keep showing up to things, because 'not yet' isn't 'never.'",
+        "When the family's in a hard patch, you can say both true things: this is heavy, and we've gotten through heavy before."
+      ],
+      "waysToBuild": [
+        "Keep a record of past hard seasons and how they ended — your own evidence file for hope.",
+        "Learn to say both halves in one sentence: 'this is really hard, and it won't always be like this.'",
+        "Find the people and practices (prayer, a mentor, a team) that hold hope for you when you can't."
+      ],
+      "comesAfter": ["facing.grieve", "facing.steady"],
+      "ageFloor": 12,
+      "assessment": "debrief",
+      "outcomes": ["adversity", "faith", "wellbeing"]
+    },
+    {
+      "id": "facing.finale",
+      "name": "Walk through a real trial",
+      "gotItWhen": "Life has handed you something genuinely hard — a real loss, a real failure, a real long valley — and you walked through it, not around it: you felt it honestly, asked for help, kept going, and came out the other side someone who knows they can do hard things, because they have.",
+      "looksLike": [
+        "The year everything went wrong — and you can tell the story now: what broke, who helped, what grew.",
+        "You went through the thing you'd have said you couldn't handle, and you handled it.",
+        "A friend hits their own valley, and you're the one who knows the terrain."
+      ],
+      "waysToBuild": [
+        "This one can't be scheduled — the trial finds you. Everything else in this lane is training for it.",
+        "When you're in it, use it all: name it, settle, ask for help, grieve, hold hope.",
+        "When you're through, tell the story somewhere it counts — the family table, a journal, a younger kid who needs it."
+      ],
+      "comesAfter": ["facing.help", "facing.retry", "facing.grieve", "facing.hope"],
+      "ageFloor": 13,
+      "assessment": "debrief",
+      "finale": true,
+      "outcomes": ["adversity", "faith", "wellbeing"]
+    }
+  ]
+}

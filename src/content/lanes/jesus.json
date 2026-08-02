@@ -1,0 +1,251 @@
+{
+  "id": "jesus",
+  "name": "Walk with Jesus",
+  "emoji": "✝️",
+  "cluster": "Character",
+  "kind": "character",
+  "tagline": "A faith that slowly becomes your own — prayed, questioned, practiced, and freely chosen, until it's yours whether or not anyone is watching. Prerequisites here are suggestions; faith grows in a spiral.",
+  "skills": [
+    {
+      "id": "jesus.pray",
+      "name": "Pray in your own words",
+      "gotItWhen": "You can talk to God in your own words, anywhere — thanks when something's good, asks when you need help, honesty when things are a mess — without waiting for mealtime, bedtime, or someone else to start.",
+      "looksLike": [
+        "Something great happens at school and a quiet 'thank you' goes up before you've even told anyone.",
+        "You're worried about a friend, so you pray for them on the bus — eyes open, no fanfare.",
+        "You're angry about something and you tell God so, in exactly the words you'd use with a best friend."
+      ],
+      "waysToBuild": [
+        "Try one-sentence prayers scattered through an ordinary day — walking, waiting, brushing your teeth.",
+        "Each night for a week, say one honest thing to God: today's real thanks, real ask, or real complaint.",
+        "Take something you'd normally only say to yourself and say it to God instead."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["faith"]
+    },
+    {
+      "id": "jesus.bible",
+      "name": "Find your way around the Bible",
+      "gotItWhen": "You can look up any book, chapter, and verse without the table of contents doing all the work, you know broadly what lives where — stories, songs, prophets, Gospels, letters — and when you read a passage you can say something you actually noticed in it.",
+      "looksLike": [
+        "Someone says 'turn to Philippians' and you're there while the person next to you is still lost in the maps.",
+        "You know a psalm from a parable, and where you'd go to find each one.",
+        "You read the story of David and Goliath yourself and notice a detail no sermon ever mentioned to you."
+      ],
+      "waysToBuild": [
+        "Learn the neighborhoods — Law, History, Wisdom, Prophets, Gospels, Letters — and quiz each other in the car.",
+        "Read one Gospel story a few times a week for a month and tell somebody one thing you noticed each time.",
+        "Make a one-page map of the Bible in your own words and keep it as your bookmark."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["faith", "learning"]
+    },
+    {
+      "id": "jesus.notice",
+      "name": "Notice God in an ordinary day",
+      "gotItWhen": "On a normal day with nothing special scheduled, you catch yourself noticing gifts — the good weather, the kindness, the food, the near-miss that missed — and something in you says thank you to the Giver, not just 'huh, lucky.'",
+      "looksLike": [
+        "The sky does something ridiculous on the way to practice, and you actually see it.",
+        "A plain Tuesday ends and you can still name a few good things that were in it — and where you think they came from.",
+        "Something almost went wrong and didn't, and your first reaction has gratitude in it."
+      ],
+      "waysToBuild": [
+        "At dinner, trade 'where did you see something good today?' — parents answer too.",
+        "Keep a noticing list for a week: one gift a day, one line each.",
+        "Take one walk a week where the only assignment is to pay attention."
+      ],
+      "comesAfter": ["jesus.pray"],
+      "assessment": "self-check",
+      "outcomes": ["faith", "wellbeing"]
+    },
+    {
+      "id": "jesus.questions",
+      "name": "Ask the hard questions out loud",
+      "gotItWhen": "When a hard question about God shows up — why suffering, is any of this true, what about other religions — you bring it into the open with someone you trust instead of carrying it alone, because you've learned that doubt asked out loud is part of faith, not the opposite of it.",
+      "looksLike": [
+        "A pet dies and you ask, straight out, why God let that happen.",
+        "Something in science class seems to collide with Sunday, and you bring the collision to the dinner table instead of quietly filing faith under 'probably not.'",
+        "A friend's family believes something completely different, and your questions about that get asked, not buried."
+      ],
+      "waysToBuild": [
+        "Keep a running questions list where no question is off-limits — and actually bring one up now and then.",
+        "Find how believers before you asked your exact question — Job, the Psalms, Habakkuk are full of them.",
+        "Ask an adult you respect about a doubt they've had and what they did with it."
+      ],
+      "comesAfter": [],
+      "assessment": "debrief",
+      "outcomes": ["faith", "learning"]
+    },
+    {
+      "id": "jesus.sermon",
+      "name": "Take something real from a sermon",
+      "gotItWhen": "You walk out of church with something in your hands — a sentence that landed, a verse worth chewing on, a question the sermon raised — and it surfaces again during your week because it's actually in you, not because anyone quizzed you.",
+      "looksLike": [
+        "On the drive home you have one real thing to say beyond 'it was fine.'",
+        "Something happens on Wednesday that reminds you of Sunday, and you make the connection out loud.",
+        "You disagree with a point the preacher made — and you can say which point and why, which means you were actually listening."
+      ],
+      "waysToBuild": [
+        "Bring something to write with and catch one line per sermon — just one.",
+        "Do the car-ride trade: everyone shares one thing that landed, parents first.",
+        "Pick one thing from a sermon to actually try that week, and see what happens."
+      ],
+      "comesAfter": ["jesus.bible"],
+      "assessment": "debrief",
+      "outcomes": ["faith", "learning"]
+    },
+    {
+      "id": "jesus.rhythm",
+      "name": "Keep a rhythm with God",
+      "gotItWhen": "You keep some regular personal time with God — reading, prayer, journaling, whatever fits you — chosen and kept because you want it there, and when it goes stale you change the practice instead of quietly dropping the whole thing.",
+      "looksLike": [
+        "There's a time in your week that's yours and God's, and it mostly happens without anyone reminding you.",
+        "A trip or a busy season knocks you off it, and you find your way back — because it's yours to come back to.",
+        "The reading plan got boring, so you switched to something alive instead of deciding you're just bad at this."
+      ],
+      "waysToBuild": [
+        "Try one small practice for two weeks, then honestly review: keep, change, or swap?",
+        "Anchor it to something that already happens — after breakfast, before lights out.",
+        "Test different formats — audio Bible, journal, sketching, memorizing — until one actually fits you."
+      ],
+      "comesAfter": ["jesus.pray", "jesus.bible"],
+      "ageFloor": 11,
+      "assessment": "self-check",
+      "outcomes": ["faith", "wellbeing"]
+    },
+    {
+      "id": "jesus.worship",
+      "name": "Worship like it's yours",
+      "gotItWhen": "In a worship service you've found your own honest way in — singing because you mean it, sitting quiet with the words, praying along, serving in the background — and you can tell the difference between engaging for real and going through the motions, because only you can tell.",
+      "looksLike": [
+        "A song hits something true and you sing it like you mean it — because you do.",
+        "You don't feel like singing today, so you read the words slowly and let that be your part.",
+        "Nobody is watching your hands or your volume, and you've stopped watching theirs — what happens in that room is between you and God."
+      ],
+      "waysToBuild": [
+        "Try different doors in: sing, follow the lyrics like a poem, pray quietly for the people you can see.",
+        "Pick one line of one song and actually mean it all the way through.",
+        "Ask what worship looks like outside of music — serving, stillness, giving — and try one form for a season."
+      ],
+      "comesAfter": ["jesus.pray"],
+      "ageFloor": 11,
+      "assessment": "self-check",
+      "outcomes": ["faith"]
+    },
+    {
+      "id": "jesus.forgive",
+      "name": "Forgive someone for real",
+      "gotItWhen": "When someone has genuinely wronged you, you can decide to release the debt — pray for them, put down the replay, stop collecting interest on the hurt — and where it's safe and possible, let the relationship breathe again; and you know forgiving is not pretending it didn't happen.",
+      "looksLike": [
+        "A sibling breaks your thing, the apology comes, and you actually let it be over — it doesn't get dragged back into the next fight.",
+        "A friend left you out and it stung for weeks; when the replay starts up, you hand it over again — some forgiveness takes more than one round.",
+        "Someone hurt you and isn't even sorry, and you forgive anyway — for your own freedom — while still keeping a wise distance."
+      ],
+      "waysToBuild": [
+        "Pray for the person by name for a week and notice what it does to the grip of the thing.",
+        "Write down what they owe you and what releasing it would mean — then tear the paper up on purpose.",
+        "When an old hurt resurfaces, talk it through with someone you trust instead of feeding it quietly."
+      ],
+      "comesAfter": ["jesus.pray", "facing.own-it"],
+      "assessment": "self-check",
+      "outcomes": ["faith", "relationships", "wellbeing"]
+    },
+    {
+      "id": "jesus.grace",
+      "name": "Start again after you blow it",
+      "gotItWhen": "After you've blown it, you know the way back and you take it — honest words to God about what you did, receiving forgiveness as a gift instead of hiding until it blows over, and starting again lighter, because shame doesn't get the last word with you.",
+      "looksLike": [
+        "The prayer after a bad day starts with the truth, not with excuses.",
+        "The old move was avoiding God for a week after a mess; now the conversation happens that same night.",
+        "You've stopped treating one bad day as proof of who you are — you're forgiven, you get up, you go again."
+      ],
+      "waysToBuild": [
+        "Work out your own short way back — a few honest sentences you actually believe — so the path is familiar before you need it.",
+        "Read the stories of great returns — Peter by the fire, the prodigal's road home — and notice what the welcome is like every time.",
+        "When the blow-it involved a person, make both repairs: the one with God and the one with them."
+      ],
+      "comesAfter": ["jesus.pray"],
+      "assessment": "self-check",
+      "outcomes": ["faith", "wellbeing", "adversity"]
+    },
+    {
+      "id": "jesus.share",
+      "name": "Talk about your faith naturally",
+      "gotItWhen": "When faith comes up — a friend's question, a class discussion, a hard moment — you can say what you believe and why in your own plain words, ask real questions about what they believe, and stay genuinely friends whichever way the conversation goes.",
+      "looksLike": [
+        "A friend asks why you go to church, and you give a real answer instead of a shrug.",
+        "Religion comes up in a group and you say your piece without preaching — and listen without flinching.",
+        "One of your close friends believes something completely different; you've both said your honest best, and the friendship is stronger for it."
+      ],
+      "waysToBuild": [
+        "Write your own two-minute version of what you believe and why, in kitchen-table words — no borrowed churchy phrases.",
+        "Have a parent play the genuinely curious (or genuinely skeptical) friend, and practice answering like a human.",
+        "Ask a friend who believes differently real questions about their faith, and just listen — sharing goes both directions."
+      ],
+      "comesAfter": ["jesus.questions"],
+      "ageFloor": 12,
+      "assessment": "debrief",
+      "outcomes": ["faith", "relationships"]
+    },
+    {
+      "id": "jesus.suffering",
+      "name": "Hold faith and pain together",
+      "gotItWhen": "When life turns unfair — the loss, the diagnosis, the prayer that seems to go unanswered — you can bring the anger and the questions straight to God instead of only walking away from him, because you've learned that lament — hurting out loud in God's direction — is faith too.",
+      "looksLike": [
+        "The week the pet dies, your prayers are more shouting than thanking — and you keep praying them.",
+        "A prayer you really meant doesn't get answered the way you begged, and the conversation with God continues anyway — changed, but not ended.",
+        "A friend is walking through something awful, and you don't hand them tidy answers; you sit with them, and you take your own 'why' to God."
+      ],
+      "waysToBuild": [
+        "Read a lament psalm or two (try Psalm 13, or the unresolved dark of Psalm 88) and notice what God allows people to say to him.",
+        "In a hard season, write your own psalm: the complaint, the honest question, and whatever trust you can truthfully sign.",
+        "Ask an adult you trust about their hardest season and what their faith actually looked like in the middle of it."
+      ],
+      "comesAfter": ["jesus.questions", "facing.grieve"],
+      "ageFloor": 12,
+      "assessment": "self-check",
+      "outcomes": ["faith", "adversity"]
+    },
+    {
+      "id": "jesus.practices",
+      "name": "Build your own practices",
+      "gotItWhen": "You've designed your own rule of life — which practices, at what rhythm, for what reason — and you can say why each piece is there; it's a pattern you built and keep revising, not a program anyone assigned you.",
+      "looksLike": [
+        "Your mix looks different from your parents' — maybe worship music on runs, a journal, giving something up for a season — and it's different on purpose.",
+        "Someone asks about your quiet time and you describe something you designed, with reasons attached.",
+        "Sports season hits, or exams, or summer — and you redesign the rhythm to fit the new season instead of abandoning it."
+      ],
+      "waysToBuild": [
+        "Sample widely: try one unfamiliar practice a month — silence, fasting, memorization, sabbath, serving — and keep what actually feeds you.",
+        "Write your rule of life on a single page: what, when, and the why beside each line.",
+        "Review it once a season with someone further down the road — as a consultant you invited, not an inspector."
+      ],
+      "comesAfter": ["jesus.rhythm"],
+      "ageFloor": 13,
+      "assessment": "self-check",
+      "outcomes": ["faith", "wellbeing"]
+    },
+    {
+      "id": "jesus.finale",
+      "name": "Make the faith your own",
+      "gotItWhen": "The faith you carry is one you've examined, doubted, tested, and chosen — and you can say, in your own words and your own time, that you'd keep walking this road even if nobody ever asked about it again; it's yours now, not a hand-me-down.",
+      "looksLike": [
+        "Your prayers, your questions, your practices — none of them depend on anyone checking.",
+        "You can tell the story of how the faith became yours: what you doubted, what you tested, what settled.",
+        "Away from home — camp, a mission trip, someday a dorm room — the walk continues, because it was never about being watched."
+      ],
+      "waysToBuild": [
+        "There's nothing to perform here — this one is recognized, not achieved, and you'll probably know it before anyone else does.",
+        "When it's true, say it somewhere that matters to you: a journal, a conversation, a baptism, your own words at your own table.",
+        "Remember: church attendance becomes your call at the age the family set, no matter what — ownership was always the goal, never attendance."
+      ],
+      "comesAfter": ["jesus.questions", "jesus.practices", "jesus.grace"],
+      "ageFloor": 14,
+      "assessment": "self-check",
+      "finale": true,
+      "outcomes": ["faith"]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "intro": "A starter list, meant to be rewritten by each family. Every expectation is in video-camera terms — if you filmed it being met, this is what you'd see. Consequences touch privileges only, never freedoms already transferred.",
+  "expectations": [
+    {
+      "id": "school",
+      "expectation": "Schoolwork is turned in by its due date; missing work appears on no more than the rare occasion, and when it does, you're the one who tells us.",
+      "consequence": "Weeknight screen privileges pause until the missing work is in."
+    },
+    {
+      "id": "chores",
+      "expectation": "Your assigned family jobs are done by the agreed time each day without reminders on camera — the dishwasher is empty, the trash is out.",
+      "consequence": "Undone jobs get done before any outing or ride from us happens."
+    },
+    {
+      "id": "curfew",
+      "expectation": "You are inside the house by the agreed time, and if something changes, we hear from you before the deadline, not after.",
+      "consequence": "The next outing's window shrinks by the amount you were late."
+    },
+    {
+      "id": "whereabouts",
+      "expectation": "Before you go somewhere new, we know where, with whom, and when you'll be back — a text is fine.",
+      "consequence": "The next trip out requires a confirmed plan in advance."
+    },
+    {
+      "id": "family",
+      "expectation": "You are at family dinner and family events we've named as mandatory, present and phone-free.",
+      "consequence": "A missed mandatory event is repaid with a family hour you plan."
+    },
+    {
+      "id": "speech",
+      "expectation": "Disagreement happens at conversation volume, without name-calling, at any hour; anyone can call a pause and return to it later.",
+      "consequence": "A blown-up conversation resumes only after a written or spoken repair."
+    }
+  ]
+}

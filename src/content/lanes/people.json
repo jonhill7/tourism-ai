@@ -1,0 +1,271 @@
+{
+  "id": "people",
+  "name": "People & Comms",
+  "emoji": "💬",
+  "cluster": "Social",
+  "kind": "competence",
+  "tagline": "Say what you mean to anyone who needs to hear it — face to face, on the phone, in writing, and in front of a room.",
+  "skills": [
+    {
+      "id": "people.greet",
+      "name": "Greet people like you mean it",
+      "gotItWhen": "You meet people — kids and adults alike — with your eyes up, a real hello, and their name when you know it, and you do it by habit, in your own house and out in the world.",
+      "looksLike": [
+        "A friend of your parents says hi, and you look up from what you're doing and answer like you're glad they exist.",
+        "You walk into practice and greet the coach by name before you go find your friends.",
+        "A new kid shows up to the group, and yours is the first hello they get."
+      ],
+      "waysToBuild": [
+        "For a week, greet every adult who walks into the house before they greet you.",
+        "Learn one new person's name at each gathering and use it out loud once — saying it is what locks it in.",
+        "Practice the trio with a parent until it's automatic: eyes up, real hello, name."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["relationships"]
+    },
+    {
+      "id": "people.introduce",
+      "name": "Introduce yourself (and others)",
+      "gotItWhen": "You can offer your name plus a handle for conversation — who you are and how you're connected — and when two people you know haven't met, you connect them with names and a thread they share.",
+      "looksLike": [
+        "First practice with a new team: 'I'm Sam — I played left side last season,' and now people have something to say to you.",
+        "A friend comes over while a cousin is visiting, and you introduce them to each other instead of letting them hover.",
+        "At a family party you hand your grandmother and your coach a thread to pull: 'Grandma, this is Coach Ray — he's the one who taught me to serve.'"
+      ],
+      "waysToBuild": [
+        "Write a one-line self-intro for three settings — team, class, family friend — and say each out loud until it's yours.",
+        "At the next gathering, be the one who introduces any two people who haven't met.",
+        "Trade practice intros with a sibling: name, connection, one hook the other person can grab."
+      ],
+      "comesAfter": ["people.greet"],
+      "assessment": "observed",
+      "outcomes": ["relationships"]
+    },
+    {
+      "id": "people.converse",
+      "name": "Hold a real conversation",
+      "gotItWhen": "You can keep a real conversation going with an adult or a peer — asking questions, following up on the answers, offering your own — so that both of you talk and both of you get listened to.",
+      "looksLike": [
+        "Seated next to a visiting relative at dinner, you find out what they do all day and tell them something real about yours.",
+        "A carpool ride with a friend's parent turns into an actual back-and-forth instead of a silent back seat.",
+        "An adult tells your parents later, 'I really enjoyed talking with your kid' — and the talking went both ways."
+      ],
+      "waysToBuild": [
+        "Keep three pocket questions ready ('what are you working on lately?', 'how did you get into that?') and use one on someone this week.",
+        "Play the follow-up game at dinner: every answer earns one follow-up question before anyone may change the subject.",
+        "After your next good conversation, tell a parent two things you learned about the other person."
+      ],
+      "comesAfter": ["people.introduce"],
+      "assessment": "observed",
+      "outcomes": ["relationships"]
+    },
+    {
+      "id": "people.ask",
+      "name": "Ask for what you need in public",
+      "gotItWhen": "In stores, restaurants, and offices you speak for yourself — order your own food, ask staff where something is, flag a problem with your order — clearly and politely, with the adults around you free to stay out of it.",
+      "looksLike": [
+        "The waiter looks at you, and your order comes out of your own mouth, substitutions and all.",
+        "You can't find the glue in the craft store, so you find an employee and ask.",
+        "Your burger arrives with the onions you asked them to hold off, and you flag it kindly and get it fixed."
+      ],
+      "waysToBuild": [
+        "Order for yourself at every restaurant for a month — parents stay silent, even through the pauses.",
+        "Be the family's designated asker on the next shopping trip: every 'where is…?' goes through you.",
+        "Next time an order comes out wrong, you do the talking while a parent watches from the table."
+      ],
+      "comesAfter": ["people.greet"],
+      "assessment": "observed",
+      "outcomes": ["adultworld", "relationships"]
+    },
+    {
+      "id": "people.phone",
+      "name": "Make a phone call that matters",
+      "gotItWhen": "You can pick up the phone and call a real stranger for a real reason — book, cancel, ask, or complain politely — say who you are and what you need, and handle whatever the answer turns out to be.",
+      "looksLike": [
+        "You call the library to ask whether the book you need is on the shelf before biking over.",
+        "You call the dentist yourself to move your own appointment to a day that works.",
+        "The pizza order arrives wrong, and you're the one who calls the shop and gets it sorted."
+      ],
+      "waysToBuild": [
+        "Write your opening line before dialing — who you are, what you need — and the rest takes care of itself.",
+        "Make three low-stakes calls in a month: store hours, a price check, a hold request.",
+        "Take over one recurring family call — the haircut booking, the prescription refill — as permanently yours."
+      ],
+      "comesAfter": ["people.ask"],
+      "assessment": "observed",
+      "outcomes": ["adultworld"]
+    },
+    {
+      "id": "people.email",
+      "name": "Write a message that works",
+      "gotItWhen": "You can write an email or note to an adult that does its job — a clear subject, the ask up front, a tone that fits, your name at the end — and it gets the reply it needs with nobody ghost-writing it for you.",
+      "looksLike": [
+        "You email your teacher about a missing grade and get the fix back, not a request to clarify.",
+        "The thank-you note to your grandparents is written by you and sounds like you on a good day.",
+        "You email a coach about a schedule conflict, propose a solution, and it's settled in one round."
+      ],
+      "waysToBuild": [
+        "Learn the four-part skeleton — subject, greeting, ask, sign-off — and use it on your next real message.",
+        "Before sending, read it out loud once: any sentence that would sound rude across a dinner table gets rewritten.",
+        "Send one real message a month to an adult outside the family: a question, a request, a thank-you."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["adultworld", "learning"]
+    },
+    {
+      "id": "people.listen",
+      "name": "Listen so people feel heard",
+      "gotItWhen": "When someone is telling you something that matters to them, you give them your whole attention, reflect back what you heard, and ask questions before you offer opinions — and people leave the conversation feeling like the point of it was them.",
+      "looksLike": [
+        "A friend starts telling you something real, and your phone goes face-down on its own.",
+        "A sibling vents about their day, and you ask what happened next before saying what you would have done.",
+        "A friend says 'you're the one I tell things to' — because what people tell you is safe with you and actually remembered."
+      ],
+      "waysToBuild": [
+        "Practice the reflect-back — 'so what you're saying is…' — once a day for a week and watch what it unlocks.",
+        "In your next long conversation, hold your own story until you've asked two questions about theirs.",
+        "The day after someone tells you something, check yourself: can you recall the details? The details are the proof of the listening."
+      ],
+      "comesAfter": ["people.converse"],
+      "assessment": "observed",
+      "outcomes": ["relationships"]
+    },
+    {
+      "id": "people.small-talk",
+      "name": "Talk with anyone",
+      "gotItWhen": "Standing next to a stranger of any age — a waiting room, a new team, a checkout line — you can find the thread, start a pleasant conversation, and keep it going long enough that the wait feels shorter for both of you.",
+      "looksLike": [
+        "In the checkout line you say something real about the situation, and the person next to you lights up.",
+        "First day on a new team, you've collected two names and a story before drills even start.",
+        "At a wedding table full of strangers, you're the reason the table isn't silent."
+      ],
+      "waysToBuild": [
+        "Learn the three openers that nearly always work: the shared setting, a genuine compliment, a question they'll enjoy answering.",
+        "Start one small conversation with a stranger each week — cashiers, neighbors, and waiting rooms all count.",
+        "Watch a parent work a room at one event, then name the moves you saw on the drive home."
+      ],
+      "comesAfter": ["people.converse"],
+      "assessment": "observed",
+      "outcomes": ["relationships", "adultworld"]
+    },
+    {
+      "id": "people.speak",
+      "name": "Speak in front of people",
+      "gotItWhen": "Given something to say and a group to say it to, you can prepare it, shape it with a real beginning and a real ending, and deliver it audibly with your eyes mostly on the people — so the group actually receives what you meant to give them.",
+      "looksLike": [
+        "You give the toast at Grandpa's birthday, and people laugh right where you hoped they would.",
+        "Your class presentation opens with a hook and lands on an ending, and the back row hears all of it.",
+        "You read the announcements in front of the whole congregation, and afterward people talk about what you said, not how you said it."
+      ],
+      "waysToBuild": [
+        "Practice out loud, standing up, at least twice before the real thing — your mouth has to have done it before the moment.",
+        "Film yourself once and watch it back; you'll fix more in five minutes than anyone could tell you in an hour.",
+        "Volunteer for one real audience this season: a class, a team meeting, a family celebration."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["learning", "adultworld"]
+    },
+    {
+      "id": "people.disagree",
+      "name": "Disagree without heat",
+      "gotItWhen": "When you think someone is wrong, you can say so — arguing the idea while honoring the person, stating their view fairly enough that they'd sign it before you counter it, and staying friendly whether or not anyone ends up convinced.",
+      "looksLike": [
+        "A friend loves the movie you thought was terrible, and the argument is fun instead of a fight.",
+        "In a family debate you open with 'so your point is…' and get a 'yes, exactly' before you push back.",
+        "You and a good friend land on opposite sides of something big, and the friendship doesn't even wobble."
+      ],
+      "waysToBuild": [
+        "Play steelman practice: defend the side you disagree with for two minutes, well enough to be mistaken for a believer.",
+        "In your next real disagreement, earn one 'yes, that's what I mean' before you say the word 'but.'",
+        "Learn to spot the moment a debate turns personal — in other people first, then in yourself."
+      ],
+      "comesAfter": ["people.listen"],
+      "assessment": "debrief",
+      "outcomes": ["relationships"]
+    },
+    {
+      "id": "people.hard-convo",
+      "name": "Say the hard thing",
+      "gotItWhen": "When there's a problem between you and a person, you take it to that person — directly, kindly, face to face — say what's wrong and what you need, and stay in the conversation while they respond.",
+      "looksLike": [
+        "A friend keeps making a joke that stings, and you tell them — them, not the group chat.",
+        "You owe a teammate an apology and deliver it in person, plainly, before it goes stale.",
+        "Something's been off with a friend for weeks, and you're the one who names it and asks about it."
+      ],
+      "waysToBuild": [
+        "Write the opener first: one sentence of what happened, one of how it landed on you, one of what you're asking for.",
+        "Rehearse it once with a parent playing the other person — including the version where they get defensive.",
+        "Adopt the one-day rule: hard things get said within a day, before they calcify."
+      ],
+      "comesAfter": ["people.disagree", "facing.own-it"],
+      "ageFloor": 12,
+      "assessment": "debrief",
+      "outcomes": ["relationships", "adversity"]
+    },
+    {
+      "id": "people.room",
+      "name": "Read the room",
+      "gotItWhen": "You register how the people around you are receiving you and the moment — who's bored, who's hurting, when the mood just shifted — and you adjust your volume, your topic, and your timing to fit, by habit.",
+      "looksLike": [
+        "The adults' conversation turns serious, and you dial the goofing down on your own.",
+        "Mid-story, you notice you've lost your audience, so you land the plane early.",
+        "You catch that a friend went quiet after a joke, and you check on them later."
+      ],
+      "waysToBuild": [
+        "Play mood detective at one gathering a week: name the room's mood to a parent afterward and compare notes.",
+        "Build the scan into every gathering: pause once and ask yourself, 'who here is not having a good time?'",
+        "Agree a quiet signal with a parent that means 'read the room' — and treat every use as data, not criticism."
+      ],
+      "comesAfter": ["people.listen"],
+      "ageFloor": 11,
+      "assessment": "debrief",
+      "outcomes": ["relationships"]
+    },
+    {
+      "id": "people.host",
+      "name": "Host people well",
+      "gotItWhen": "When people come to your home or your table, you take ownership of their welcome — greeted at the door, introduced around, offered food and drink, drawn into what's happening — and you notice the one standing alone and go get them.",
+      "looksLike": [
+        "Your friend arrives, and you meet them at the door instead of yelling 'come in' from the couch.",
+        "At your birthday party you spot the cousin who knows nobody and fold them into the game.",
+        "Your parents' guests get offered drinks by you before anyone has to ask."
+      ],
+      "waysToBuild": [
+        "Own the door at the next family gathering: every arrival gets greeted, relieved of their coat, and pointed at the snacks.",
+        "At every event you help host, find the least-connected person in the room and give them ten real minutes.",
+        "Plan and run one small gathering yourself — invitations, food, what happens when — start to finish."
+      ],
+      "comesAfter": ["people.small-talk"],
+      "assessment": "observed",
+      "outcomes": ["relationships", "household", "beyond"]
+    },
+    {
+      "id": "people.advocate",
+      "name": "Get a problem fixed by talking to the right people",
+      "gotItWhen": "When something real goes wrong — a wrong charge, a school mix-up, a broken product — you can work out who actually has the power to fix it, make your case to them clearly and politely by call, email, or in person, keep the trail of who said what, and follow up until it is actually resolved.",
+      "looksLike": [
+        "The store charged you twice, and you walk out of customer service with the refund.",
+        "A grade got recorded wrong, and you take it from teacher to counselor yourself until the record is right.",
+        "Your headphones die in month two; the chat rep says no, and your polite escalation email gets the replacement."
+      ],
+      "waysToBuild": [
+        "Take on one live family problem — a warranty claim, a billing error — as your case, start to finish.",
+        "Before contacting anyone, write three lines: what happened, what you want, why they should agree.",
+        "Keep a paper trail on your next issue — names, dates, what was promised — and quote it in the follow-up.",
+        "When the first answer is no, practice the calm next move: ask what would change it, or ask who else can help."
+      ],
+      "comesAfter": ["people.phone", "people.email", "people.hard-convo"],
+      "ageFloor": 13,
+      "assessment": "observed",
+      "finale": true,
+      "unlock": {
+        "text": "🎉 you speak for yourself with schools, doctors, coaches, and businesses — we only step in when you ask us to",
+        "coSign": true
+      },
+      "outcomes": ["adultworld", "adversity"]
+    }
+  ]
+}

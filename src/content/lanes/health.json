@@ -1,0 +1,260 @@
+{
+  "id": "health",
+  "name": "Health & Body",
+  "emoji": "💪",
+  "cluster": "Home Base",
+  "kind": "competence",
+  "tagline": "One body, one mind, yours for life — learn to read them, maintain them, and speak for them yourself.",
+  "skills": [
+    {
+      "id": "health.hygiene",
+      "name": "Keep yourself clean by habit",
+      "gotItWhen": "Keeping yourself clean runs on habits you own — showers when you need them, teeth morning and night, deodorant, clean clothes — because it's your standard now, kept up whether or not anyone would ever check.",
+      "looksLike": [
+        "You head for the shower after practice because you can tell you need one.",
+        "Your toothbrush is wet twice a day, every day, including at sleepovers.",
+        "You notice a shirt has hit its limit and swap it before anyone else has an opinion."
+      ],
+      "waysToBuild": [
+        "Anchor each habit to something fixed: teeth right after breakfast and right before lights-out, shower after practice.",
+        "Run your whole routine on a week-long trip, away from every home reminder.",
+        "Do a monthly supplies check: your own deodorant, toothpaste, and shampoo go on the list before they run out."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["wellbeing"]
+    },
+    {
+      "id": "health.sleep",
+      "name": "Own your sleep",
+      "gotItWhen": "You protect your own sleep because you've felt the difference it makes — you keep a wind-down that works, get screens out of the last stretch before bed, and hold a rhythm steady enough that mornings mostly find you human.",
+      "looksLike": [
+        "You skip the next episode because tomorrow starts early — your call, nobody else's.",
+        "Your phone parks outside your room at night, and that was your idea.",
+        "The night before a big game or exam, you move bedtime up the way an athlete would."
+      ],
+      "waysToBuild": [
+        "Run a two-week experiment: same bedtime and wake time daily, with a quick note each day on mood and energy.",
+        "Build a wind-down of twenty or thirty minutes — shower, book, music — and keep screens out of it.",
+        "After your next late night, write down honestly how the following day actually went, and keep the note."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["wellbeing"]
+    },
+    {
+      "id": "health.fuel",
+      "name": "Feed your body well",
+      "gotItWhen": "You eat like someone fueling a body you plan to use — real food in a rough balance, water through the day, treats enjoyed as treats — and you notice how what you eat changes how you feel and perform, and adjust because of it.",
+      "looksLike": [
+        "Dragging in the afternoon, you reach for water first, because you've learned that's often the actual problem.",
+        "Your plate usually ends up with some protein and something that grew in the ground, with no rule forcing it.",
+        "Before a game or a test you eat like it matters, because you've felt the difference when you do."
+      ],
+      "waysToBuild": [
+        "Track just water for a week — a real bottle, refilled — and watch what happens to afternoon energy.",
+        "Run the breakfast experiment: a week of real breakfasts versus your usual, then compare the mornings.",
+        "Learn to build a plate — protein, plants, carbs — and assemble it yourself at ten meals in a row."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["wellbeing"]
+    },
+    {
+      "id": "health.move",
+      "name": "Move every day",
+      "gotItWhen": "Moving your body is part of your ordinary day because you've found forms of it you actually like — a sport, biking, lifting, walking, dancing, anything — and when life cancels one kind, you swap in another and keep moving.",
+      "looksLike": [
+        "You bike to a friend's house without ever thinking of it as exercise.",
+        "Your sport's season ends and something else — pickup games, runs, the pull-up bar — fills the slot within days.",
+        "You notice a restless, cooped-up mood fixing itself the moment you get outside and move, and you use that."
+      ],
+      "waysToBuild": [
+        "Try five different kinds of movement in a month and keep whichever ones you'd choose again on your own.",
+        "Attach movement to life that's already happening: walk the dog, bike the errand, take the stairs by default.",
+        "Do one streak — thirty days where any real movement counts — and see what's still standing afterward."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["wellbeing"]
+    },
+    {
+      "id": "health.firstaid",
+      "name": "Handle everyday injuries",
+      "gotItWhen": "When someone collects one of the ordinary hurts — a cut, a scrape, a burn, a splinter, a rolled ankle, a nosebleed — you can treat it properly: clean and dress a wound, cool a burn under running water, work a splinter out, know when to ice and elevate, and be the calm pair of hands while you do it.",
+      "looksLike": [
+        "A sibling wipes out on the driveway and you clean the scrape and get the bandage on while the tears are still going.",
+        "A burned finger goes under cool running water and stays there properly long, because that's the treatment.",
+        "A nosebleed at practice gets a firm pinch and a lean forward — and you can explain why forward, not back."
+      ],
+      "waysToBuild": [
+        "Take a real first-aid course (scouts, Red Cross, school) and restock the family kit yourself when it's done.",
+        "Audit the family first-aid kit until you know every item and what it's for, and add what's missing.",
+        "Be the designated first-aider on the next camping trip or long hike."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["wellbeing", "adversity"]
+    },
+    {
+      "id": "health.serious",
+      "name": "Know when it's serious",
+      "gotItWhen": "You know the signs that turn a hurt into an emergency — a head injury followed by confusion, sleepiness, or vomiting; a deep cut that gapes or keeps bleeding through pressure; any trouble breathing; anything that might be poisoning — and when you see one, you get an adult or call emergency services fast, because minutes matter.",
+      "looksLike": [
+        "A friend hits their head and seems foggy afterward — you loop in an adult even though the friend insists they're fine.",
+        "You can sort cuts into pressure-and-a-bandage versus pressure-and-a-ride to urgent care, and say what makes the difference.",
+        "A little kid gets into something under the sink, and you're on the phone to poison control with the container in your hand."
+      ],
+      "waysToBuild": [
+        "Learn the red-flag lists with a parent — head injuries, bleeding, breathing, poisoning — then quiz each other cold a week later.",
+        "Save emergency numbers and poison control in your phone, and post them where the family agrees they live.",
+        "Take real stories — family lore, the news — and call each one: home care, urgent care, or emergency, then check your answer."
+      ],
+      "comesAfter": ["health.firstaid"],
+      "assessment": "debrief",
+      "outcomes": ["wellbeing", "adversity"]
+    },
+    {
+      "id": "health.meds",
+      "name": "Take medicine responsibly",
+      "gotItWhen": "For anything you take, you can say what it is, what it's for, the right dose and timing, and what it shouldn't mix with — you take it as directed and keep track that you did — and you treat overdose and drug interactions as the real dangers they are, which is exactly why medicine never gets shared.",
+      "looksLike": [
+        "You can answer 'what's that and what's it for?' for every medicine you take.",
+        "Before taking cold medicine, you read the label for the dose and the wait between doses — and check it against anything else you've taken.",
+        "A friend asks to try one of your pills and gets a solid no, plus the reason."
+      ],
+      "waysToBuild": [
+        "Sit down with a parent and go through your own meds: name, purpose, dose, timing, and what each shouldn't meet.",
+        "Run one full course (an antibiotic, allergy season) yourself with a checklist or app, first dose to last.",
+        "Read the drug-facts label on three over-the-counter medicines and find the maximum daily dose on each."
+      ],
+      "comesAfter": [],
+      "ageFloor": 11,
+      "assessment": "debrief",
+      "unlock": {
+        "text": "Your own meds move to your keeping — you hold them and take them yourself.",
+        "coSign": true
+      },
+      "outcomes": ["wellbeing", "adultworld"]
+    },
+    {
+      "id": "health.signals",
+      "name": "Read your body's signals",
+      "gotItWhen": "You can tell what your body is actually asking for — whether the bad feeling is tired, hungry, getting sick, or anxious — and answer it with the right thing, because you've watched your own patterns long enough to read them.",
+      "looksLike": [
+        "Everything feels annoying by late afternoon, and you correctly call it: you skipped lunch.",
+        "Your stomach churns before the recital and you can name it as nerves, not sickness — and walk on anyway.",
+        "You feel the scratchy-throat, heavy-limbs start of getting sick and choose an early night on your own."
+      ],
+      "waysToBuild": [
+        "Keep a simple log for two weeks — sleep, food, mood, energy — then go hunting for your patterns.",
+        "Build a personal checklist for bad moments — water, food, sleep, movement, worry — and run it in order.",
+        "After each 'off' day, do a one-minute review: what was my body actually asking for, and when did it start asking?"
+      ],
+      "comesAfter": ["health.sleep", "health.fuel"],
+      "ageFloor": 11,
+      "assessment": "self-check",
+      "outcomes": ["wellbeing"]
+    },
+    {
+      "id": "health.appointments",
+      "name": "Speak for yourself at appointments",
+      "gotItWhen": "At the doctor or dentist, you're the one talking — you answer questions about your own body honestly and specifically, ask what you actually want to know, and you can state your basics cold: allergies, medications, past issues, and what's been going on lately.",
+      "looksLike": [
+        "'So what brings you in today?' gets answered by you, in detail, while the parent stays in the chair.",
+        "You bring up the embarrassing thing anyway, because the doctor can't help with what they never hear.",
+        "You leave knowing exactly what the plan is, because you asked questions until it made sense."
+      ],
+      "waysToBuild": [
+        "Before your next appointment, write down three things to report and one question to ask — then do all the talking.",
+        "Learn your basics cold: allergies, meds and doses, conditions, and the family-history highlights.",
+        "Ask for a few minutes of the appointment one-on-one, with the parent in the waiting room."
+      ],
+      "comesAfter": ["people.converse"],
+      "ageFloor": 12,
+      "assessment": "observed",
+      "outcomes": ["wellbeing", "adultworld"]
+    },
+    {
+      "id": "health.mind",
+      "name": "Tend your mind",
+      "gotItWhen": "You keep watch over your own inner weather — you notice when a worry is spiraling or a mood has been sinking for a stretch, you know which things genuinely help you and which just burn the time, and you bring in people you trust early, while the thing is still small.",
+      "looksLike": [
+        "You catch yourself re-running the same worry at midnight, and get up and dump it onto paper instead of another lap.",
+        "You know your top three helps — a run, a friend, prayer, real sleep — and reach for one before the whole day is lost.",
+        "After a gray couple of weeks, you say so out loud to someone you trust, on purpose, before anyone has to ask."
+      ],
+      "waysToBuild": [
+        "Write your personal 'what actually helps' list during a good week, so it's ready in a bad one.",
+        "Try a daily mood check — one word or a number at dinner — for a month and see what patterns surface.",
+        "Agree with a parent or trusted adult on the open-door signal: the words you'll use when you need to talk, no crisis required."
+      ],
+      "comesAfter": ["health.signals", "facing.help"],
+      "ageFloor": 12,
+      "assessment": "debrief",
+      "outcomes": ["wellbeing", "adversity"]
+    },
+    {
+      "id": "health.change",
+      "name": "Care for your changing body",
+      "gotItWhen": "You know what puberty is doing to your body and why — the changes are named, expected, and normal to you — and you handle the care they call for, from hygiene to skin to periods or shaving, as ordinary maintenance, with a trusted adult you'll actually ask when something new shows up.",
+      "looksLike": [
+        "A change arrives and your reaction is 'right, that's the thing from the book' — followed by getting the right supplies.",
+        "Your own kit — deodorant, pads or razors, face wash, whatever your body needs now — stays stocked because you stock it.",
+        "You ask a parent a direct question about your body, out loud, because it's just a body and it's yours."
+      ],
+      "waysToBuild": [
+        "Read one good, age-right body book with a parent on call for questions — theirs was weirder, ask them.",
+        "Build your kit for the next stage before you need it, so nothing catches you unsupplied.",
+        "Have the awkward-question conversation once; every one after it comes easier."
+      ],
+      "comesAfter": [],
+      "ageFloor": 10,
+      "assessment": "self-check",
+      "outcomes": ["wellbeing"]
+    },
+    {
+      "id": "health.substances",
+      "name": "Stay clear-eyed about substances",
+      "gotItWhen": "You know that alcohol, vaping, and drugs will be offered to you — probably by someone you like — and you're ready for that moment: you know what each one actually does to a body and brain your age, how addiction hooks people while telling them it hasn't, and you have your own exit lines and exit moves rehearsed and ready.",
+      "looksLike": [
+        "You can say what vaping actually does to lungs and a teenage brain, in your own words, with no lecture voice.",
+        "Someone you like holds out a drink at a party, and your line comes out easy because you wrote it long before you needed it.",
+        "A party turns into somewhere you shouldn't be, and you send the family code word and take the no-questions ride."
+      ],
+      "waysToBuild": [
+        "Learn the real effects — what alcohol, nicotine, and weed do to a developing brain — from sources that aren't trying to scare you or sell to you.",
+        "Write three exit lines that sound like you, and say them out loud until they're boring.",
+        "Set up the family bail-out deal in advance: a code word, a guaranteed ride, and no interrogation that night."
+      ],
+      "comesAfter": [],
+      "ageFloor": 12,
+      "assessment": "debrief",
+      "outcomes": ["wellbeing", "adversity"]
+    },
+    {
+      "id": "health.finale",
+      "name": "Own your health",
+      "gotItWhen": "You run your own health like its manager — you notice what needs attention, book your own appointments, arrive with questions, follow through on what the visit decided, request refills before the bottle is empty, and keep your own records — with parents as consultants you bring in on your own judgment.",
+      "looksLike": [
+        "The reminder that a dental cleaning is due comes from you — and so does the call that books it.",
+        "A prescription runs low and the refill is requested days before the last pill.",
+        "Something's been off for a couple of weeks, and you decide it's appointment-worthy, book it, go, and follow the plan that comes back."
+      ],
+      "waysToBuild": [
+        "Book your own next routine appointment end to end: the call, the calendar entry, the plan for getting there.",
+        "Set up your own health file — conditions, meds, allergies, vaccine history — and keep it where you can actually find it.",
+        "Run everything for six months — appointments, refills, follow-ups — with parents strictly on-call."
+      ],
+      "comesAfter": ["health.appointments", "health.signals", "health.serious"],
+      "ageFloor": 15,
+      "assessment": "debrief",
+      "finale": true,
+      "unlock": {
+        "text": "🎉 Your health is yours to run — you book your own appointments and manage your own care, and we step back to on-call.",
+        "coSign": true
+      },
+      "outcomes": ["wellbeing", "adultworld"]
+    }
+  ]
+}
