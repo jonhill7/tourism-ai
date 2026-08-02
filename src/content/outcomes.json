@@ -1,0 +1,13 @@
+{
+  "outcomes": [
+    { "id": "household", "emoji": "🏡", "name": "Run an Independent Household", "note": "Feed yourself, keep a home running, handle what breaks." },
+    { "id": "financial", "emoji": "💰", "name": "Support Yourself Financially", "note": "Earn, budget, save, and steer money on purpose." },
+    { "id": "learning", "emoji": "🎓", "name": "Direct Your Own Learning & Work", "note": "Set your course, learn what you need, do work you're proud of." },
+    { "id": "wellbeing", "emoji": "❤️", "name": "Own Your Wellbeing", "note": "Care for your body, mind, and limits — nobody else will do it for you." },
+    { "id": "relationships", "emoji": "🤝", "name": "Build & Keep Relationships", "note": "Make friends, keep them, repair what breaks, love people well." },
+    { "id": "adversity", "emoji": "🌱", "name": "Respond Well to Adversity", "note": "Receptive: how you meet what happens to you." },
+    { "id": "adultworld", "emoji": "🧭", "name": "Navigate the Adult World", "note": "Institutions, paperwork, travel, systems — move through them unafraid." },
+    { "id": "faith", "emoji": "✝️", "name": "Live an Owned Faith", "note": "A faith that's yours — examined, practiced, chosen." },
+    { "id": "beyond", "emoji": "🤲", "name": "Live Beyond Yourself", "note": "Other-directed: serve, give, and belong to something bigger." }
+  ]
+}

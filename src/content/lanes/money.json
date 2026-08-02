@@ -1,0 +1,457 @@
+{
+  "id": "money",
+  "name": "Money & Work",
+  "emoji": "💰",
+  "cluster": "Provision",
+  "kind": "competence",
+  "tagline": "Earn it, steer it, and make it serve what matters — so money is a tool you run, not a mystery that runs you.",
+  "skills": [
+    {
+      "id": "money.pay",
+      "name": "Pay for it yourself",
+      "gotItWhen": "You can handle a purchase start to finish — know the price, hand over cash or card, check what comes back, and walk away sure the numbers were right.",
+      "looksLike": [
+        "You buy a snack at a gas station, count your change, and notice if it's off.",
+        "At a market stall you figure out whether the bill you're holding is enough before you get to the front.",
+        "You tap the family card at self-checkout and check the total on the screen against what's in the cart."
+      ],
+      "waysToBuild": [
+        "Be the one who pays every time the family gets ice cream for a month.",
+        "Take $10 into a store with a mission and come out with the right change.",
+        "Practice estimating the total in the cart before the register shows it."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["financial"]
+    },
+    {
+      "id": "money.save-goal",
+      "name": "Save up for something you want",
+      "gotItWhen": "You can pick something that costs more than you have, set money aside for it while other temptations come and go, and actually get there.",
+      "looksLike": [
+        "You want a Lego set, and birthday money goes into the envelope instead of the checkout line.",
+        "Halfway to a new bike, a friend gets a cool gadget — and your bike fund survives the week.",
+        "You save across several months for something big and can say how far along you are."
+      ],
+      "waysToBuild": [
+        "Pick a goal under $30 and make a paper thermometer to color in.",
+        "Split every bit of money you get: some to spend now, some to the goal.",
+        "Set a bigger goal (over $100) that takes a season, not a week."
+      ],
+      "comesAfter": ["money.pay"],
+      "assessment": "self-check",
+      "outcomes": ["financial", "adversity"]
+    },
+    {
+      "id": "money.earn",
+      "name": "Earn money with real work",
+      "gotItWhen": "You can find work someone will actually pay for, agree on the job and the price up front, do it properly, and get paid — more than once, for more than one person.",
+      "looksLike": [
+        "You mow a neighbor's lawn after agreeing what it pays, and they ask you back.",
+        "You take on extra-mile jobs at home that are genuinely worth paying for, done to a standard.",
+        "You put the word out — babysitting, pet-sitting, weeding — and land work from someone outside the family."
+      ],
+      "waysToBuild": [
+        "Make a short list of jobs you could do for neighbors and pitch two of them in person.",
+        "Agree the price *before* the work, every time, and see how that changes the conversation.",
+        "Try one job you've never done — figure it out well enough that they'd hire you again."
+      ],
+      "comesAfter": ["money.pay"],
+      "assessment": "observed",
+      "outcomes": ["financial", "learning"]
+    },
+    {
+      "id": "money.track",
+      "name": "Know where your money goes",
+      "gotItWhen": "You can say, without guessing, roughly how much money you have and where the last of it went — and when you look back over a stretch of spending, nothing on the list surprises you.",
+      "looksLike": [
+        "Someone asks how much you've got and you're right within a dollar or two.",
+        "You can name the last few things you bought and what they cost.",
+        "You notice on your own that snacks are quietly eating most of your money."
+      ],
+      "waysToBuild": [
+        "Keep every receipt for two weeks and add them up by category.",
+        "Write down each purchase the day it happens in a notebook or app for a month.",
+        "Do a monthly 'where did it go?' review with a parent — no judgment, just the map."
+      ],
+      "comesAfter": ["money.pay"],
+      "assessment": "debrief",
+      "outcomes": ["financial"]
+    },
+    {
+      "id": "money.compare",
+      "name": "Compare before you buy",
+      "gotItWhen": "You can look at more than one way to get what you want — different brands, sizes, stores, or used vs. new — and choose on purpose, weighing price against what you actually need.",
+      "looksLike": [
+        "You check the price-per-ounce shelf tags and realize the big box isn't always cheaper.",
+        "Before buying a game, you check whether it's cheaper used, on sale elsewhere, or worth waiting for.",
+        "You pick the mid-priced backpack over the cheap one because you can say why it'll last."
+      ],
+      "waysToBuild": [
+        "Take one thing the family buys weekly and find it cheaper without making it worse.",
+        "Price the same item at three places (store, online, used) before your next real purchase.",
+        "Learn to read unit prices on shelf tags and use them for a whole shopping trip."
+      ],
+      "comesAfter": ["money.pay"],
+      "assessment": "self-check",
+      "outcomes": ["financial", "adultworld"]
+    },
+    {
+      "id": "money.pitch",
+      "name": "See through a sales pitch",
+      "gotItWhen": "When someone is working to make you want something — an ad, an influencer, a limited-time deal, a store layout — you can name what they're doing and decide with your own head, not theirs.",
+      "looksLike": [
+        "You spot that the 'only a few left!' banner is there to rush you, and you slow down instead.",
+        "You notice an influencer's 'honest review' is a paid ad and weigh it accordingly.",
+        "In the checkout line you recognize why the candy is at kid height — and that noticing is the whole game."
+      ],
+      "waysToBuild": [
+        "Watch a run of commercials and name the trick in each one (fear, belonging, urgency, celebrity).",
+        "Walk a store with a parent and find five things placed or priced to manipulate you.",
+        "Wait a day on any 'today only' deal and see how often it's still there tomorrow."
+      ],
+      "comesAfter": ["money.compare"],
+      "ageFloor": 10,
+      "assessment": "debrief",
+      "outcomes": ["financial", "adultworld"]
+    },
+    {
+      "id": "money.budget",
+      "name": "Make and keep a budget",
+      "gotItWhen": "You can plan ahead of time where your money should go — spending, saving, giving — and your actual spending mostly matches the plan, with the plan getting adjusted on purpose rather than abandoned.",
+      "looksLike": [
+        "Your allowance has jobs before it arrives, and you can say what they are.",
+        "You hit the end of the month with money still in the categories you meant to protect.",
+        "When the plan stops fitting real life, you change the plan — instead of quietly ignoring it."
+      ],
+      "waysToBuild": [
+        "Run a three-envelope budget (spend / save / give) for a month of allowance.",
+        "Plan a real event — a birthday, a trip — with a written budget, and settle up honestly after.",
+        "Do a monthly reset: compare plan vs. reality, then set next month's numbers yourself."
+      ],
+      "comesAfter": ["money.track", "money.save-goal"],
+      "ageFloor": 11,
+      "assessment": "debrief",
+      "outcomes": ["financial"]
+    },
+    {
+      "id": "money.bank",
+      "name": "Use a bank account",
+      "gotItWhen": "You can run your own account — put money in, take it out, check the balance, read a statement, and explain the difference between the money you have and the money the app says is 'pending.'",
+      "looksLike": [
+        "You deposit birthday cash yourself and watch it show up.",
+        "You catch that a charge on the statement isn't yours — or confirm they all are.",
+        "You explain to a younger sibling why the balance and the 'available' number don't match."
+      ],
+      "waysToBuild": [
+        "Open a youth account in person and do the talking at the counter.",
+        "Read one monthly statement line by line with a parent until every line makes sense.",
+        "Move your saving goal into the account and track it there instead of an envelope."
+      ],
+      "comesAfter": ["money.track"],
+      "ageFloor": 12,
+      "assessment": "observed",
+      "unlock": {
+        "text": "Your own account and debit card — we co-sign at the bank, you run it.",
+        "coSign": true
+      },
+      "outcomes": ["financial", "adultworld"]
+    },
+    {
+      "id": "money.errand",
+      "name": "Shop for the family",
+      "gotItWhen": "You can be handed a list and a limit, come back with the right things at a fair price, and account for what you spent — the family can genuinely delegate the errand to you.",
+      "looksLike": [
+        "You do the milk-bread-eggs run and bring back correct change and nothing extra.",
+        "Mid-store, the exact item is out — you make a sensible substitution instead of a phone call.",
+        "You do a full grocery run from a list and come in under the limit."
+      ],
+      "waysToBuild": [
+        "Own one aisle of the weekly shop while a parent does the rest.",
+        "Take a short list and a $20 bill; the challenge is coming home with change.",
+        "Do a full run solo where at least one item will need a judgment call."
+      ],
+      "comesAfter": ["money.compare"],
+      "ageFloor": 11,
+      "assessment": "observed",
+      "unlock": {
+        "text": "You can be sent on real errands with the family card.",
+        "coSign": true
+      },
+      "outcomes": ["financial", "household"]
+    },
+    {
+      "id": "money.quality",
+      "name": "Deliver work you'd sign your name to",
+      "gotItWhen": "When you take on a job — paid or not — you finish it to a standard you'd defend, check it yourself before calling it done, and fix what's not right without being sent back.",
+      "looksLike": [
+        "You mow the lawn and walk it afterward looking for missed strips — before anyone else does.",
+        "A job turns out harder than expected; you finish it properly anyway, or renegotiate honestly instead of doing it badly.",
+        "People start requesting you specifically, because your work doesn't need re-checking."
+      ],
+      "waysToBuild": [
+        "Before your next job, write down what 'done well' looks like — then grade yourself against it.",
+        "Ask a customer (or parent) afterward: 'what would make it worth more next time?' and use the answer.",
+        "Redo one corner-cut job to the real standard and feel the difference."
+      ],
+      "comesAfter": ["money.earn"],
+      "assessment": "observed",
+      "outcomes": ["financial", "learning"]
+    },
+    {
+      "id": "money.paycheck",
+      "name": "Read a paycheck",
+      "gotItWhen": "Looking at a real pay stub, you can explain what every line means — gross vs. take-home, taxes, withholding — and say where the missing money went and why.",
+      "looksLike": [
+        "You see your first stub and can answer 'why is this less than my hourly rate times my hours?'",
+        "You explain FICA to a friend in one sentence each for the F, I, C, and A of it.",
+        "You catch that your withholding looks wrong and know who to ask about it."
+      ],
+      "waysToBuild": [
+        "Walk through a parent's (or sample) pay stub line by line until nothing is mysterious.",
+        "Calculate take-home pay for an imaginary job offer before looking at the answer.",
+        "When your first real stub arrives, explain it to the family at dinner."
+      ],
+      "comesAfter": ["money.earn"],
+      "ageFloor": 13,
+      "assessment": "debrief",
+      "outcomes": ["financial", "adultworld"]
+    },
+    {
+      "id": "money.borrow",
+      "name": "Count the real cost of borrowing",
+      "gotItWhen": "Before anything is borrowed — by you or in an example — you can work out what it will really cost by the end, explain how interest quietly grows, and say when borrowing is a tool and when it's a trap.",
+      "looksLike": [
+        "You figure out what a $1,000 phone costs if you only make minimum card payments — and it changes how you see the phone.",
+        "You can explain why the same interest that punishes borrowers is what pays savers.",
+        "Offered 'no payments for six months!', you ask what happens in month seven."
+      ],
+      "waysToBuild": [
+        "Use an online calculator to price the same purchase three ways: cash, card minimums, a loan.",
+        "Borrow $20 from a parent at toy-interest and feel repayment eat your allowance.",
+        "Find the interest rate buried in a real credit card offer that comes in the mail."
+      ],
+      "comesAfter": ["money.budget"],
+      "ageFloor": 13,
+      "assessment": "debrief",
+      "outcomes": ["financial"]
+    },
+    {
+      "id": "money.cushion",
+      "name": "Keep a cushion",
+      "gotItWhen": "You keep a chunk of money that isn't for anything — on purpose, by habit — so a surprise costs you a dent instead of a crisis, and you rebuild it after it takes a hit.",
+      "looksLike": [
+        "Your phone screen cracks and it's annoying, not a catastrophe — the cushion covers it.",
+        "Your balance never quite touches zero, even in an expensive month, because you don't let it.",
+        "After the cushion gets used, refilling it jumps the line ahead of fun spending."
+      ],
+      "waysToBuild": [
+        "Name a cushion number (a month of your usual spending) and build to it.",
+        "Keep the cushion somewhere slightly annoying to reach, so it survives impulses.",
+        "After your next money surprise, do the post-mortem: what did the cushion save you from?"
+      ],
+      "comesAfter": ["money.budget", "money.bank"],
+      "ageFloor": 13,
+      "assessment": "self-check",
+      "outcomes": ["financial", "adversity"]
+    },
+    {
+      "id": "money.invest",
+      "name": "Start investing on purpose",
+      "gotItWhen": "You have real money invested, you can explain in plain words what it's in and why, what you expect it to do over years (not weeks), and why a scary red month doesn't change the plan.",
+      "looksLike": [
+        "You can explain what an index fund owns using a pizza, a slice, and a food court.",
+        "Your account drops after a bad market week and you can say why you're not selling.",
+        "Offered a 'guaranteed doubling' crypto tip at school, you can name what's wrong with the word 'guaranteed.'"
+      ],
+      "waysToBuild": [
+        "Open a custodial account with a parent and put in real (small) money.",
+        "Run the compound-growth math: your age, small monthly amounts, retirement — see the absurd number.",
+        "Pick one company you love, read what actually makes it money, and compare owning it vs. owning everything."
+      ],
+      "comesAfter": ["money.bank", "money.borrow"],
+      "ageFloor": 14,
+      "assessment": "debrief",
+      "unlock": {
+        "text": "A custodial investment account with real money in it, yours to steer.",
+        "coSign": true
+      },
+      "outcomes": ["financial"]
+    },
+    {
+      "id": "money.job-land",
+      "name": "Land a job",
+      "gotItWhen": "You can run a real job search end to end — find openings, put yourself forward with an application or resume that tells the truth well, show up prepared to an interview, follow up, and keep going through the no's until a yes.",
+      "looksLike": [
+        "You walk into a shop with a 'help wanted' sign and ask for the manager, ready.",
+        "You tailor your one-page resume so your lawn-mowing empire sounds like the work history it actually is.",
+        "Three places say no; the fourth application is better because of it."
+      ],
+      "waysToBuild": [
+        "Draft a one-page resume even before you need one — it shows you what to go build.",
+        "Do a mock interview with an adult who will actually grill you, then trade roles.",
+        "Apply somewhere real, even a long shot; the reps are the point."
+      ],
+      "comesAfter": ["money.earn", "people.phone", "people.converse"],
+      "ageFloor": 14,
+      "assessment": "observed",
+      "outcomes": ["financial", "learning", "adultworld"]
+    },
+    {
+      "id": "money.job-hold",
+      "name": "Hold down a job",
+      "gotItWhen": "Over a real stretch of employment you show up on time and ready, do the job when nobody's watching, handle the boring parts and the difficult customers, and leave (when you leave) on good terms with a boss who'd vouch for you.",
+      "looksLike": [
+        "It's a gray Saturday, you'd rather be anywhere else, and your shift still starts with you on it.",
+        "Your boss learns your name for good reasons and starts handing you the trickier tasks.",
+        "You need a schedule change and negotiate it ahead of time like a colleague, not a no-show."
+      ],
+      "waysToBuild": [
+        "Keep your first job a full season before deciding anything about it.",
+        "Ask your boss after the first month: 'what would make me more useful?' — then do it.",
+        "When you do move on, give real notice and get the reference."
+      ],
+      "comesAfter": ["money.job-land"],
+      "ageFloor": 14,
+      "assessment": "debrief",
+      "outcomes": ["financial", "learning", "adversity"]
+    },
+    {
+      "id": "money.worth",
+      "name": "Ask for what your work is worth",
+      "gotItWhen": "You can figure out the going rate for work you do, make the case for your price or your raise calmly and with evidence, and hold steady through the awkward silence that follows.",
+      "looksLike": [
+        "You find out what other sitters charge and adjust your rate — then tell your regulars, kindly.",
+        "After a season of good work you ask your boss for a raise with three specific reasons ready.",
+        "A neighbor lowballs a big job; you counter with a number and why, instead of swallowing it."
+      ],
+      "waysToBuild": [
+        "Research real rates for one thing you do (ask around, look online) and write your number down.",
+        "Rehearse the raise conversation out loud with a parent playing a skeptical boss.",
+        "Next new job, name your price first instead of asking 'whatever you think is fair.'"
+      ],
+      "comesAfter": ["money.job-hold"],
+      "ageFloor": 15,
+      "assessment": "debrief",
+      "outcomes": ["financial", "relationships"]
+    },
+    {
+      "id": "money.sign",
+      "name": "Read before you sign",
+      "gotItWhen": "Before you agree to anything written — terms of service, a waiver, a phone plan, eventually a lease — you can find what it commits you to, what it costs to get out, and what happens if things go wrong, and you can say those three things out loud before signing.",
+      "looksLike": [
+        "You actually find the auto-renewal clause in a 'free trial' before starting it.",
+        "Handed a waiver at a trampoline park, you can say afterward what you gave up by signing.",
+        "You read a phone plan's fine print and find the fee that the big print didn't mention."
+      ],
+      "waysToBuild": [
+        "Take one real terms-of-service and hunt for three specific things: cost, cancellation, and what they do with your data.",
+        "Read a real lease or car contract with a parent and mark every sentence that costs money.",
+        "Make 'what does it cost to get out?' your reflex question for anything with a signature line."
+      ],
+      "comesAfter": ["money.pitch"],
+      "ageFloor": 15,
+      "assessment": "debrief",
+      "outcomes": ["financial", "adultworld"]
+    },
+    {
+      "id": "money.big-buy",
+      "name": "Research a big purchase",
+      "gotItWhen": "For something that costs serious money, you can work out what actually matters for how you'll use it, compare real options against those things (not against the marketing), check what owners say after the shine wears off, and make a decision you still stand behind later.",
+      "looksLike": [
+        "Buying a phone, you decide camera and battery matter for you, and stop being distracted by specs you'll never touch.",
+        "You read the one-star reviews first and figure out which complaints would actually bother you.",
+        "A month after the purchase, you'd buy the same thing again — or you can say exactly what you'd change."
+      ],
+      "waysToBuild": [
+        "Run your next $100+ purchase through a one-page comparison: needs, options, prices, verdict.",
+        "Find the same product's fan reviews and furious reviews, and reconcile them.",
+        "Help a parent research a real family purchase (appliance, car) and present your recommendation."
+      ],
+      "comesAfter": ["money.compare", "money.pitch"],
+      "ageFloor": 12,
+      "assessment": "self-check",
+      "outcomes": ["financial", "adultworld"]
+    },
+    {
+      "id": "money.project",
+      "name": "Price out a project",
+      "gotItWhen": "Given something you want to make happen — a party, a build, a trip — you can list what it needs, put honest numbers on each piece, add a margin for what you forgot, and land close to your estimate when it's done.",
+      "looksLike": [
+        "You budget a birthday party and the pizza, decorations, and prizes come in near your number.",
+        "Pricing a treehouse, you remember screws, sealant, and the trips back to the store — not just lumber.",
+        "Your estimate includes a 'stuff I forgot' line, because there's always a stuff-you-forgot."
+      ],
+      "waysToBuild": [
+        "Price a family pizza night to the dollar, run it, then compare estimate vs. receipt.",
+        "Estimate a real project's cost before a parent reveals what it actually cost them.",
+        "Plan and price one event end to end — and be the one holding the money for it."
+      ],
+      "comesAfter": ["money.budget"],
+      "assessment": "self-check",
+      "outcomes": ["financial", "household"]
+    },
+    {
+      "id": "money.taxes",
+      "name": "File a simple tax return",
+      "gotItWhen": "With real documents in front of you, you can prepare and file a basic tax return — gather what's needed, follow the process through, and explain in your own words what was owed or refunded and why.",
+      "looksLike": [
+        "Your W-2 arrives and you know what it is and what it's for.",
+        "You file your own simple return with free software, with a parent nearby but hands off.",
+        "You can explain to a friend why a refund isn't free money."
+      ],
+      "waysToBuild": [
+        "Do a practice return with sample numbers before your first real one.",
+        "File your first real return yourself the year you have real income; have a parent check it before submitting.",
+        "Afterward, trace one tax dollar: where does it actually go?"
+      ],
+      "comesAfter": ["money.paycheck"],
+      "ageFloor": 16,
+      "assessment": "observed",
+      "outcomes": ["financial", "adultworld"]
+    },
+    {
+      "id": "money.insurance",
+      "name": "Make sense of insurance",
+      "gotItWhen": "You can explain what insurance is actually for — trading a small certain cost for protection from a big uncertain one — read a real policy well enough to say what's covered, what the deductible means, and judge when coverage is wise and when it's an overpriced warranty.",
+      "looksLike": [
+        "You can explain a deductible with a real example and real numbers.",
+        "Offered a $79 'protection plan' on a $200 gadget, you can do the reasoning out loud.",
+        "You look at the family car policy and can say what would happen, money-wise, in a real fender-bender."
+      ],
+      "waysToBuild": [
+        "Walk through the family's car or health policy with a parent: premium, deductible, what's excluded.",
+        "Price real insurance for something you own (a phone, a bike) and decide honestly if it's worth it.",
+        "Find the exclusion in a policy that would surprise most people."
+      ],
+      "comesAfter": ["money.borrow"],
+      "ageFloor": 16,
+      "assessment": "debrief",
+      "outcomes": ["financial", "adultworld"]
+    },
+    {
+      "id": "money.finale",
+      "name": "Run your own money for real",
+      "gotItWhen": "With real income and real expenses, you run the whole system yourself — plan it, bank it, spend it, save it, give from it — through surprises and dry months, with nobody steering, and your money consistently goes where you meant it to go.",
+      "looksLike": [
+        "You cover your own phone plan, fun, gifts, and gas from money you manage, and it works.",
+        "A dry month hits and the cushion holds, the plan flexes, and nothing important bounces.",
+        "A parent could look at any month of your money and find no mysteries — but they never need to look."
+      ],
+      "waysToBuild": [
+        "Take over real budget lines (your clothes, your phone plan) with a real transfer of money and responsibility.",
+        "Run a full quarter — plan, statements, cushion, giving — and review it once with a parent as colleagues, not as an audit.",
+        "Manage the family grocery budget for a month: real card, real limit, real consequences for the menu."
+      ],
+      "comesAfter": ["money.budget", "money.bank", "money.cushion", "money.earn"],
+      "ageFloor": 16,
+      "assessment": "debrief",
+      "finale": true,
+      "unlock": {
+        "text": "🎉 We co-sign your first credit card, and a real slice of the family budget is yours to run.",
+        "coSign": true
+      },
+      "outcomes": ["financial", "household", "adultworld"]
+    }
+  ]
+}

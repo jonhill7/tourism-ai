@@ -1,0 +1,71 @@
+{
+  "intro": "A calendar of freedoms handed over by age, unconditionally — adapted from Ken Wilgus's Planned Emancipation (Feeding the Mouth That Bites You). A privilege is \"I'll be nice and let you.\" A freedom is \"it's no longer up to me.\"",
+  "rules": [
+    "Announce it before it arrives.",
+    "It arrives regardless of performance.",
+    "It never comes back — never revoked as punishment.",
+    "Boundaries exist only to protect everyone else, not because you dislike the choice."
+  ],
+  "sortingTest": {
+    "question": "Could I actually enforce this if they decided otherwise?",
+    "answers": [
+      { "answer": "No (music, clothes, friends, beliefs, free time)", "verdict": "Track B calendar — gating it is a fiction that costs influence." },
+      { "answer": "Yes, with physical or financial stakes (driving, credit card, home alone)", "verdict": "Track A skill tree." },
+      { "answer": "Both (money, driving)", "verdict": "Both tracks apply." }
+    ]
+  },
+  "rows": [
+    {
+      "id": "space",
+      "defaultAge": 12,
+      "title": "Your own space & taste",
+      "freedoms": ["How your room is decorated and kept", "The music you listen to", "Your hairstyle", "The clothes you wear"],
+      "valuesLoaded": false,
+      "notes": "Boundaries only where it touches others: shared spaces stay shared, family events may have a dress code."
+    },
+    {
+      "id": "time",
+      "defaultAge": 14,
+      "title": "Your own time & people",
+      "freedoms": ["Who your friends are", "How you spend your discretionary money", "Your bedtime on non-school nights"],
+      "valuesLoaded": false,
+      "notes": "We can tell you what we see in a friendship; we no longer pick your friends."
+    },
+    {
+      "id": "work",
+      "defaultAge": 15,
+      "title": "Your own work",
+      "freedoms": ["Managing your own daily schoolwork", "Social media"],
+      "valuesLoaded": false,
+      "notes": "Grades are yours to earn and own. Social media within the law and with safety boundaries that protect others."
+    },
+    {
+      "id": "choices",
+      "defaultAge": 16,
+      "title": "Your own choices",
+      "freedoms": ["Dating", "Your screen time", "Money you've earned"],
+      "valuesLoaded": true,
+      "notes": "The dating age is a family decision — set it on purpose, announce it early."
+    },
+    {
+      "id": "convictions",
+      "defaultAge": 17,
+      "title": "Your own convictions",
+      "freedoms": ["Church attendance", "Your appearance (piercings, hair color, style)"],
+      "valuesLoaded": true,
+      "notes": "The faith rows are the family's to set. The goal was never attendance — it was ownership."
+    },
+    {
+      "id": "everything",
+      "defaultAge": "graduation",
+      "title": "Everything",
+      "freedoms": ["All remaining decisions", "Curfew (deliberately last)"],
+      "valuesLoaded": false,
+      "notes": "By the declared adulthood date, there is nothing left to hand over — that's the point."
+    }
+  ],
+  "companions": {
+    "expectations": "Alongside freedoms, keep a written Expectations & Consequences list in video-camera terms: if you filmed them meeting the expectation, what would you see? Consequences touch privileges, never transferred freedoms.",
+    "adulthoodDate": "Declare an adulthood date and tell the kid years in advance. Everything in both tracks counts down to it."
+  }
+}

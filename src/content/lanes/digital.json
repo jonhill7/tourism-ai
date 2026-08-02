@@ -1,0 +1,255 @@
+{
+  "id": "digital",
+  "name": "Digital & Online Life",
+  "emoji": "💻",
+  "cluster": "World",
+  "kind": "competence",
+  "tagline": "Make the machines and the internet work for you — a place you act on purpose, not a current that carries you off.",
+  "skills": [
+    {
+      "id": "digital.drive",
+      "name": "Drive a computer properly",
+      "gotItWhen": "A computer is a tool you operate on purpose — you can type at a real pace, make and find files and folders, install and remove programs, move things between apps and devices, and when you want the machine to do something, you can usually make it happen.",
+      "looksLike": [
+        "You save your work where you meant to, and find it again next week without a hunt.",
+        "You type an essay at a speed where your hands keep up with your thoughts.",
+        "A project needs a new program, and you handle download, install, and setup yourself."
+      ],
+      "waysToBuild": [
+        "Do a typing program until you hit a real speed — thirty words a minute is a fine first summit.",
+        "Build a folder system for your school stuff and actually save into it for a whole term.",
+        "Learn ten keyboard shortcuts and force yourself to use them for a week."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["learning", "adultworld"]
+    },
+    {
+      "id": "digital.secure",
+      "name": "Lock your accounts down",
+      "gotItWhen": "Every account you care about has a strong password no other account shares, you keep them in a manager or a system you actually maintain, and your important logins have a second factor — so one leaked password stays one leaked password.",
+      "looksLike": [
+        "Signing up somewhere new, you generate a fresh password instead of typing the one you always use.",
+        "A site you use announces a breach, and you know exactly which single account it touches.",
+        "Your email has two-factor turned on, and you can explain why email — the key to every other account — is the one to protect hardest."
+      ],
+      "waysToBuild": [
+        "Set up a password manager (or join the family one) and migrate your top five accounts in one sitting.",
+        "Turn on two-factor for email, school, and anything with money attached.",
+        "Run a password audit with a parent: find the reused ones and retire them one by one."
+      ],
+      "comesAfter": ["digital.drive"],
+      "assessment": "observed",
+      "outcomes": ["adultworld"]
+    },
+    {
+      "id": "digital.scam",
+      "name": "Spot a scam",
+      "gotItWhen": "When a message is engineered to steal from you — a fake prize, a panicked 'your account is locked,' a too-good deal, a stranger who needs gift cards — you recognize the machinery of urgency, fear, and secrecy, slow down, check through the real channel, and tell someone what almost happened.",
+      "looksLike": [
+        "A text says your package needs a small fee via a strange link — you go to the carrier's real site instead.",
+        "A 'free skins' site wants your game login, and you recognize the price of free.",
+        "Grandpa gets a call from a 'grandkid in trouble,' and you're the one in the family who explains the scam."
+      ],
+      "waysToBuild": [
+        "Do phishing practice: take a spot-the-phish quiz, or have a parent forward you real junk mail to dissect.",
+        "Learn the big three tells — urgency, unusual payment, secrecy — and name them in every example you meet for a month.",
+        "Make 'verify through the front door' a family rule: never the link in the message, always the official app or number."
+      ],
+      "comesAfter": ["digital.secure"],
+      "assessment": "debrief",
+      "outcomes": ["adultworld", "financial"]
+    },
+    {
+      "id": "digital.privacy",
+      "name": "Guard your private information",
+      "gotItWhen": "You treat your information — full name, school, location, schedule, photos — as yours to give out on purpose: you know what each app can see, your settings sit where you set them, and when something asks for more than it needs, you notice and decline.",
+      "looksLike": [
+        "A game asks for your location, and you ask why a puzzle game needs to know where you live.",
+        "Your accounts are set the way you decided — who can see, who can message — and you can say what's set and why.",
+        "A fun quiz wants your birthday, pet's name, and street — and you recognize the security-question harvest for what it is."
+      ],
+      "waysToBuild": [
+        "Do a privacy checkup on every app you use: walk the settings, turn off anything you can't justify.",
+        "Search your own name with a parent and see what a stranger could learn.",
+        "Before your next share, run the stranger test: what could someone who wishes you ill do with this?"
+      ],
+      "comesAfter": ["digital.secure"],
+      "assessment": "debrief",
+      "outcomes": ["adultworld", "wellbeing"]
+    },
+    {
+      "id": "digital.footprint",
+      "name": "Leave a footprint you're proud of",
+      "gotItWhen": "You post, comment, and message knowing it's all permanent and findable — screenshots outlive deletes — so what you put out is something you'd stand behind in front of a coach, a grandparent, or a future employer, and the person you are online is the person you are at dinner.",
+      "looksLike": [
+        "You type a comeback in the group chat, reread it, and rewrite it into something you'd say to their face.",
+        "Before posting, you run the front-page test: fine if the whole school sees it? Fine in five years?",
+        "Someone searches your name and finds things you made and care about — the record reads like you."
+      ],
+      "waysToBuild": [
+        "Audit your own history: scroll back through your posts and comments as if you were a hiring manager.",
+        "Put something you're proud of online — a project, art, a genuinely useful review — and start building the record on purpose.",
+        "Adopt a one-hour rule for anything written in heat: it can always post later; it can never unpost."
+      ],
+      "comesAfter": ["digital.privacy"],
+      "assessment": "debrief",
+      "outcomes": ["relationships", "adultworld"]
+    },
+    {
+      "id": "digital.info",
+      "name": "Tell good information from bad",
+      "gotItWhen": "Meeting a claim online — a viral video, a screenshot, a confident post — you can ask where it actually came from, check whether it's real, edited, or machine-made, and hold off on believing or sharing until it earns it, because you know popular and true are different things.",
+      "looksLike": [
+        "A shocking clip is going around, and you find the original context before repeating it.",
+        "You spot the tells of an AI-made image — the hands, the text, the lighting — and check before you believe.",
+        "A 'news' post has no source, so you treat it as a rumor until a real outlet confirms it."
+      ],
+      "waysToBuild": [
+        "Learn to reverse-image-search and use it on three viral images.",
+        "Practice lateral reading: before finishing an article, open new tabs about the source itself.",
+        "Play family fact-check: each person brings one claim from their feed, and the table runs it down together."
+      ],
+      "comesAfter": [],
+      "assessment": "debrief",
+      "outcomes": ["learning", "adultworld"]
+    },
+    {
+      "id": "digital.attention",
+      "name": "Run your attention on purpose",
+      "gotItWhen": "You know the feed is engineered to hold you — autoplay, infinite scroll, streaks, and outrage bait are built by professionals to keep you there — and you can feel the pull, name it, and decide where your time goes, ending sessions on your own signal because you chose to.",
+      "looksLike": [
+        "The next episode starts loading itself, and you notice the design at work — the call is yours, not the countdown's.",
+        "You open an app for one thing, do the thing, and close it.",
+        "You sit down to a screen with a plan for it, and your evening still contains the other things you meant to do."
+      ],
+      "waysToBuild": [
+        "Turn off autoplay and every notification not sent by a human, and feel what changes in a week.",
+        "Check your screen-time numbers weekly for a month — not to feel bad, to see what's actually true.",
+        "Run a swap experiment for two weeks: one usual scrolling slot traded for something you claim to want more.",
+        "Watch one good explainer on engagement design, so you can see the machinery mid-scroll."
+      ],
+      "comesAfter": [],
+      "ageFloor": 11,
+      "assessment": "self-check",
+      "outcomes": ["wellbeing", "learning"]
+    },
+    {
+      "id": "digital.dark",
+      "name": "Know what to do when the internet shows you something bad",
+      "gotItWhen": "You know the internet will eventually put something in front of you that it shouldn't — porn, gore, real cruelty — and when it happens you know the moves: close it, tell a trusted adult, and hold onto the truth that it found you, not the other way around — telling is safe, and the shame belongs to the content, not to you.",
+      "looksLike": [
+        "A search for something innocent lands somewhere awful; you close it and mention it to a parent the same day, and the mention is calm and ordinary.",
+        "A kid at school passes around a shock video, and you pass on the viewing — comfortable being the one who did.",
+        "A younger sibling stumbles onto something and comes to you, and you know exactly what to say and which adult to loop in."
+      ],
+      "waysToBuild": [
+        "Have the talk before you need it: agree with your parents on exactly what happens when you tell — no punishment for stumbling, ever.",
+        "Rehearse the two moves out loud until they're reflex: close it, say it.",
+        "Decide your line for group-chat forwards now, while it's hypothetical, and tell a parent so it's real."
+      ],
+      "comesAfter": [],
+      "ageFloor": 10,
+      "assessment": "debrief",
+      "outcomes": ["wellbeing", "adversity"]
+    },
+    {
+      "id": "digital.ai",
+      "name": "Use AI without outsourcing your mind",
+      "gotItWhen": "You can use AI to genuinely help — explain, drill, draft, unstick you — while the thinking stays yours: you check what it tells you before relying on it, you can explain and defend anything you turn in, and you'd be comfortable describing exactly how you used it to the teacher, out loud.",
+      "looksLike": [
+        "Stuck on math, you have AI explain the concept — then you work the problem yourself.",
+        "It hands you a confident answer, and you catch the error, because you checked instead of pasted.",
+        "Your essay used AI as an editor and a sparring partner — and you could rewrite any paragraph from scratch on demand."
+      ],
+      "waysToBuild": [
+        "Adopt the explain-back rule: never use an AI answer you can't explain to someone else.",
+        "Fact-check one AI answer a week down to primary sources, and keep score of what you catch.",
+        "Ask a teacher or parent where their line sits between help and cheating — then set your own, out loud."
+      ],
+      "comesAfter": ["digital.info"],
+      "ageFloor": 12,
+      "assessment": "debrief",
+      "outcomes": ["learning", "adultworld"]
+    },
+    {
+      "id": "digital.create",
+      "name": "Make something digital",
+      "gotItWhen": "You can take an idea and build it into something digital that exists — a video, a site, a game, a track, a designed document — carrying it from blank file to finished, and put it where someone else can actually watch, read, play, or use it.",
+      "looksLike": [
+        "You edit a real video with cuts, titles, and sound — and people watch it.",
+        "The family reunion gets an invitation or slideshow because you made one that looks good.",
+        "You build a small game or website, and someone who isn't you plays or reads it."
+      ],
+      "waysToBuild": [
+        "Pick one maker tool — video editor, site builder, music app, game engine — and finish one small real thing in it.",
+        "Ship it: show the family, post it, print it, send it — made-and-shared is the rep.",
+        "Make a second version of something you've made, and make it visibly better."
+      ],
+      "comesAfter": ["digital.drive"],
+      "assessment": "observed",
+      "outcomes": ["learning"]
+    },
+    {
+      "id": "digital.troubleshoot",
+      "name": "Fix your own tech first",
+      "gotItWhen": "When tech misbehaves, you work the problem before summoning help — restart, check the connections, search the exact error, update, isolate the culprit by changing one thing at a time — and most of the time, you're the one who fixes it.",
+      "looksLike": [
+        "The wifi drops, and you check whether it's the site, the device, or the router before announcing an outage.",
+        "You paste the exact error message into a search and follow the thread to a fix.",
+        "The printer saga ends with you fixing it — and now you're the family's first call."
+      ],
+      "waysToBuild": [
+        "Learn the universal ladder — restart, reconnect, update, search the error — and run all of it before asking for help, for a month.",
+        "Claim the next family tech problem: you drive, an adult only watches.",
+        "When someone else fixes something for you, ask them to narrate — so you get the method, not just the fix."
+      ],
+      "comesAfter": ["digital.drive"],
+      "assessment": "observed",
+      "outcomes": ["household", "learning"]
+    },
+    {
+      "id": "digital.admin",
+      "name": "Run your digital life",
+      "gotItWhen": "The boring machinery of your digital life runs because you run it — backups exist and you've proven you can restore from them, updates get applied, storage gets cleared before it fills, and you know every account and subscription you have, keeping the ones you chose and closing the rest.",
+      "looksLike": [
+        "Your phone dies, and it's an inconvenience, not a tragedy — the photos and files live somewhere else too.",
+        "You run a seasonal sweep: unused apps out, forgotten logins closed, mystery subscriptions canceled.",
+        "A 'storage full' warning appears, and you already know what's taking the space and what goes."
+      ],
+      "waysToBuild": [
+        "Set up automatic backup for your stuff — then actually test restoring one file.",
+        "List every account and subscription you have (the length of the list is the lesson), then close five.",
+        "Put a seasonal maintenance date on your calendar: updates, storage, backups, subscriptions."
+      ],
+      "comesAfter": ["digital.troubleshoot", "digital.secure"],
+      "ageFloor": 13,
+      "assessment": "self-check",
+      "outcomes": ["household", "adultworld"]
+    },
+    {
+      "id": "digital.finale",
+      "name": "Run your own digital household",
+      "gotItWhen": "Your whole digital life is yours and in order — devices maintained, accounts locked down, backups proven, footprint deliberate, attention pointed where you choose — running steadily over time with nobody auditing, and if anyone did look over your shoulder, everything they'd find is what you'd show them anyway.",
+      "looksLike": [
+        "A new device gets set up right by reflex: passwords into the manager, two-factor on, backup running, junk permissions declined.",
+        "Something goes wrong — a breach notice, a dead phone, a friend's hacked account asking you for money — and you work the steps calmly, like a sysadmin.",
+        "Your parents genuinely don't know your passwords — and genuinely don't need to."
+      ],
+      "waysToBuild": [
+        "Write your own audit checklist — security, backups, subscriptions, privacy, footprint — run it, then run it again a season later.",
+        "Be the responder for a family member's digital problem end to end, from symptom to fixed.",
+        "Do a pilot season as your own administrator — parents out of the accounts — with one colleagues-style review at the end."
+      ],
+      "comesAfter": ["digital.admin", "digital.footprint", "digital.attention"],
+      "ageFloor": 14,
+      "assessment": "debrief",
+      "finale": true,
+      "unlock": {
+        "text": "🎉 Your own device, fully self-administered — you hold the passwords, you set the controls.",
+        "coSign": true
+      },
+      "outcomes": ["adultworld", "household", "wellbeing"]
+    }
+  ]
+}

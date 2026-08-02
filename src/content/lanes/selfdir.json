@@ -1,0 +1,272 @@
+{
+  "id": "selfdir",
+  "name": "Self-Direction",
+  "emoji": "🎯",
+  "cluster": "Self-Management",
+  "kind": "competence",
+  "tagline": "Steer your own days — wake up, decide, follow through — so nobody else has to be your engine.",
+  "skills": [
+    {
+      "id": "selfdir.mornings",
+      "name": "Get yourself up and out",
+      "gotItWhen": "You get yourself out of bed on your own alarm, run your morning — dressed, fed, packed — and stand ready at the door on time, by habit, with nobody knocking and nobody calling up the stairs.",
+      "looksLike": [
+        "Your alarm goes off, and you're the one who gets you up.",
+        "On a school morning you're at the door, fed and packed, with minutes to spare.",
+        "The routine holds even on a day you'd rather skip — early practice, a dreaded test, a cold dark morning."
+      ],
+      "waysToBuild": [
+        "Put your alarm across the room for two weeks, so getting up means standing up.",
+        "Write your morning as a checklist, tape it to the mirror, and run it until you don't need the paper.",
+        "Do the night-before half: clothes out, bag packed, lunch decided — then time your actual morning.",
+        "Own your mornings completely for a month, with parents as spectators only."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["household", "wellbeing"]
+    },
+    {
+      "id": "selfdir.stuff",
+      "name": "Keep track of your stuff",
+      "gotItWhen": "Your things have homes and you put them back — so when the cleats, the charger, or the permission slip is needed, you can lay hands on it in moments and it's ready to go.",
+      "looksLike": [
+        "It's game day, and your uniform, cleats, and water bottle are where they live — you grab and go.",
+        "A permission slip comes home and makes it back to school signed, because you have a spot where papers wait.",
+        "You pack yourself for a trip and arrive with everything, charger included."
+      ],
+      "waysToBuild": [
+        "Give your five most-lost items a permanent home and spend two weeks returning them there every single time.",
+        "Make a launch pad by the door: everything leaving with you tomorrow sits there tonight.",
+        "Before any trip or overnight, write a packing list — then check yourself against it when you arrive."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["household"]
+    },
+    {
+      "id": "selfdir.word",
+      "name": "Do what you said you'd do",
+      "gotItWhen": "When you tell someone you'll do a thing, it gets done — on time, to the standard you promised — and nobody has to chase you or check up, because your word is how it happens.",
+      "looksLike": [
+        "You said you'd feed the dog before school, and the dog is fed before school.",
+        "You promised a friend you'd bring the game Saturday, and Saturday you're at the door with it.",
+        "You committed to the team for the season, so you're at practice even in the week it stopped being fun."
+      ],
+      "waysToBuild": [
+        "Write each commitment down the moment you make it — a promise you can see is harder to lose.",
+        "For a month, treat 'I'll do it later' as a trap: either do it now, or name exactly when.",
+        "Shrink your promises until they're ones you can keep — then let your yes grow back with your record."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["relationships", "adultworld"]
+    },
+    {
+      "id": "selfdir.initiative",
+      "name": "Start without being told",
+      "gotItWhen": "You notice what needs doing — the trash is full, the homework is assigned, a guest is arriving — and you begin on your own, because you saw it, not because someone pointed at it.",
+      "looksLike": [
+        "You open the dishwasher, find it clean, and empty it — because you're the one who opened it.",
+        "Homework gets started the day it's assigned, before anyone mentions it.",
+        "Company's coming in an hour, and you pick a room and start making it right."
+      ],
+      "waysToBuild": [
+        "Once a day for two weeks, find one thing that needs doing and do it before anyone can ask.",
+        "Walk into a room and play 'what would a helpful adult notice?' — then act on the first thing you see.",
+        "Ask a parent to keep a running list of things they usually have to request — and make the list shrink."
+      ],
+      "comesAfter": ["selfdir.word"],
+      "assessment": "observed",
+      "outcomes": ["household", "learning"]
+    },
+    {
+      "id": "selfdir.plan",
+      "name": "Make a plan for something you want",
+      "gotItWhen": "You can take something you want to happen — a sleepover, a build, a trip — and turn it into real steps with dates on them: what has to happen, in what order, by when, and who you need to ask.",
+      "looksLike": [
+        "You want a sleepover, so you show up with a date, a guest list, and a plan for food — not just 'can I?'",
+        "You want to build a fort, and there's a list: materials, where they're coming from, which Saturday.",
+        "You want to go to camp, so you find the deadline, the cost, and the form — and work backward from the deadline."
+      ],
+      "waysToBuild": [
+        "Plan one small thing you want this month on a single page: steps, dates, asks.",
+        "Take a wish you've had for a while and give it a deadline — watch a date turn a dream into a plan.",
+        "Present the plan to whoever has to say yes, and let their questions show you the holes."
+      ],
+      "comesAfter": [],
+      "assessment": "debrief",
+      "outcomes": ["learning"]
+    },
+    {
+      "id": "selfdir.steps",
+      "name": "Break a big thing into steps",
+      "gotItWhen": "Facing something too big to start — a huge project, a disaster of a room, a long book — you can slice it into pieces small enough that the first one is doable today, put them in order, and say what done looks like for each piece.",
+      "looksLike": [
+        "The disaster of a room becomes 'floor, then bed, then desk, then closet' — and the floor happens today.",
+        "A book report becomes read, notes, outline, draft, fix — with a day attached to each.",
+        "A giant goal like 'make the team' becomes specific things to practice this week."
+      ],
+      "waysToBuild": [
+        "Take the thing you're avoiding most, write down only its first three steps, and do just the first one.",
+        "Practice the question 'what's the very next physical action?' on three stuck projects.",
+        "Shrink steps until none takes more than twenty minutes; if one still feels heavy, split it again."
+      ],
+      "comesAfter": ["selfdir.plan"],
+      "assessment": "self-check",
+      "outcomes": ["learning", "adversity"]
+    },
+    {
+      "id": "selfdir.deadline",
+      "name": "Land a deadline",
+      "gotItWhen": "Given real work with a real due date, you plan backward from the date, start early enough for the plan to be honest, work in steady pieces, and hand in finished work on time — with the last evening calm, because the work was already mostly done.",
+      "looksLike": [
+        "The project assigned Monday gets its first chunk done that week, not the night before it's due.",
+        "Your science fair board is finished a day early, and the spare day goes to making it better.",
+        "Two deadlines land in the same week and both get met, because you saw the collision coming on the calendar."
+      ],
+      "waysToBuild": [
+        "For your next project, write the plan backward from the due date the day it's assigned — with a finish line one day early.",
+        "Break the work into three calendar sessions and treat each one like a practice you can't skip.",
+        "After it's turned in, do a two-minute review: what did the plan get right, and what surprised you?"
+      ],
+      "comesAfter": ["selfdir.steps"],
+      "assessment": "observed",
+      "outcomes": ["learning"]
+    },
+    {
+      "id": "selfdir.finish",
+      "name": "Finish what you start",
+      "gotItWhen": "When you choose something worth doing — a project, a season, a book, a build — you carry it through the boring middle where the fun wore off, all the way to actually done, not almost done.",
+      "looksLike": [
+        "The giant puzzle gets finished, even after the satisfying edge pieces are long gone.",
+        "The model kit that stopped being fun halfway still ends up built and on your shelf.",
+        "You finish the season you signed up for, even after the position you wanted went to someone else."
+      ],
+      "waysToBuild": [
+        "Pick one abandoned project and finish it before starting anything new.",
+        "Name the boring middle out loud when you hit it — 'this is the part where people quit' — then set one tiny next step.",
+        "Keep a finished-things list for a season and watch it grow."
+      ],
+      "comesAfter": ["selfdir.word"],
+      "assessment": "self-check",
+      "outcomes": ["adversity", "learning"]
+    },
+    {
+      "id": "selfdir.habit",
+      "name": "Build a habit on purpose",
+      "gotItWhen": "You can pick a behavior you want to be automatic, design a way to make it stick — a cue, an anchor, a visible streak — and run it until it happens by habit, so it no longer costs you willpower.",
+      "looksLike": [
+        "You decide to read before bed, park the book on your pillow every morning, and weeks later it's just what bedtime is.",
+        "You want daily free throws, so you tie them to getting home from school — backpack down, ball up.",
+        "The habit slips for a few days and you restart it on purpose, because you know a gap isn't the end."
+      ],
+      "waysToBuild": [
+        "Pick one tiny habit and attach it to something you already do every day — after brushing teeth, after breakfast.",
+        "Track it on a paper chain or calendar for a month; make the streak something you can see.",
+        "Start embarrassingly small — one push-up, one sentence — and let it grow only after it's automatic."
+      ],
+      "comesAfter": ["selfdir.plan"],
+      "assessment": "self-check",
+      "outcomes": ["wellbeing", "learning"]
+    },
+    {
+      "id": "selfdir.schedule",
+      "name": "Run your own schedule",
+      "gotItWhen": "You keep your own calendar — practices, rehearsals, appointments, deadlines, family plans — you check it before saying yes to anything new, and you're where you said you'd be, when you said, with what you need.",
+      "looksLike": [
+        "A friend invites you Saturday, and you check your calendar before answering — because you honestly don't know until you look.",
+        "You show up to your orthodontist appointment because it was in your system, not because a parent ran the reminders.",
+        "A week with a game, a project, and a birthday in it goes smoothly, because you spotted the pile-up days ahead."
+      ],
+      "waysToBuild": [
+        "Move every commitment you have into one calendar — paper or phone — and live from it for a month.",
+        "Do a five-minute Sunday review: look at the week, spot the collisions, plan around them.",
+        "Pick one category of thing (practices, appointments) and ask your parents to stop reminding you of it — then own it fully."
+      ],
+      "comesAfter": ["selfdir.deadline", "selfdir.stuff"],
+      "ageFloor": 12,
+      "assessment": "observed",
+      "outcomes": ["adultworld", "household"]
+    },
+    {
+      "id": "selfdir.decide",
+      "name": "Make a real decision and own it",
+      "gotItWhen": "Facing a choice with real tradeoffs, you can lay out what each path costs and gives, pick on purpose, and own the outcome as yours — 'that was my call' — whether it lands well or badly.",
+      "looksLike": [
+        "You choose the campout over the concert, and when the concert turns out great you shrug — you knew the trade when you made it.",
+        "Picking an elective, you write out the real pros and cons instead of asking everyone else to choose for you.",
+        "You spent your savings on the wrong thing, and you say so plainly — along with what you'd check next time."
+      ],
+      "waysToBuild": [
+        "For your next real choice, write both options and the strongest argument for each — then decide within a day.",
+        "Practice saying 'that was my call' out loud about small decisions, the good ones and the bad ones.",
+        "Ask an adult about a decision they got wrong, and what owning it did for them."
+      ],
+      "comesAfter": [],
+      "assessment": "debrief",
+      "outcomes": ["adversity", "learning"]
+    },
+    {
+      "id": "selfdir.goal",
+      "name": "Chase a goal for months",
+      "gotItWhen": "You can set a goal that takes a whole season to reach, keep it alive through weeks when nothing seems to move, adjust the plan when life changes, and arrive somewhere you can point to — the goal met, or renegotiated honestly and on purpose.",
+      "looksLike": [
+        "You decide in the fall to make the spring team, and your winter is quietly full of the practice that decision requires.",
+        "You're training toward a big summer hike, and by the third month the plan has changed but the goal hasn't.",
+        "Someone asks mid-stretch how it's going, and you can say where you are against the plan without checking."
+      ],
+      "waysToBuild": [
+        "Pick one goal about three months out, write what 'done' means, and put a monthly check-in on the calendar.",
+        "Tell one person the goal and ask them to ask you about it — chosen accountability, not surveillance.",
+        "Keep a simple log; on the flat weeks, read the early pages to see how far you've actually come."
+      ],
+      "comesAfter": ["selfdir.plan", "selfdir.finish"],
+      "ageFloor": 12,
+      "assessment": "debrief",
+      "outcomes": ["learning", "adversity"]
+    },
+    {
+      "id": "selfdir.priorities",
+      "name": "Say no to good things",
+      "gotItWhen": "You know what matters most to you this season, and you can turn down genuinely good things — invitations, opportunities, one more activity — because they'd crowd out what you've chosen, saying the no kindly and meaning it.",
+      "looksLike": [
+        "A friend invites you out the night before the test, and you offer the weekend instead.",
+        "You're asked to join a second team you'd truly enjoy, and you pass — it would eat the goal you're chasing.",
+        "Your week has open space in it on purpose, because you defended it."
+      ],
+      "waysToBuild": [
+        "Write your top three priorities for this season, and tape them where you make decisions.",
+        "Practice one kind, complete no this week: 'thanks for asking — I can't, I've committed to something.'",
+        "Do a season audit with a parent: list everything you're in, and ask honestly which ones your goal would cut."
+      ],
+      "comesAfter": ["selfdir.decide", "selfdir.goal"],
+      "ageFloor": 13,
+      "assessment": "debrief",
+      "outcomes": ["wellbeing", "learning"]
+    },
+    {
+      "id": "selfdir.finale",
+      "name": "Run your own life for a season",
+      "gotItWhen": "Over a real stretch — mornings, school, commitments, sleep, deadlines — you run the whole machine yourself: you get where you're going, meet what you owe, protect your rest and your priorities, and the adults around you are colleagues who hear your plans, not engines that make them happen.",
+      "looksLike": [
+        "It's exam week plus playoff week, and your calendar, your sleep, and your gear are already arranged for it.",
+        "A parent realizes they can't remember the last time they reminded you of anything.",
+        "You took a commitment from idea to done — signup, fees, rides, follow-through — and the family heard about it at dinner, as news."
+      ],
+      "waysToBuild": [
+        "Declare a pilot month: parents stop steering mornings, homework, and calendar entirely — you run it, then review together as colleagues.",
+        "Take over the logistics of one whole commitment — forms, fees, rides, gear — end to end.",
+        "Do a weekly self-review for a season: what did I say I'd do, what happened, what changes next week?"
+      ],
+      "comesAfter": ["selfdir.mornings", "selfdir.schedule", "selfdir.priorities"],
+      "ageFloor": 14,
+      "assessment": "debrief",
+      "finale": true,
+      "unlock": {
+        "text": "🎉 You can commit yourself to activities, trips, and plans on your own signature — the family calendar is yours to write on, no pre-approval.",
+        "coSign": true
+      },
+      "outcomes": ["learning", "household", "adultworld"]
+    }
+  ]
+}

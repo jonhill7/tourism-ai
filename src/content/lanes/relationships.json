@@ -1,0 +1,273 @@
+{
+  "id": "relationships",
+  "name": "Relationships & Safety",
+  "emoji": "🫂",
+  "cluster": "Social",
+  "kind": "competence",
+  "tagline": "Choose good people, be one yourself, and see trouble coming — the skills that keep your heart and your body safe.",
+  "skills": [
+    {
+      "id": "relationships.make",
+      "name": "Make a new friend",
+      "gotItWhen": "You can turn a stranger your age into a friend on purpose — start the conversation, find the common ground, suggest the next thing, and follow up — rather than waiting for friendship to happen to you.",
+      "looksLike": [
+        "There's a new kid at co-op, and by pickup time you know their name, their thing, and what you have in common.",
+        "You get their contact info and actually use it: 'want to come over Saturday?'",
+        "A month into a new team or class, you have an actual friend there, not just people you nod at."
+      ],
+      "waysToBuild": [
+        "At the next new group, set a quiet mission: three names, and one real thing about each person.",
+        "Practice the invite sentence out loud — 'we should hang out; are you free this weekend?' — until it's easy to say.",
+        "Follow up within two days of meeting someone you liked; the follow-up is where friendships actually start."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["relationships"]
+    },
+    {
+      "id": "relationships.keep",
+      "name": "Be a friend worth keeping",
+      "gotItWhen": "The people who count on you get the real thing: you show up when you said you would, remember what matters to them, keep what they told you in confidence, and celebrate their wins like they're yours.",
+      "looksLike": [
+        "You remember your friend's tryout was today and ask how it went.",
+        "A friend tells you something private, and it stays with you — even when it would make a great story.",
+        "Your friend wins the part you both auditioned for, and your congratulations is the real kind."
+      ],
+      "waysToBuild": [
+        "Keep a friend file — paper or in your head — of birthdays, worries, and big days, and act on one item a week.",
+        "When a friend has a big day coming, set a reminder to check in afterward.",
+        "Do one unrequested kindness for a friend each month: show up to their game, bring the snack they love."
+      ],
+      "comesAfter": ["relationships.make"],
+      "assessment": "self-check",
+      "outcomes": ["relationships"]
+    },
+    {
+      "id": "relationships.repair",
+      "name": "Keep a friendship through a fight",
+      "gotItWhen": "When real conflict hits a friendship, you go back — you say your part plainly, own the piece that was yours, hear their side out, and do the repair — so the friendship comes out the other side still standing.",
+      "looksLike": [
+        "You and your best friend blow up over a game; by the weekend you've talked it out yourselves.",
+        "You realize you were partly wrong and say the actual words: 'I was wrong about that part.'",
+        "A friendship survives the kind of fight that would have quietly ended it a year ago — because you went back."
+      ],
+      "waysToBuild": [
+        "Learn the repair opener and use it: 'that went badly and I don't want to leave it there — can we talk?'",
+        "In your next conflict, find your ten percent — the part that genuinely was yours — and own it first.",
+        "Set a repair clock: a real fight gets a first conversation within three days, before the freeze sets in."
+      ],
+      "comesAfter": ["relationships.keep", "facing.own-it"],
+      "assessment": "debrief",
+      "outcomes": ["relationships", "adversity"]
+    },
+    {
+      "id": "relationships.judge",
+      "name": "Know what a good friend is",
+      "gotItWhen": "You can say what you're actually looking for in a friend — and you recognize the patterns that aren't friendship when you meet them: the one-way street where you do all the giving, the put-down artist whose jokes always cost you something, the user who only shows up needing something.",
+      "looksLike": [
+        "Asked what makes your best friend a good one, you have real answers, not just 'they're fun.'",
+        "You notice a friendship where you always text first, always host, always give — and you can name the pattern out loud.",
+        "A charming kid keeps everyone laughing, usually at someone's expense — and you see the price of admission."
+      ],
+      "waysToBuild": [
+        "Write your own two lists: five things a good friend does, five patterns that mean someone isn't one.",
+        "Audit one friendship gently with a parent: what do you give, what comes back, and how do you feel after time together?",
+        "Watch how a would-be friend treats waiters, siblings, and unpopular kids — it's the preview of how they'll treat you."
+      ],
+      "comesAfter": ["relationships.keep"],
+      "assessment": "debrief",
+      "outcomes": ["relationships"]
+    },
+    {
+      "id": "relationships.boundary",
+      "name": "Set a boundary and keep it",
+      "gotItWhen": "You can say out loud what you're not okay with — a joke, a request, a way of being treated — clearly and without apology, and when someone tests it, you hold it.",
+      "looksLike": [
+        "A friend keeps taking your stuff without asking; you say 'ask me first,' and you mean it.",
+        "The group wants to watch something you're not okay with, and your 'I'm sitting this one out' stands.",
+        "Someone pushes twice after you've said no, and the third no sounds exactly like the first — just calmer."
+      ],
+      "waysToBuild": [
+        "Practice the flat sentence with a parent: 'I'm not okay with that' — no padding, no essay attached.",
+        "Pick one boundary you've been meaning to set, set it this week, and debrief how it went.",
+        "Learn the broken-record move: same words, same tone, as many times as it takes."
+      ],
+      "comesAfter": ["relationships.judge"],
+      "ageFloor": 11,
+      "assessment": "debrief",
+      "outcomes": ["relationships", "adversity"]
+    },
+    {
+      "id": "relationships.respect-no",
+      "name": "Honor other people's no",
+      "gotItWhen": "When someone tells you no — to a game, to borrowing, to touch, to teasing — you stop, the first time, and when you're not sure whether something is still okay, you check in instead of assuming.",
+      "looksLike": [
+        "'Stop tickling' ends the tickling — immediately, even mid-laugh.",
+        "A sibling says no to lending the controller, and you take the no without launching a campaign to reverse it.",
+        "A friend goes quiet during the teasing, and you check: 'still funny, or should I drop it?'"
+      ],
+      "waysToBuild": [
+        "Make the family rule something you can say in your sleep: stop means stop, first time, even in games.",
+        "For a week, notice every no you receive and how you took it; pick one to talk through at dinner.",
+        "Learn the check-in question — 'is this still fun for you?' — and use it whenever the laughing turns one-sided."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["relationships"]
+    },
+    {
+      "id": "relationships.body",
+      "name": "Your body, your rules",
+      "gotItWhen": "You know your body belongs to you: private parts are private, you can tell safe touch from unsafe touch, and you know that no adult or older kid ever has a good reason to ask you to keep a secret from your parents — and that telling us is always the right move, no matter who it involves or how long it's been.",
+      "looksLike": [
+        "You can name which parts are private and who is ever allowed to help with them — a doctor with a parent right there, and that's about the whole list.",
+        "A relative goes for a hug you don't want, and you offer a high-five or a wave instead — and the grown-ups in your life back you up.",
+        "If anyone — anyone at all — asked you to keep a touch, a picture, or a game secret, you'd know that's the loudest alarm there is, and you'd tell us that same day."
+      ],
+      "waysToBuild": [
+        "Do the family talk-through once a year: private parts by their real names, safe versus unsafe touch, and why secrets about bodies don't exist in this family.",
+        "Practice the words out loud with a parent: 'no thanks, I don't want a hug — but hi!' Your greeting, your choice.",
+        "Name your five telling-people — adults you could tell absolutely anything — and check once a year that the list still fits."
+      ],
+      "comesAfter": [],
+      "assessment": "debrief",
+      "outcomes": ["wellbeing", "adversity"]
+    },
+    {
+      "id": "relationships.strangers",
+      "name": "Keep your wits in public",
+      "gotItWhen": "Out in public you keep track of who and what is around you — knowing that most people are good and a rare few are not — you trust the alarm in your gut when something feels off, and you can point to your exits and your safe adults, wherever you happen to be.",
+      "looksLike": [
+        "In a store you can say, without hunting, where the exit is and which people work there.",
+        "An adult you don't know asks you to help find a lost puppy, and the alarm rings — real adults ask other adults for help, not kids — so you step back and go to your people.",
+        "You get separated from the family at the fair, and instead of wandering, you go to a staff booth, say who you're with, and stay put."
+      ],
+      "waysToBuild": [
+        "Play the exits game everywhere for a month: within the first minute, name two ways out and one safe adult — staff, a parent with kids, a uniform.",
+        "Rehearse the separation plan before every big outing: where to go, who to ask, stay put until found.",
+        "Talk the classic tricks through with a parent — the lost puppy, the 'your mom sent me,' the free stuff — until they're familiar instead of scary."
+      ],
+      "comesAfter": [],
+      "assessment": "debrief",
+      "outcomes": ["wellbeing", "adversity"]
+    },
+    {
+      "id": "relationships.grooming",
+      "name": "See manipulation coming",
+      "gotItWhen": "You can name the moves manipulators use on kids — love-bombing that feels too good too fast, requests to keep the friendship secret, gifts that come with strings, someone steadily pulling you away from your family and friends — online and off, and when you spot one aimed at you or a friend, you bring it straight to an adult you trust.",
+      "looksLike": [
+        "An online 'friend' you've never met says you're the only one who understands them and wants to move the chat somewhere private — and you recognize the play for what it is.",
+        "Someone older showers you with gifts and special attention, then hints that you owe them — and you can see the string tied to the gift.",
+        "The moment anyone says 'don't tell your parents about us,' that becomes the exact moment you tell your parents."
+      ],
+      "waysToBuild": [
+        "Learn the five moves by name — love-bombing, secrecy, gifts-with-strings, isolating, testing small lines — and find each one in a show or a news story.",
+        "Run 'what would you do if…' scenarios with a parent twice a year, including the online versions.",
+        "Agree the no-penalty rule out loud: bringing us a creepy conversation never costs you your phone or your friends — the adult who crossed the line is the problem, never you."
+      ],
+      "comesAfter": ["relationships.body", "relationships.judge"],
+      "ageFloor": 11,
+      "assessment": "debrief",
+      "outcomes": ["wellbeing", "adversity", "relationships"]
+    },
+    {
+      "id": "relationships.distance",
+      "name": "Keep far-away people close",
+      "gotItWhen": "The people you love who live far away stay genuinely in your life — you call, write, and remember their birthdays on your own steam — so the tie holds across miles and years.",
+      "looksLike": [
+        "You call Grandma because you thought of her, not because someone handed you the phone.",
+        "Your moved-away friend still knows what's going on in your life, and you know what's going on in theirs.",
+        "A birthday card leaves your house on time because you remembered, addressed, and mailed it yourself."
+      ],
+      "waysToBuild": [
+        "Pick two far-away people and give them a standing slot: one call or letter a month, on the calendar.",
+        "Put every far-away birthday in a calendar with a reminder a week early — cards need travel time.",
+        "Try the old technology once: a real paper letter gets a response no text ever would."
+      ],
+      "comesAfter": ["relationships.keep"],
+      "assessment": "self-check",
+      "outcomes": ["relationships"]
+    },
+    {
+      "id": "relationships.romance-ready",
+      "name": "Know what you're looking for",
+      "gotItWhen": "Before anyone is asking, you have your own written-down standards for who deserves your heart — the character you require, the treatment you won't accept, the lines you've drawn — and you can explain each one, because they're actually yours.",
+      "looksLike": [
+        "The list exists on paper, in your handwriting, written on a calm ordinary day.",
+        "A friend describes their new crush, and you notice yourself weighing character, not just cuteness.",
+        "Someone charming shows interest, and you check them against the list you wrote before they arrived — because the standards you set calm beat the decision you'd make flattered."
+      ],
+      "waysToBuild": [
+        "Write the two lists — what I require, what I won't accept — then talk them through with a parent or a mentor you trust.",
+        "Study two or three couples you actually admire and steal their ingredients for your list.",
+        "Revisit the list once a year; you're allowed to raise your standards, and you'll want to."
+      ],
+      "comesAfter": ["relationships.judge"],
+      "ageFloor": 14,
+      "assessment": "debrief",
+      "outcomes": ["relationships", "wellbeing"]
+    },
+    {
+      "id": "relationships.date-safe",
+      "name": "Date safely",
+      "gotItWhen": "When you date, you run it like someone whose safety is their own job: firsts happen in public places, you have your own ride and your own exit plan, someone you trust always knows where you are and with whom, and consent runs both directions the whole time.",
+      "looksLike": [
+        "A first date with someone new is coffee in daylight, and you got yourself there.",
+        "A parent or friend knows the who, the where, and the when — and gets the 'home safe' text after.",
+        "The vibe goes wrong halfway through, and you use the exit plan you built before you ever left the house."
+      ],
+      "waysToBuild": [
+        "Write your dating rules before your first date: public firsts, own ride, one person who always knows where you are.",
+        "Agree a code word with a parent or friend that means 'call me with a reason to leave, right now.'",
+        "Have the consent conversation with a parent once, for real — asking, hearing, and both directions — before any of it is live."
+      ],
+      "comesAfter": ["relationships.romance-ready", "relationships.boundary"],
+      "ageFloor": 15,
+      "assessment": "debrief",
+      "outcomes": ["relationships", "wellbeing"]
+    },
+    {
+      "id": "relationships.end-kind",
+      "name": "End things kindly",
+      "gotItWhen": "When a friendship or romance needs to end, you end it yourself — in person where you can, honest about the what and gentle about the how — and when an ending comes to you, you receive it with grace and let the person go.",
+      "looksLike": [
+        "A friendship has run its course, and you let it change honestly instead of letting texts go unanswered forever.",
+        "You end a short relationship face to face, with kind plain words — the person hears it from you, not from the group chat.",
+        "Someone ends things with you, and what they get back is grace: no smear campaign, no pestering for another chance."
+      ],
+      "waysToBuild": [
+        "Write the three sentences before the conversation: what's ending, one honest kind reason, one good wish for them.",
+        "Ask a parent about an ending they handled — or fumbled — and what it cost or saved.",
+        "Practice the graceful receive out loud: 'that hurts — and thank you for telling me to my face.'"
+      ],
+      "comesAfter": ["relationships.romance-ready"],
+      "ageFloor": 14,
+      "assessment": "debrief",
+      "outcomes": ["relationships", "adversity"]
+    },
+    {
+      "id": "relationships.finale",
+      "name": "Build a friendship that lasts years",
+      "gotItWhen": "You have a real friendship measured in years, not months — one that has crossed moves, fights, busy seasons, and changes in both of you — because you kept choosing it: showing up, repairing, reaching out when it stopped being convenient.",
+      "looksLike": [
+        "There's a friend who has known several versions of you — and is still here.",
+        "The friendship survived a real test — a move, a big falling-out, a year on different tracks — because somebody reached out first, and it was you.",
+        "You can name what this friendship has cost you to keep, and you'd pay it again."
+      ],
+      "waysToBuild": [
+        "Pick the friendship you'd want standing next to you at your wedding and tend it like it matters: reach out first, remember the big days, visit when you can.",
+        "When it goes quiet, be the reacher-outer — friendships die from two people both waiting.",
+        "Build one tradition into it: a yearly trip, a same-day-every-year call, a running joke with a calendar date."
+      ],
+      "comesAfter": ["relationships.repair", "relationships.distance"],
+      "ageFloor": 13,
+      "assessment": "debrief",
+      "finale": true,
+      "unlock": {
+        "text": "🎉 open-door privileges — your people are welcome here on your say-so, including overnights, no pre-clearing needed",
+        "coSign": true
+      },
+      "outcomes": ["relationships", "wellbeing"]
+    }
+  ]
+}

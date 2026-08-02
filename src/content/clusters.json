@@ -1,0 +1,10 @@
+{
+  "clusters": [
+    { "id": "Self-Management", "lanes": ["selfdir", "learn"] },
+    { "id": "Provision", "lanes": ["money"] },
+    { "id": "Home Base", "lanes": ["food", "home", "health"] },
+    { "id": "Social", "lanes": ["people", "relationships"] },
+    { "id": "World", "lanes": ["around", "digital", "civics"] },
+    { "id": "Character", "lanes": ["facing", "jesus", "serve"] }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "id": "home",
+  "name": "Home & Repair",
+  "emoji": "🔧",
+  "cluster": "Home Base",
+  "kind": "competence",
+  "tagline": "Clean it, fix it, keep it running — so any place you ever live works because you know how to work it.",
+  "skills": [
+    {
+      "id": "home.room",
+      "name": "Clean a room properly",
+      "gotItWhen": "You can take a messy room all the way to actually clean — surfaces wiped, floor cleared and vacuumed or swept, under and behind things included — with everything put away where it truly lives, so the room holds up when someone looks closely.",
+      "looksLike": [
+        "Your desk goes from archaeology dig to clear surface, and the stuff on it went where it belongs, so you can find it again.",
+        "You vacuum under the bed and behind the door, not just the open middle of the floor.",
+        "You clean the living room before guests arrive and it passes a picky inspection on the first walk-through."
+      ],
+      "waysToBuild": [
+        "Learn top-to-bottom order once — dusting and surfaces before floors — and use it every time.",
+        "Fully reset your own room once a week for a month, timing yourself; watch the time drop.",
+        "Clean one room while a parent narrates what they see that you don't — then do the next room solo."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["household"]
+    },
+    {
+      "id": "home.laundry",
+      "name": "Do your own laundry",
+      "gotItWhen": "Your laundry is simply yours, by habit — you sort it, wash it, dry it, fold it, and put it away on your own schedule — and you know which of your clothes shrink, which bleed color, and which never go near the dryer.",
+      "looksLike": [
+        "The new red hoodie gets its own cold wash the first time, because you know what color bleed does to whites.",
+        "You run a full cycle — sort, settings, wash, dry, fold, drawers — with no questions asked of anyone.",
+        "You have clean clothes for the trip because you ran a load two days ahead, unprompted."
+      ],
+      "waysToBuild": [
+        "Get one guided tour of the machines, settings, and detergent — then run your next five loads solo.",
+        "Own your laundry completely for a month: nobody else touches it, including the folding.",
+        "Read the care tags on five favorite pieces of clothing and find the one the dryer would ruin."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["household"]
+    },
+    {
+      "id": "home.habit",
+      "name": "Keep your space livable by habit",
+      "gotItWhen": "Your space stays livable through an ordinary week because of small habits, not heroic cleanups — things return to where they live as you go, and the room a friend would see on a random Tuesday is one you're fine with them seeing.",
+      "looksLike": [
+        "The dirty clothes are in the hamper because that's simply where they go.",
+        "A friend shows up with ten minutes' notice and your room needs no panic.",
+        "Your desk is ready for homework every evening because it never got buried in the first place."
+      ],
+      "waysToBuild": [
+        "Run a two-minute nightly reset for a month: everything visible goes home before bed.",
+        "Give every category of your stuff one place it lives — anything without a home gets one, or gets donated.",
+        "Have a parent take a no-warning photo of your room once a week for a month; the goal is boring photos."
+      ],
+      "comesAfter": ["home.room"],
+      "assessment": "self-check",
+      "outcomes": ["household", "wellbeing"]
+    },
+    {
+      "id": "home.mend",
+      "name": "Mend your clothes",
+      "gotItWhen": "When your clothes need small repairs, you make them — a button sewn back on so it stays, a fallen hem fixed, a small seam split closed, a hole patched — and the garment goes back into the rotation instead of the trash.",
+      "looksLike": [
+        "A shirt button pops off and it's back on, tight, that evening.",
+        "Your favorite jeans get a knee patch and keep being your favorite jeans.",
+        "A seam splits under a backpack strap and your stitching outlasts the original."
+      ],
+      "waysToBuild": [
+        "Learn to thread a needle and tie off, then sew a button onto scrap fabric five times before doing a real one.",
+        "Keep a small sewing kit of your own and be the family's button person for a season.",
+        "Rescue one garment headed for the donate pile with a hem or a patch."
+      ],
+      "comesAfter": [],
+      "assessment": "self-check",
+      "outcomes": ["household", "financial"]
+    },
+    {
+      "id": "home.tools",
+      "name": "Use basic tools safely",
+      "gotItWhen": "You can pick the right tool for the job and use it the way it was designed — hammer, both kinds of screwdriver, tape measure, drill — with the habits that protect fingers and eyes, and every tool goes back where it came from when you're done.",
+      "looksLike": [
+        "You tighten a loose screw with the right size driver instead of stripping the head with the wrong one.",
+        "You measure twice, out loud, before you cut or drill anything.",
+        "You drill pilot holes for a small project with safety glasses on, because that's just how drilling works."
+      ],
+      "waysToBuild": [
+        "Build something small and real — a birdhouse, a step stool — that uses hammer, drill, and tape measure.",
+        "Learn each tool on one real repair with a parent, then be the one holding the tool on the next one.",
+        "Take tool-check duty after any family project: every tool back in its place, and flag any that need attention."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["household"]
+    },
+    {
+      "id": "home.hang",
+      "name": "Hang something straight and solid",
+      "gotItWhen": "You can put something on a wall so that it's level, solid, and stays — find a stud or choose the right anchor for the wall and the weight, measure and mark before making holes, and check with a level rather than a squint.",
+      "looksLike": [
+        "The framed poster in your room is level, and it's still level and still up a month later.",
+        "You find a stud for the heavy mirror instead of trusting bare drywall with it.",
+        "You hang a shelf, load it with real books, and it holds without sagging or pulling free."
+      ],
+      "waysToBuild": [
+        "Learn the wall types in your house and match an anchor to each: drywall, plaster, stud.",
+        "Hang three things of increasing weight: a picture, a mirror, a loaded shelf.",
+        "Practice with a stud finder and the knock test, then verify with a tiny pilot hole before committing to hardware."
+      ],
+      "comesAfter": ["home.tools"],
+      "assessment": "observed",
+      "outcomes": ["household"]
+    },
+    {
+      "id": "home.maintain",
+      "name": "Fix what jiggles, squeaks, and sticks",
+      "gotItWhen": "When something around the house rattles, squeaks, sticks, or goes dark, your first move is to look at it — you tighten what's loose, oil what squeaks, unstick what's stuck, and swap the batteries, bulbs, and filters that keep a house going.",
+      "looksLike": [
+        "The wobbly cabinet handle meets your screwdriver within the day.",
+        "The chirping smoke alarm gets its fresh battery the same evening it starts.",
+        "A door begins sticking with the season and you find where it rubs and fix that, not just shove harder."
+      ],
+      "waysToBuild": [
+        "Walk the house with a notepad and list ten things that jiggle, squeak, or stick — then fix five of them.",
+        "Learn every bulb and filter type your house uses and where the spares live, then do one full replacement round.",
+        "Adopt a screwdriver and a can of lubricant as your first responders, and learn which problems belong to which."
+      ],
+      "comesAfter": ["home.tools"],
+      "assessment": "observed",
+      "outcomes": ["household"]
+    },
+    {
+      "id": "home.drain",
+      "name": "Unclog drains and toilets",
+      "gotItWhen": "Faced with a clogged toilet or a slow drain, you can clear it — a proper plunger seal and steady technique, a hair snake down the shower drain — and you can explain why chemical drain cleaners are usually the wrong answer and what to reach for instead.",
+      "looksLike": [
+        "The toilet backs up on your watch and you plunge it clear, then clean up and wash hands like a pro.",
+        "The shower is draining slow, so you pull the hair clog with a snake — gross, brief, done.",
+        "You can explain to a sibling why the flange plunger belongs to the toilet and the cup plunger to the sink."
+      ],
+      "waysToBuild": [
+        "Get one lesson on plunger technique — seal, steady strokes, patience — before the emergency, not during it.",
+        "Do a preventive round of every slow drain in the house with a hair snake.",
+        "Learn the escalation ladder: plunger, snake, removing the trap, and the point where you call for help."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["household"]
+    },
+    {
+      "id": "home.systems",
+      "name": "Know the house's switches and shutoffs",
+      "gotItWhen": "You know where your house's controls live and how to work them — the breaker panel and which breaker feeds what, the water main and the little valves behind toilets and sinks, the gas shutoff, the smoke and carbon monoxide alarms, the furnace filter — and you could walk someone to any of them in the dark.",
+      "looksLike": [
+        "A breaker trips during a movie and you're the one who goes and flips it.",
+        "You point a visitor straight to the water main shutoff without pausing to think.",
+        "You test the smoke alarms when the clocks change, because someone should and it's you."
+      ],
+      "waysToBuild": [
+        "Take the full house tour with a parent — every shutoff, panel, alarm, and filter — and label the breaker panel together.",
+        "Turn the water main and one toilet valve with your own hands, so the first turn isn't during a flood.",
+        "Draw a one-page map of the house's systems from memory, then walk the house and correct it."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["household", "adversity"]
+    },
+    {
+      "id": "home.assemble",
+      "name": "Build from instructions",
+      "gotItWhen": "Handed a flat-pack box or a kit, you can build it right — inventory the parts against the list before starting, follow the steps in order, keep every screw type straight — and end with something square and solid, with no mystery parts left over that matter.",
+      "looksLike": [
+        "The hardware gets sorted and counted into cups before step one.",
+        "You catch that the panel has a front and a back before it's screwed in, because the diagram told you and you were listening.",
+        "The family's new bookshelf stands square and steady, and you built it start to finish."
+      ],
+      "waysToBuild": [
+        "Build the next piece of flat-pack furniture solo, with a parent on call but hands off.",
+        "Use the two-pass method: read the whole instruction sheet once before touching a single part.",
+        "Volunteer for the next assembly job that enters the house — grill, desk, trampoline — and own it end to end."
+      ],
+      "comesAfter": ["home.tools"],
+      "assessment": "observed",
+      "outcomes": ["household", "learning"]
+    },
+    {
+      "id": "home.deep-clean",
+      "name": "Deep-clean a kitchen or bathroom",
+      "gotItWhen": "You can take a kitchen or bathroom through the real version of clean — grout and fixtures scrubbed, things moved and cleaned behind and under, drains cleared, the right cleaner on the right surface — to a standard that would satisfy a picky landlord.",
+      "looksLike": [
+        "The ceiling of the microwave is clean, because you knew to look up.",
+        "You pull the shower drain cover and deal with what's down there.",
+        "You deep-clean the bathroom before guests stay over and it looks and smells like a hotel did it."
+      ],
+      "waysToBuild": [
+        "Do one full deep-clean alongside a parent, writing the checklist as you go — then run the checklist solo next time.",
+        "Learn which cleaner goes with which surface, and why bleach and ammonia products must never meet.",
+        "Own the pre-holiday deep-clean of one bathroom, top to bottom."
+      ],
+      "comesAfter": ["home.room"],
+      "assessment": "observed",
+      "outcomes": ["household"]
+    },
+    {
+      "id": "home.yard",
+      "name": "Keep up a yard",
+      "gotItWhen": "You can keep outdoor space looking cared for through a season — mow safely with clean lines and the edges done, and handle the chores your particular yard actually asks for as the seasons turn, from raking to watering to shoveling.",
+      "looksLike": [
+        "You walk the lawn for rocks and toys before the mower ever starts — every time.",
+        "The edges along the walk get trimmed, not just the easy open middle.",
+        "The leaves get handled in fall and the walk gets shoveled in winter, because the season told you and you listened."
+      ],
+      "waysToBuild": [
+        "Get the mower safety talk and a supervised first mow, then own the lawn for a full month.",
+        "Sit down with a parent and write your yard's calendar: what each season demands, on one page.",
+        "Take on one neighbor's yard job for pay and treat them like a client."
+      ],
+      "comesAfter": ["home.tools"],
+      "ageFloor": 11,
+      "assessment": "observed",
+      "outcomes": ["household", "financial"]
+    },
+    {
+      "id": "home.emergency",
+      "name": "Handle a household emergency",
+      "gotItWhen": "When the house itself goes wrong — water gushing where it shouldn't, a fire starting on the stove, the power dead, the smell of gas — you can stabilize it: shut off the right thing fast, match the response to the danger (a lid on a grease fire, never water), get people safe, and call the right help.",
+      "looksLike": [
+        "A supply line lets go under the sink and you're at the shutoff valve while everyone else is still shouting.",
+        "A pan flares on the stove: the lid goes on, the burner goes off, and the water stays far away.",
+        "The power dies in a storm and you check the breaker panel, hand out flashlights, and keep the fridge closed on purpose."
+      ],
+      "waysToBuild": [
+        "Run family drills twice a year — fire exit and 'where's the shutoff?' — and time them, because speed is the point.",
+        "Learn the grease-fire rule cold, and practice the extinguisher's pull-aim-squeeze-sweep on an expired one outside.",
+        "Talk through three scenarios with a parent — burst pipe, outage, gas smell — and name your first three moves for each."
+      ],
+      "comesAfter": ["home.systems", "facing.steady"],
+      "ageFloor": 12,
+      "assessment": "debrief",
+      "outcomes": ["household", "adversity"]
+    },
+    {
+      "id": "home.finale",
+      "name": "Keep a home running for a week",
+      "gotItWhen": "For a full week you can be the one keeping a home running — laundry moving, dishes done, floors decent, trash out on the right day, small problems fixed as they appear — all unprompted, at a standard where a stranger would hire you to house-sit again.",
+      "looksLike": [
+        "The trash is at the curb the night before pickup because you know the schedule, and the cans come back in by evening.",
+        "Laundry, dishes, and floors just keep happening all week with nobody assigning them.",
+        "A parent comes home from days away to a house that ran fine — plants watered, pets fed, no surprises waiting."
+      ],
+      "waysToBuild": [
+        "Take over the whole house for a week while normal life continues — school, activities, everything.",
+        "Write the week's checklist yourself first: the daily jobs, the weekly ones, and which day the trash goes out.",
+        "Do a real house-sit for a relative or neighbor — mail, plants, pets — as the dress rehearsal."
+      ],
+      "comesAfter": ["home.habit", "home.laundry", "home.systems", "home.deep-clean"],
+      "ageFloor": 14,
+      "assessment": "observed",
+      "finale": true,
+      "unlock": {
+        "text": "🎉 You can be the one in charge at home — an evening or a weekend day, siblings included — and take paid house-sitting jobs.",
+        "coSign": true
+      },
+      "outcomes": ["household", "financial"]
+    }
+  ]
+}
