@@ -7,6 +7,7 @@ import EmancipationView from './views/EmancipationView'
 import FamilyView from './views/FamilyView'
 import GuideView from './views/GuideView'
 import PrintView from './views/PrintView'
+import RecognitionView from './views/RecognitionView'
 
 const useHashRoute = (): string[] => {
   const [hash, setHash] = useState(window.location.hash)
@@ -74,6 +75,8 @@ export default function App() {
           <FamilyView />
         ) : route === 'guide' ? (
           <GuideView />
+        ) : route === 'recognition' ? (
+          <RecognitionView />
         ) : (
           <HomeView />
         )}

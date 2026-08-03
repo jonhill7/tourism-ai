@@ -94,6 +94,7 @@
       ],
       "comesAfter": ["digital.privacy"],
       "assessment": "debrief",
+      "touch": "light",
       "outcomes": ["relationships", "adultworld"]
     },
     {
@@ -132,6 +133,7 @@
       "comesAfter": [],
       "ageFloor": 11,
       "assessment": "self-check",
+      "touch": "light",
       "outcomes": ["wellbeing", "learning"]
     },
     {
@@ -224,7 +226,7 @@
       ],
       "comesAfter": ["digital.troubleshoot", "digital.secure"],
       "ageFloor": 13,
-      "assessment": "self-check",
+      "assessment": "observed",
       "outcomes": ["household", "adultworld"]
     },
     {
@@ -241,12 +243,12 @@
         "Be the responder for a family member's digital problem end to end, from symptom to fixed.",
         "Do a pilot season as your own administrator — parents out of the accounts — with one colleagues-style review at the end."
       ],
-      "comesAfter": ["digital.admin", "digital.footprint", "digital.attention"],
-      "ageFloor": 14,
+      "comesAfter": ["digital.admin", "digital.scam", "digital.privacy"],
+      "ageFloor": 15,
       "assessment": "debrief",
       "finale": true,
       "unlock": {
-        "text": "🎉 Your own device, fully self-administered — you hold the passwords, you set the controls.",
+        "text": "🎉 Your own device, fully self-administered — you hold the passwords, you set the controls. Calendar freedoms that haven't arrived yet stay household expectations, kept by trust rather than by controls.",
         "coSign": true
       },
       "outcomes": ["adultworld", "household", "wellbeing"]

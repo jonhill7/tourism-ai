@@ -1,9 +1,17 @@
 import { useMemo } from 'react'
-import { getLane, skillById, outcomeById } from '../lib/content'
+import { getLane, skillById, outcomeById, isScored } from '../lib/content'
 import { layoutLane } from '../lib/layout'
-import { useAppState, setSkillState, grantUnlock, skillStateFor } from '../lib/store'
-import { ageOf } from '../lib/age'
-import type { Lane, Skill, SkillState } from '../types'
+import {
+  useAppState,
+  grantUnlock,
+  skillStateFor,
+  setSkillNote,
+  setSkillBy,
+  setFocus,
+} from '../lib/store'
+import { ageOf, ageAt, fmtMonth } from '../lib/age'
+import { StateButtons } from './StateButtons'
+import type { Lane, Skill } from '../types'
 
 const NODE_W = 176
 const NODE_H = 72
@@ -11,39 +19,17 @@ const GAP_X = 56
 const GAP_Y = 20
 const PAD = 24
 
-const stateLabel: Record<SkillState, string> = {
-  'not-yet': 'not yet',
-  working: 'working on it',
-  'got-it': 'got it',
-}
-
-const StateButtons = ({ kidId, skill }: { kidId: string; skill: Skill }) => {
-  const state = useAppState()
-  const current = skillStateFor(state, kidId, skill.id)
-  return (
-    <div className="state-buttons" role="radiogroup" aria-label="Skill state">
-      {(['not-yet', 'working', 'got-it'] as SkillState[]).map((s) => (
-        <button
-          key={s}
-          role="radio"
-          aria-checked={current === s}
-          className={`state-btn s-${s} ${current === s ? 'active' : ''}`}
-          onClick={() => setSkillState(kidId, skill.id, s)}
-        >
-          {s === 'got-it' ? '✓ ' : ''}
-          {stateLabel[s]}
-        </button>
-      ))}
-    </div>
-  )
-}
+const FOCUS_DAYS = 14
 
 const DetailPanel = ({ lane, skill }: { lane: Lane; skill: Skill }) => {
   const state = useAppState()
   const kid = state.kids.find((k) => k.id === state.activeKidId) ?? null
+  const entry = kid ? state.progress[kid.id]?.[skill.id] : undefined
   const current = kid ? skillStateFor(state, kid.id, skill.id) : 'not-yet'
   const unlockGranted = kid ? state.unlocksGranted[kid.id]?.[skill.id] ?? false : false
   const tooYoung = kid && skill.ageFloor !== undefined && ageOf(kid) < skill.ageFloor
+  const light = skill.touch === 'light' || lane.kind === 'character'
+  const revisiting = current === 'working' && !!entry?.firstGot
 
   return (
     <aside className="detail-panel">
@@ -53,6 +39,14 @@ const DetailPanel = ({ lane, skill }: { lane: Lane; skill: Skill }) => {
         </h2>
         <div className="detail-meta">
           <span className={`assess-badge a-${skill.assessment}`}>{skill.assessment}</span>
+          {skill.touch === 'light' && (
+            <span
+              className="light-badge"
+              title="Light touch — shared language to notice with your kid; never a gate, never scored."
+            >
+              🪶 light touch
+            </span>
+          )}
           {skill.ageFloor !== undefined && (
             <span className={`age-chip ${tooYoung ? 'tinted' : ''}`}>rarely before ~{skill.ageFloor}</span>
           )}
@@ -66,6 +60,13 @@ const DetailPanel = ({ lane, skill }: { lane: Lane; skill: Skill }) => {
           })}
         </div>
       </div>
+
+      {skill.touch === 'light' && (
+        <p className="light-note">
+          This one is a disposition, not a checkbox — treat it like a character node wherever it
+          lives. Read it together, notice it in the wild, and mark it in retrospect (never mid-moment).
+        </p>
+      )}
 
       <section className="detail-block got-it-when">
         <h3>Got it when…</h3>
@@ -97,18 +98,27 @@ const DetailPanel = ({ lane, skill }: { lane: Lane; skill: Skill }) => {
             {skill.comesAfter.map((p) => {
               const pre = skillById.get(p)
               if (!pre) return null
+              const preLane = getLane(pre.laneId)
               const cross = pre.laneId !== lane.id
+              const soft = preLane?.kind === 'character' || pre.touch === 'light'
               const done = kid ? skillStateFor(state, kid.id, p) === 'got-it' : false
               return (
                 <a
                   key={p}
-                  className={`prereq-chip ${done ? 'done' : ''} ${cross ? 'cross' : ''}`}
+                  className={`prereq-chip ${done ? 'done' : ''} ${cross ? 'cross' : ''} ${soft ? 'soft' : ''}`}
                   href={`#/lane/${pre.laneId}/${p}`}
-                  title={cross ? `from ${getLane(pre.laneId)?.name}` : undefined}
+                  title={
+                    soft
+                      ? 'a suggestion, never a gate — character and light-touch nodes are language, not locks'
+                      : cross
+                        ? `from ${preLane?.name}`
+                        : undefined
+                  }
                 >
                   {done ? '✓ ' : ''}
-                  {cross ? `${getLane(pre.laneId)?.emoji} ` : ''}
+                  {cross ? `${preLane?.emoji} ` : ''}
                   {pre.name}
+                  {soft ? ' ·suggestion' : ''}
                 </a>
               )
             })}
@@ -138,11 +148,53 @@ const DetailPanel = ({ lane, skill }: { lane: Lane; skill: Skill }) => {
         <section className="detail-block">
           <h3>{kid.name}'s state</h3>
           <StateButtons kidId={kid.id} skill={skill} />
-          {current === 'not-yet' && (
+          {current === 'got-it' && entry?.date && (
+            <p className="muted small state-when">
+              ✓ got it {fmtMonth(new Date(entry.date + 'T12:00:00'))} (~age {ageAt(kid, entry.date)})
+            </p>
+          )}
+          {revisiting && entry?.firstGot && (
+            <p className="muted small revisit-note">
+              First got it at ~{ageAt(kid, entry.firstGot)} — revisiting now. Skills regress;
+              re-opening a node is the ladder continuing, not a demotion.
+            </p>
+          )}
+          {current === 'not-yet' && !light && (
             <p className="muted small">
               Already true? Mark it got — recognizing what's there is the point, not busywork.
             </p>
           )}
+          {light && (
+            <p className="muted small">
+              If a check-in here ever feels like a performance review, stop and shrink it.
+            </p>
+          )}
+          {skill.assessment === 'self-check' && entry && current !== 'not-yet' && (
+            <label className="marked-by">
+              marked by{' '}
+              <span className="marked-by-buttons">
+                {(['kid', 'parent'] as const).map((who) => (
+                  <button
+                    key={who}
+                    className={`ghost-btn tiny ${(entry.by ?? 'parent') === who ? 'active' : ''}`}
+                    onClick={() => setSkillBy(kid.id, skill.id, who)}
+                  >
+                    {who === 'kid' ? kid.name : 'parent'}
+                  </button>
+                ))}
+              </span>
+              <span className="muted small"> — a self-check belongs to the kid; best marked by their hand.</span>
+            </label>
+          )}
+          <label className="note-field">
+            <span className="note-label">Notes & evidence <span className="muted-note">(private — what you saw, when, what's left)</span></span>
+            <textarea
+              key={`${kid.id}:${skill.id}`}
+              defaultValue={entry?.note ?? ''}
+              placeholder="e.g. did the full errand run solo in March — substitution and change both right"
+              onBlur={(e) => setSkillNote(kid.id, skill.id, e.target.value)}
+            />
+          </label>
         </section>
       ) : (
         <p className="muted">
@@ -161,7 +213,17 @@ export default function LaneView({ laneId, skillId }: { laneId?: string; skillId
 
   const kid = state.kids.find((k) => k.id === state.activeKidId) ?? null
   const selected = skillId ? lane.skills.find((s) => s.id === skillId) : undefined
-  const got = kid ? lane.skills.filter((s) => skillStateFor(state, kid.id, s.id) === 'got-it').length : 0
+  const scored = lane.skills.filter((s) => isScored(s, lane))
+  const got = kid ? scored.filter((s) => skillStateFor(state, kid.id, s.id) === 'got-it').length : 0
+
+  const focus = kid ? state.focus[kid.id] : undefined
+  const isFocus = focus?.laneId === lane.id
+  const focusDay = isFocus
+    ? Math.min(
+        FOCUS_DAYS,
+        Math.max(1, Math.floor((Date.now() - new Date(focus!.started + 'T12:00:00').getTime()) / 86400000) + 1),
+      )
+    : 0
 
   const width = layout.cols * (NODE_W + GAP_X) - GAP_X + PAD * 2
   const height = layout.rows * (NODE_H + GAP_Y) - GAP_Y + PAD * 2
@@ -180,10 +242,19 @@ export default function LaneView({ laneId, skillId }: { laneId?: string; skillId
         <p className="lane-tagline">{lane.tagline}</p>
         <div className="lane-head-meta">
           <span className={`kind-badge ${lane.kind}`}>{lane.kind}</span>
-          {kid && (
+          {kid && lane.kind === 'competence' && (
             <span className="lane-counts">
-              {kid.name}: {got}/{lane.skills.length} got it
+              {kid.name}: {got}/{scored.length} got it
             </span>
+          )}
+          {kid && (
+            <button
+              className={`ghost-btn focus-btn ${isFocus ? 'active' : ''}`}
+              title="One kid, one lane, two weeks — the check-in rhythm"
+              onClick={() => setFocus(kid.id, isFocus ? null : lane.id)}
+            >
+              {isFocus ? `★ our focus — day ${focusDay} of ${FOCUS_DAYS}` : '☆ make this our focus'}
+            </button>
           )}
           <a className="print-link" href={`#/print/${lane.id}`}>
             🖨 check-in sheet
@@ -205,11 +276,15 @@ export default function LaneView({ laneId, skillId }: { laneId?: string; skillId
               const y2 = p2.y + NODE_H / 2
               const mx = (x1 + x2) / 2
               const done = kid ? skillStateFor(state, kid.id, from) === 'got-it' : false
+              const softEdge =
+                lane.kind === 'character' ||
+                skillById.get(from)?.touch === 'light' ||
+                skillById.get(to)?.touch === 'light'
               return (
                 <path
                   key={`${from}-${to}`}
                   d={`M ${x1} ${y1} C ${mx} ${y1}, ${mx} ${y2}, ${x2} ${y2}`}
-                  className={`edge ${done ? 'edge-done' : ''} ${lane.kind === 'character' ? 'edge-soft' : ''}`}
+                  className={`edge ${done ? 'edge-done' : ''} ${softEdge ? 'edge-soft' : ''}`}
                 />
               )
             })}
@@ -227,6 +302,7 @@ export default function LaneView({ laneId, skillId }: { laneId?: string; skillId
                   'tree-node',
                   `st-${st}`,
                   skill.finale ? 'finale' : '',
+                  skill.touch === 'light' ? 'light-touch' : '',
                   selected?.id === skill.id ? 'selected' : '',
                   tooYoung ? 'too-young' : '',
                 ].join(' ')}
@@ -238,6 +314,7 @@ export default function LaneView({ laneId, skillId }: { laneId?: string; skillId
                 </span>
                 <span className="node-badges">
                   {st === 'got-it' ? <span className="node-check">✓</span> : st === 'working' ? <span className="node-working">…</span> : null}
+                  {skill.touch === 'light' && <span title="light touch — language, not a gate">🪶</span>}
                   {skill.unlock && <span title="carries an unlock">🔓</span>}
                   {crossPrereqs && <span title="has prerequisites in other lanes">⇄</span>}
                   {tooYoung && <span className="node-age">~{skill.ageFloor}</span>}
@@ -252,7 +329,7 @@ export default function LaneView({ laneId, skillId }: { laneId?: string; skillId
         <p className="character-note">
           Prerequisites on this lane are dotted for a reason: they're suggestions. Character develops in a
           spiral — this is shared language for noticing growth <em>with</em> a kid, never a scorecard kept{' '}
-          <em>about</em> them.
+          <em>about</em> them. That's also why this lane shows no counts and no progress bar.
         </p>
       )}
 

@@ -185,7 +185,7 @@
         "Try the old technology once: a real paper letter gets a response no text ever would."
       ],
       "comesAfter": ["relationships.keep"],
-      "assessment": "self-check",
+      "assessment": "debrief",
       "outcomes": ["relationships"]
     },
     {

@@ -39,7 +39,7 @@
         "Read the care tags on five favorite pieces of clothing and find the one the dryer would ruin."
       ],
       "comesAfter": [],
-      "assessment": "self-check",
+      "assessment": "observed",
       "outcomes": ["household"]
     },
     {
@@ -57,7 +57,7 @@
         "Have a parent take a no-warning photo of your room once a week for a month; the goal is boring photos."
       ],
       "comesAfter": ["home.room"],
-      "assessment": "self-check",
+      "assessment": "observed",
       "outcomes": ["household", "wellbeing"]
     },
     {
@@ -222,6 +222,25 @@
       "ageFloor": 11,
       "assessment": "observed",
       "outcomes": ["household", "financial"]
+    },
+    {
+      "id": "home.together",
+      "name": "Share a home well",
+      "gotItWhen": "Living alongside other people — family now, roommates soon — you carry your share of the common work without scorekeeping, keep shared spaces the way the group agreed rather than the way you'd keep your own, and raise frictions with the person involved while they're still small.",
+      "looksLike": [
+        "The sink is full and it isn't your mess — and sometimes you just handle it, because you live here too.",
+        "You negotiate who cooks and who cleans for the week, and hold up your end without being chased.",
+        "A housemate habit is driving you crazy, and they hear it from you, kindly, before you're furious."
+      ],
+      "waysToBuild": [
+        "Run a real chore-split negotiation with siblings — divide the week's jobs yourselves, parents out of the room.",
+        "Spend a week noticing: every time someone covers for you unasked, and every time you cover for them.",
+        "Split a real shared cost — trip snacks, a group gift, the pizza — fairly, without a parent doing the math."
+      ],
+      "comesAfter": ["home.habit", "people.disagree"],
+      "ageFloor": 13,
+      "assessment": "debrief",
+      "outcomes": ["household", "relationships"]
     },
     {
       "id": "home.emergency",

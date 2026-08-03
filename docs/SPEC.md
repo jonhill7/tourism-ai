@@ -76,7 +76,12 @@ a fact. Fields:
 - **Unlock** (optional) — an expanded freedom, with parent co-sign if it's a real
   privilege. Competence lanes only; see the Track B audit rule below.
 - **Assessment mode** — `self-check` (kid can judge alone) / `debrief` (a conversation)
-  / `observed` (a parent has seen it).
+  / `observed` (a parent has seen it). Self-checks belong to the kid — the app records
+  whose hand marked them.
+- **Touch** (optional) — `"light"` marks a disposition node living in a competence lane
+  (attention, footprint, inner weather). Light nodes get character-grade handling
+  wherever they live: soft prereqs, never a gate for an unlock, never counted in
+  progress numbers, marked in retrospect.
 - **Finale** flag — one per lane; the only place a 🎉 celebration lives.
 
 **Three states per kid: not yet · working on it · got it.** "Working on it" is the
@@ -137,6 +142,18 @@ a freedom is "it's no longer up to me."**
 scheduled freedom masquerading as an earned one — move it to Track B. Track A unlocks
 must be genuinely enforceable privileges with real stakes.
 
+**Gate audit rule** (the audit run backwards): an unlock may never gate on a
+character-lane or light-touch node — that converts shared language into a scorecard
+with stakes; fold the requirement into the unlock node's own "got it when" instead
+(this is why *Drive safely* carries its own steadiness clause rather than a prereq on
+*Stay steady*). And the bigger the unlock, the more observable its gates must be —
+a finale gating on self-check evidence turns assessment into negotiation. A Track A
+unlock must also never quietly gut a Track B row's enforceability (a fully
+self-administered device arriving before the social-media freedom would make that
+freedom's gating a fiction — the device finale's floor sits at ~15 for this reason,
+and freedoms not yet arrived remain expectations kept by trust, not controls).
+Both checks live in `npm run validate`.
+
 **Default calendar** (all ages adjustable; values-loaded rows — faith, dating — are
 flagged as the family's to set):
 - **~12 — Your own space & taste**: room decor, music, hairstyle, clothes
@@ -184,6 +201,31 @@ flagged as the family's to set):
    are **family decisions** — the app makes them editable and flags the defaults.
 7. Unlock audit applied: age-scheduled freedoms moved to Track B; Track A unlocks are
    genuinely enforceable privileges only.
+
+## Lessons from the raising-a-child simulations (2026-08)
+
+Two imagined runs of the tool — one kid nine-to-graduation, then two kids of opposite
+temperament with a focus on evaluation — produced these standing decisions:
+
+1. **The tool is an attention instrument first, an assessment instrument second.**
+   Its best work is telling a parent what to notice. Cadence lives in the *focus*
+   (one kid, one lane, two weeks) and the recognition pass, not in daily marking.
+2. **Debrief on Tuesday, mark on Thursday.** The honest version of a hard
+   conversation can't coexist with a kid watching for the checkbox at the end of it.
+3. **Assessment integrity varies inversely with unlock value** — hence the gate
+   audit rule, and the relabeling of finale gates to observable/debrief modes.
+4. **Regression is normal**: the first got-it date survives every revisit, and
+   re-opening a node is presented as the ladder continuing, never a demotion.
+5. **Character must never acquire a scorecard by UI accident**: character lanes and
+   light nodes show no counts, no bars, no percentages, anywhere.
+6. **The kid-facing layer is temperament-dependent.** A systems kid can self-serve
+   the whole tree; a private kid may only ever see a paper sheet. Never compare
+   siblings' trees.
+7. **Coverage gaps filled**: water safety (`health.water`); a discovery thread
+   (`selfdir.try`, `selfdir.quit` — knowing what you love, and ending things well);
+   the roommate tier (`home.together`). Still open: in-app node editing (today,
+   customization means editing JSON — fine for a developer-family, a wall for
+   everyone else).
 
 ## Guiding philosophy
 

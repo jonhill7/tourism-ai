@@ -9,16 +9,23 @@ Built for one family (five kids); designed to be customized and shared, not obey
 
 ## What's here
 
-- **14 lanes, 202 skills** in `src/content/lanes/` — each node has an observable
+- **14 lanes, 206 skills** in `src/content/lanes/` — each node has an observable
   "got it when" description, concrete examples, build suggestions, prerequisites, and
   (on competence lanes) real-world unlocks. Two reference lanes set the style:
-  **Money & Work** (competence) and **Facing Hard Things** (character).
+  **Money & Work** (competence) and **Facing Hard Things** (character). Disposition
+  nodes living in competence lanes carry a 🪶 `touch: "light"` flag — character-grade
+  handling (never a gate, never scored) wherever they live.
 - **The Emancipation Track** in `src/content/emancipation.json` — the default freedom
   calendar (ages adjustable in-app), the four rules, the sorting test, and a starter
   Expectations & Consequences list.
 - **A local-first web app** — React + Vite, no backend, no accounts. Per-kid progress
-  lives in your browser (`localStorage`) with JSON export/import for backup and for
-  sharing your customized tree with another family.
+  lives in your browser (`localStorage`) with JSON export/import for backup, a
+  **merge import** for keeping two parents' devices in step, and sharing your
+  customized tree with another family. Built around the check-in rhythm: a
+  **recognition pass** for the first session, a per-kid **focus** (one kid, one lane,
+  two weeks), private **notes & evidence** per skill, kid-owned self-checks,
+  first-got dates that survive revisits, per-kid **"announced ✓"** tracking on the
+  freedom calendar, and a year-by-year **handover view** across both tracks.
 - **Printable check-in sheets** — every lane has a 🖨 paper sheet (skill · "got it
   when" · not yet / working / got it), built for the one-kid-one-lane-two-weeks pilot.
 

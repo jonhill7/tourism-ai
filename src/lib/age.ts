@@ -9,6 +9,9 @@ export const ageOf = (kid: Kid, now = new Date()): number => {
   return Math.max(0, age)
 }
 
+/** Age in whole years at a given ISO date (YYYY-MM-DD). */
+export const ageAt = (kid: Kid, iso: string): number => ageOf(kid, new Date(iso + 'T12:00:00'))
+
 /** Approximate graduation: June of the year the kid turns eighteen. */
 export const graduationDate = (kid: Kid): Date => {
   const [y] = kid.birthdate.split('-').map(Number)

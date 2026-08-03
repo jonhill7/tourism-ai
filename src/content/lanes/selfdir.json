@@ -207,6 +207,43 @@
       "outcomes": ["adversity", "learning"]
     },
     {
+      "id": "selfdir.try",
+      "name": "Give a new thing a real try",
+      "gotItWhen": "You can step into something you might not be good at — a sport, an instrument, a club, a craft — give it honest effort long enough to know it from the inside, and come out able to say what it showed you about what you love, what you don't, and what you're made of.",
+      "looksLike": [
+        "You join the team having never played, and stay past the awkward beginner weeks before judging it.",
+        "You try the thing that looked boring and discover it isn't — or confirm it is, and can say why.",
+        "Asked what you're into, your answer comes from things you've actually tried, not just watched."
+      ],
+      "waysToBuild": [
+        "Pick one genuinely new thing each season and give it an honest run before you rule on it.",
+        "Try something nobody in the family does, so the opinion you form is entirely your own.",
+        "Keep a private list: tried it, what it gave me, would I go back."
+      ],
+      "comesAfter": [],
+      "assessment": "debrief",
+      "outcomes": ["learning", "wellbeing"]
+    },
+    {
+      "id": "selfdir.quit",
+      "name": "Quit something well",
+      "gotItWhen": "When something has run its course, you can end it on purpose — finish what you owe, tell the people involved to their faces, leave on good terms — and say what it taught you about what you actually want, so quitting is a decision you made and not a drift you fell into.",
+      "looksLike": [
+        "You finish the season you committed to, then tell the coach yourself that you're done — and why.",
+        "You can name what the thing you quit taught you about where you want your time to go instead.",
+        "A friend disappears from an activity by just not showing up, and you notice that's not how you do it."
+      ],
+      "waysToBuild": [
+        "Before quitting anything, write two lists: what staying costs, and what the thing has taught you.",
+        "Do the telling yourself — the coach, the teacher, the group leader — instead of letting a parent do it.",
+        "After you leave something, run one honest debrief: right call or not, and how you'd know earlier next time."
+      ],
+      "comesAfter": ["selfdir.try", "selfdir.decide"],
+      "ageFloor": 12,
+      "assessment": "debrief",
+      "outcomes": ["learning", "adversity", "relationships"]
+    },
+    {
       "id": "selfdir.goal",
       "name": "Chase a goal for months",
       "gotItWhen": "You can set a goal that takes a whole season to reach, keep it alive through weeks when nothing seems to move, adjust the plan when life changes, and arrive somewhere you can point to — the goal met, or renegotiated honestly and on purpose.",
@@ -263,7 +300,7 @@
       "assessment": "debrief",
       "finale": true,
       "unlock": {
-        "text": "🎉 You can commit yourself to activities, trips, and plans on your own signature — the family calendar is yours to write on, no pre-approval.",
+        "text": "🎉 You can commit yourself to activities, trips, and plans on your own signature — the family calendar is yours to write on, no pre-approval. Standing expectations still stand: we know where you are, and named family events hold.",
         "coSign": true
       },
       "outcomes": ["learning", "household", "adultworld"]
