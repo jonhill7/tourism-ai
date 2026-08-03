@@ -252,7 +252,7 @@
       ],
       "comesAfter": ["money.budget", "money.bank"],
       "ageFloor": 13,
-      "assessment": "self-check",
+      "assessment": "debrief",
       "outcomes": ["financial", "adversity"]
     },
     {

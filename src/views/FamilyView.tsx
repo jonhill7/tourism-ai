@@ -8,6 +8,7 @@ export default function FamilyView() {
   const [birth, setBirth] = useState('')
   const [message, setMessage] = useState<string | null>(null)
   const fileRef = useRef<HTMLInputElement>(null)
+  const mergeRef = useRef<HTMLInputElement>(null)
 
   const add = () => {
     if (!name.trim() || !/^\d{4}-\d{2}$/.test(birth)) {
@@ -30,10 +31,12 @@ export default function FamilyView() {
     URL.revokeObjectURL(url)
   }
 
-  const doImport = async (file: File) => {
+  const doImport = async (file: File, mode: 'replace' | 'merge') => {
     const text = await file.text()
-    const error = importJson(text)
-    setMessage(error ?? 'Backup restored.')
+    const error = importJson(text, mode)
+    setMessage(
+      error ?? (mode === 'merge' ? 'Merged — newest mark per skill won; nothing was lost.' : 'Backup restored.'),
+    )
   }
 
   return (
@@ -111,15 +114,19 @@ export default function FamilyView() {
       <section>
         <h2 className="section-title">Backup & sharing</h2>
         <p className="muted">
-          The export includes kids, progress, granted unlocks, and your emancipation-age edits. Another
-          family importing your file gets your customizations too — that's how the tree travels.
+          The export includes kids, progress, notes, granted unlocks, announcements, and your
+          emancipation-age edits. Another family importing your file gets your customizations too —
+          that's how the tree travels.
         </p>
         <div className="backup-buttons">
           <button className="primary-btn" onClick={doExport}>
             ⬇ export backup
           </button>
           <button className="ghost-btn" onClick={() => fileRef.current?.click()}>
-            ⬆ import backup
+            ⬆ import (replace)
+          </button>
+          <button className="ghost-btn" onClick={() => mergeRef.current?.click()}>
+            ⇄ merge from another device
           </button>
           <input
             ref={fileRef}
@@ -128,11 +135,27 @@ export default function FamilyView() {
             hidden
             onChange={(e) => {
               const f = e.target.files?.[0]
-              if (f) void doImport(f)
+              if (f) void doImport(f, 'replace')
+              e.target.value = ''
+            }}
+          />
+          <input
+            ref={mergeRef}
+            type="file"
+            accept="application/json"
+            hidden
+            onChange={(e) => {
+              const f = e.target.files?.[0]
+              if (f) void doImport(f, 'merge')
               e.target.value = ''
             }}
           />
         </div>
+        <p className="muted small">
+          Two parents, two phones? Each browser keeps its own copy. Every so often, one of you exports
+          and the other <em>merges</em> — the newest mark per skill wins, and notes, first-got dates,
+          co-signs, and announcements are all kept. (Replace overwrites everything; merge never loses.)
+        </p>
       </section>
     </div>
   )

@@ -499,6 +499,122 @@ a:hover { color: var(--accent-deep); }
   a { color: inherit; }
 }
 
+/* ————— light-touch nodes ————— */
+
+.light-badge {
+  font-size: 0.72rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px dashed var(--character);
+  color: var(--character);
+  background: var(--character-fill);
+}
+.light-note {
+  border-left: 3px solid var(--character);
+  background: var(--character-fill);
+  padding: 8px 12px;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+.tree-node.light-touch { border-style: dashed; }
+.prereq-chip.soft { border-style: dashed; font-style: italic; opacity: 0.85; }
+
+/* ————— evaluation: notes, marked-by, dates ————— */
+
+.note-field { display: block; margin-top: 14px; }
+.note-label { display: block; font-size: 0.82rem; font-weight: 600; margin-bottom: 4px; }
+.note-field textarea {
+  width: 100%;
+  min-height: 64px;
+  box-sizing: border-box;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  color: var(--ink);
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 10px;
+  resize: vertical;
+}
+.marked-by { display: block; margin-top: 10px; font-size: 0.85rem; }
+.marked-by-buttons { display: inline-flex; gap: 4px; margin: 0 4px; }
+.ghost-btn.tiny { padding: 1px 8px; font-size: 0.78rem; }
+.ghost-btn.active { background: var(--ink); color: var(--card); border-color: var(--ink); }
+.state-when { margin-top: 6px; }
+.revisit-note {
+  margin-top: 6px;
+  border-left: 3px solid var(--working);
+  background: var(--working-fill);
+  padding: 6px 10px;
+  border-radius: 0 8px 8px 0;
+}
+
+/* ————— focus ————— */
+
+.focus-btn.active { border-color: var(--accent); color: var(--accent-deep); background: var(--paper-deep); }
+.focus-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 10px 16px;
+  margin: 14px 0;
+}
+.focus-card p { margin: 4px 0; }
+
+/* ————— home: horizon + stale nudge ————— */
+
+.horizon-strip { margin: 18px 0; }
+.horizon-list { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; }
+.horizon-list li {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 7px 12px;
+  font-size: 0.92rem;
+}
+.horizon-list li.announced { opacity: 0.75; }
+.stale-nudge {
+  border-left: 3px solid var(--working);
+  padding-left: 10px;
+}
+
+/* ————— recognition pass ————— */
+
+.recognition-lane { margin: 22px 0; }
+.recognition-list { display: grid; gap: 8px; }
+.recognition-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+.recognition-text { max-width: 62ch; }
+.recognition-name { font-weight: 600; }
+.recognition-row .state-buttons { flex-shrink: 0; }
+.recognition-row p { margin: 3px 0 0; }
+
+/* ————— handover calendar ————— */
+
+.handover { margin: 26px 0; }
+.handover-list { list-style: none; margin: 12px 0 0; padding: 0; }
+.handover-row {
+  display: flex;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--line-soft);
+}
+.handover-age { width: 90px; flex-shrink: 0; text-align: right; font-family: var(--serif); font-size: 1.1rem; }
+.handover-body { flex: 1; }
+.handover-body p { margin: 2px 0; }
+.announced-check { display: inline-flex; align-items: center; gap: 5px; margin-left: 6px; font-weight: 600; cursor: pointer; }
+.announced-check input { accent-color: var(--got); }
+
 /* ————— responsive ————— */
 
 @media (max-width: 720px) {
@@ -507,4 +623,7 @@ a:hover { color: var(--accent-deep); }
   .calendar-list::before, .calendar-row::after { display: none; }
   .calendar-row { flex-direction: column; gap: 6px; }
   .calendar-age { text-align: left; width: auto; }
+  .recognition-row { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .handover-row { flex-direction: column; gap: 4px; }
+  .handover-age { text-align: left; width: auto; }
 }

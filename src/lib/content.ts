@@ -32,3 +32,16 @@ for (const lane of lanes) for (const s of lane.skills) skillById.set(s.id, { ...
 export const outcomeById = new Map(outcomes.map((o) => [o.id, o]))
 
 export const totalSkills = skillById.size
+
+/**
+ * A node counts toward progress numbers only if it's a competence skill without the
+ * light-touch flag. Character lanes and light nodes are shared language, never a score.
+ */
+export const isScored = (skill: Skill, lane: Lane): boolean =>
+  lane.kind === 'competence' && skill.touch !== 'light'
+
+export const scoredSkillIds = new Set(
+  lanes.flatMap((l) => l.skills.filter((s) => isScored(s, l)).map((s) => s.id)),
+)
+
+export const scoredTotal = scoredSkillIds.size

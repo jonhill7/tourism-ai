@@ -1,13 +1,38 @@
-import { clusters, lanes, outcomes, totalSkills } from '../lib/content'
-import { useAppState } from '../lib/store'
+import { clusters, lanes, outcomes, scoredTotal, scoredSkillIds, getLane, emancipation } from '../lib/content'
+import { useAppState, setFocus } from '../lib/store'
+import { fmtMonth, rowArrival } from '../lib/age'
 import type { Lane } from '../types'
+
+const STALE_DAYS = 90
+const FOCUS_DAYS = 14
 
 const LaneCard = ({ lane, kidId }: { lane: Lane; kidId: string | null }) => {
   const state = useAppState()
   const progress = kidId ? state.progress[kidId] ?? {} : {}
-  const got = lane.skills.filter((s) => progress[s.id]?.state === 'got-it').length
-  const working = lane.skills.filter((s) => progress[s.id]?.state === 'working').length
-  const pct = Math.round((got / lane.skills.length) * 100)
+
+  if (lane.kind === 'character') {
+    // shared language for noticing growth with a kid — never a scorecard kept about them
+    return (
+      <a className={`lane-card ${lane.kind}`} href={`#/lane/${lane.id}`}>
+        <div className="lane-card-head">
+          <span className="lane-emoji">{lane.emoji}</span>
+          <div>
+            <h3>{lane.name}</h3>
+            <p className="lane-tagline">{lane.tagline}</p>
+          </div>
+        </div>
+        <div className="lane-card-foot">
+          <span className="kind-badge character">character</span>
+          <span className="lane-counts muted">noticed together — never scored</span>
+        </div>
+      </a>
+    )
+  }
+
+  const scored = lane.skills.filter((s) => s.touch !== 'light')
+  const got = scored.filter((s) => progress[s.id]?.state === 'got-it').length
+  const working = scored.filter((s) => progress[s.id]?.state === 'working').length
+  const pct = Math.round((got / scored.length) * 100)
   return (
     <a className={`lane-card ${lane.kind}`} href={`#/lane/${lane.id}`}>
       <div className="lane-card-head">
@@ -18,13 +43,9 @@ const LaneCard = ({ lane, kidId }: { lane: Lane; kidId: string | null }) => {
         </div>
       </div>
       <div className="lane-card-foot">
-        {lane.kind === 'character' ? (
-          <span className="kind-badge character">character</span>
-        ) : (
-          <span className="kind-badge">competence</span>
-        )}
+        <span className="kind-badge">competence</span>
         <span className="lane-counts">
-          {got}/{lane.skills.length} got it{working > 0 && <em> · {working} working</em>}
+          {got}/{scored.length} got it{working > 0 && <em> · {working} working</em>}
         </span>
       </div>
       <div className="progress-rail" aria-hidden>
@@ -38,8 +59,30 @@ export default function HomeView() {
   const state = useAppState()
   const kid = state.kids.find((k) => k.id === state.activeKidId) ?? null
   const progress = kid ? state.progress[kid.id] ?? {} : {}
-  const gotTotal = Object.values(progress).filter((p) => p.state === 'got-it').length
-  const workingTotal = Object.values(progress).filter((p) => p.state === 'working').length
+  const scoredEntries = Object.entries(progress).filter(([id]) => scoredSkillIds.has(id))
+  const gotTotal = scoredEntries.filter(([, p]) => p.state === 'got-it').length
+  const workingTotal = scoredEntries.filter(([, p]) => p.state === 'working').length
+
+  const now = new Date()
+  const staleCutoff = new Date(now.getTime() - STALE_DAYS * 86400000).toISOString().slice(0, 10)
+  const staleWorking = scoredEntries.filter(
+    ([, p]) => p.state === 'working' && p.date !== undefined && p.date < staleCutoff,
+  ).length
+
+  const focus = kid ? state.focus[kid.id] : undefined
+  const focusLane = focus ? getLane(focus.laneId) : undefined
+  const focusDay = focus
+    ? Math.max(1, Math.floor((now.getTime() - new Date(focus.started + 'T12:00:00').getTime()) / 86400000) + 1)
+    : 0
+
+  // every kid's next freedom, soonest first — five kids, staggered birthdays, none forgotten
+  const horizonMs = 183 * 86400000
+  const upcoming = state.kids
+    .flatMap((k) =>
+      emancipation.rows.map((row) => ({ kid: k, row, arrival: rowArrival(k, row, state.emancipationAges) })),
+    )
+    .filter((u) => u.arrival > now && u.arrival.getTime() - now.getTime() < horizonMs)
+    .sort((a, b) => a.arrival.getTime() - b.arrival.getTime())
 
   return (
     <div className="home">
@@ -52,8 +95,9 @@ export default function HomeView() {
             <a href="#/emancipation">Emancipation Track</a> — freedoms handed over by age, unconditionally.
           </p>
           <p>
-            Start by <a href="#/family">adding your kids</a>, then open a lane and mark what's already true —
-            plenty will be. Read <a href="#/guide">the Guide</a> for the whole philosophy.
+            Start by <a href="#/family">adding your kids</a>, then run the{' '}
+            <a href="#/recognition">recognition pass</a> — mark what's already true; plenty will be. Read{' '}
+            <a href="#/guide">the Guide</a> for the whole philosophy.
           </p>
         </section>
       )}
@@ -63,13 +107,64 @@ export default function HomeView() {
           <h2>
             {kid.name}'s tree
             <span className="kid-summary-stats">
-              {gotTotal} of {totalSkills} skills · {workingTotal} in progress
+              {gotTotal} of {scoredTotal} skills · {workingTotal} in progress
             </span>
           </h2>
           <p className="muted">
             Three states, no failing: <strong>not yet</strong> · <strong>working on it</strong> ·{' '}
-            <strong>got it</strong>. Mark anything already true — recognition, not busywork.
+            <strong>got it</strong>. Mark anything already true — start with the{' '}
+            <a href="#/recognition">recognition pass</a>.
           </p>
+          {staleWorking > 0 && (
+            <p className="muted small stale-nudge">
+              {staleWorking} skill{staleWorking > 1 ? 's have' : ' has'} been "working on it" for over
+              three months — worth a look: still in motion, or just stale?
+            </p>
+          )}
+        </section>
+      )}
+
+      {kid && (
+        <section className="focus-card">
+          {focusLane ? (
+            <p>
+              ★ <strong>Current focus:</strong> {kid.name} ×{' '}
+              <a href={`#/lane/${focusLane.id}`}>
+                {focusLane.emoji} {focusLane.name}
+              </a>{' '}
+              — day {Math.min(focusDay, FOCUS_DAYS)} of {FOCUS_DAYS}
+              {focusDay > FOCUS_DAYS && <em> (fortnight's up — check in, then pick the next)</em>}{' '}
+              <button className="ghost-btn tiny" onClick={() => setFocus(kid.id, null)}>
+                clear
+              </button>
+            </p>
+          ) : (
+            <p className="muted">
+              ☆ No current focus. The rhythm that works: one kid, one lane, two weeks — open a lane and
+              press <em>make this our focus</em>.
+            </p>
+          )}
+        </section>
+      )}
+
+      {upcoming.length > 0 && (
+        <section className="horizon-strip">
+          <h2 className="section-title">Freedoms on the horizon</h2>
+          <ul className="horizon-list">
+            {upcoming.map(({ kid: k, row, arrival }) => {
+              const announced = state.announced[k.id]?.[row.id] ?? false
+              return (
+                <li key={`${k.id}:${row.id}`} className={announced ? 'announced' : ''}>
+                  <strong>{k.name}</strong> — “{row.title}” arrives {fmtMonth(arrival)} ·{' '}
+                  {announced ? (
+                    '✓ announced'
+                  ) : (
+                    <a href="#/emancipation">announce it now →</a>
+                  )}
+                </li>
+              )
+            })}
+          </ul>
         </section>
       )}
 

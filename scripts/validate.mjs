@@ -56,6 +56,12 @@ for (const lane of lanes) {
       err(`${S}: ageFloor out of range`)
     if (!Array.isArray(s.outcomes) || s.outcomes.length === 0) err(`${S}: needs ≥1 outcome`)
     else for (const o of s.outcomes) if (!outcomeIds.has(o)) err(`${S}: unknown outcome "${o}"`)
+    if (s.touch !== undefined) {
+      if (s.touch !== 'light') err(`${S}: touch must be "light" if present`)
+      if (lane.kind === 'character') warn(`${S}: touch:"light" is redundant on a character lane — the whole lane is light`)
+      if (s.finale) err(`${S}: a light-touch node cannot be a finale`)
+      if (s.unlock) err(`${S}: a light-touch node cannot carry an unlock — light nodes are language, never gates`)
+    }
     if (s.finale) finales++
     if (s.unlock) {
       if (lane.kind === 'character') err(`${S}: character lanes carry no unlocks`)
@@ -79,6 +85,25 @@ for (const [id, s] of allSkills)
     if (!allSkills.has(p)) err(`${id}: comesAfter references unknown skill "${p}"`)
     if (p === id) err(`${id}: depends on itself`)
   }
+
+// gate audit: freedoms with real stakes need observable gates, never character/light ones.
+for (const [id, s] of allSkills) {
+  if (!s.unlock) continue
+  for (const p of s.comesAfter ?? []) {
+    const pre = allSkills.get(p)
+    if (!pre) continue
+    if (pre.laneKind === 'character' || pre.touch === 'light')
+      err(
+        `${id}: unlock gates on character/light node "${p}" — a scorecard kept about them. ` +
+          `Fold the requirement into this node's own gotItWhen instead.`,
+      )
+    if (s.finale && pre.assessment === 'self-check')
+      warn(
+        `${id}: big unlock gates on self-check evidence ("${p}") — the bigger the freedom, ` +
+          `the more observable its gates should be, or assessment turns into negotiation.`,
+      )
+  }
+}
 
 const state = new Map() // 0 visiting, 1 done
 const visit = (id, path) => {
