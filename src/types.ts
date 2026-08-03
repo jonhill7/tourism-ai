@@ -16,6 +16,8 @@ export interface Skill {
   comesAfter: string[]
   ageFloor?: number
   assessment: AssessmentMode
+  /** A disposition node in a competence lane: character-grade handling — never a gate, never scored. */
+  touch?: 'light'
   unlock?: Unlock
   finale?: boolean
   outcomes: string[]
@@ -78,7 +80,15 @@ export interface Kid {
 
 export interface ProgressEntry {
   state: SkillState
-  date?: string // ISO date when marked got-it
+  date?: string // ISO date this state was last set
+  firstGot?: string // ISO date of the FIRST got-it — kept through revisits; regression is the ladder, not a demotion
+  note?: string // private notes & evidence — what you saw, when, what's left
+  by?: 'kid' | 'parent' // who marked it (self-check belongs to the kid)
+}
+
+export interface FocusEntry {
+  laneId: string
+  started: string // ISO date the fortnight began
 }
 
 export interface AppState {
@@ -88,4 +98,8 @@ export interface AppState {
   progress: Record<string, Record<string, ProgressEntry>>
   unlocksGranted: Record<string, Record<string, boolean>>
   emancipationAges: Record<string, number | 'graduation'>
+  /** Per-kid current focus: one kid, one lane, two weeks. */
+  focus: Record<string, FocusEntry>
+  /** Per-kid, per-emancipation-row: "we announced this before it arrives". */
+  announced: Record<string, Record<string, boolean>>
 }

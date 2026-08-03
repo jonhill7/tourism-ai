@@ -164,18 +164,18 @@
     {
       "id": "around.drive",
       "name": "Drive safely",
-      "gotItWhen": "Behind the wheel you drive like the stakes are real — smooth car control, speed that fits the conditions, honest following distance, phone away and out of reach — because you know distraction and speed kill more teen drivers than anything else, and your driving shows that you know it.",
+      "gotItWhen": "Behind the wheel you drive like the stakes are real — smooth car control, speed that fits the conditions, honest following distance, phone away and out of reach — and when the road rattles you, a near-miss or a horn or a missed exit, you settle yourself and keep driving well, because you know distraction, speed, and panic kill more teen drivers than anything else.",
       "looksLike": [
         "Your phone rides in the glovebox or a zipped bag, every trip — including the five-minute ones.",
         "Rain starts, and your speed and following distance change before anyone suggests it.",
-        "Friends in the car, music on — and your driving is exactly what it was when the examiner was watching."
+        "Someone cuts you off hard with friends in the car — your hands stay quiet, your speed stays steady, and the moment stays in the rearview."
       ],
       "waysToBuild": [
         "Log practice hours across conditions on purpose — night, rain, highway, gravel — not just sunny errands.",
         "Adopt the phone rule from drive one: glovebox or bag, every single trip, no exceptions to negotiate later.",
         "Narrate one full drive out loud to your teaching parent — hazards, mirrors, gaps — so they can hear what you're seeing."
       ],
-      "comesAfter": ["facing.steady"],
+      "comesAfter": [],
       "ageFloor": 15,
       "assessment": "observed",
       "unlock": {

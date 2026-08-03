@@ -76,11 +76,48 @@ export default function GuideView() {
       <section className="guide-block">
         <h2 className="section-title">Using it without ruining it</h2>
         <ul>
-          <li>Start by marking everything that's already true. First sessions should feel like recognition, not assignment.</li>
-          <li>Check in with one kid on one lane at a time. The 🖨 check-in sheet on each lane exists for a paper-first conversation.</li>
+          <li>Start with the <a href="#/recognition">recognition pass</a> — mark everything that's already true. First sessions should feel like recognition, not assignment.</li>
+          <li>Check in with one kid on one lane at a time — set it as the <em>focus</em> and give it a fortnight. The 🖨 check-in sheet on each lane exists for a paper-first conversation.</li>
           <li>Disagree about whether a skill is "got"? The description arbitrates — if it can't, the description needs editing, and that's a finding, not a fight.</li>
           <li>Character lanes are conversation fuel. If a character check-in ever feels like a performance review, stop and shrink it.</li>
           <li>Move ages. Rewrite nodes. A calendar you can move is not a commitment you're locked into. The system is meant to be customized, not obeyed.</li>
+        </ul>
+      </section>
+
+      <section className="guide-block">
+        <h2 className="section-title">Evaluating without corrupting it</h2>
+        <ul>
+          <li>
+            <strong>Debrief on Tuesday, mark on Thursday.</strong> Have the conversation for its own
+            sake; touch the app later, alone. The honest version of a hard conversation can't coexist
+            with a kid watching for the checkbox at the end of it.
+          </li>
+          <li>
+            <strong>A self-check belongs to the kid.</strong> If the node says only they can know,
+            then only they can mark it — hand them the phone, or let their word set it. The app records
+            whose hand did the marking.
+          </li>
+          <li>
+            <strong>Watch for unlock pressure.</strong> The bigger the freedom a node gates, the more a
+            debrief wants to become a negotiation. The description arbitrates; if you feel yourself
+            rubber-stamping to keep the peace, slow the unlock down, not the honesty.
+          </li>
+          <li>
+            <strong>Regression is the ladder, not a demotion.</strong> Skills that were true at eleven
+            can stop being true at thirteen — that's development, not failure. Re-open the node; the
+            first "got it" date stays. Never treat re-opening as taking something away.
+          </li>
+          <li>
+            <strong>🪶 Light-touch nodes</strong> are dispositions living in competence lanes —
+            attention, footprint, inner weather. They're never gates and never counted; read them
+            together and mark them in retrospect, the way you'd treat a character lane.
+          </li>
+          <li>
+            <strong>Never compare trees.</strong> With several kids in one app, a leaderboard is one
+            glance away. The tree is a mirror held up to one kid, not a race between them — different
+            kids should even get different amounts of the app itself: a systems kid can self-serve;
+            a private kid may only ever need the paper sheet and your better attention.
+          </li>
         </ul>
       </section>
 

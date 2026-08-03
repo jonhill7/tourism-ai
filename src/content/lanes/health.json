@@ -153,7 +153,7 @@
       ],
       "comesAfter": ["health.sleep", "health.fuel"],
       "ageFloor": 11,
-      "assessment": "self-check",
+      "assessment": "debrief",
       "outcomes": ["wellbeing"]
     },
     {
@@ -192,7 +192,26 @@
       "comesAfter": ["health.signals", "facing.help"],
       "ageFloor": 12,
       "assessment": "debrief",
+      "touch": "light",
       "outcomes": ["wellbeing", "adversity"]
+    },
+    {
+      "id": "health.water",
+      "name": "Be safe in and around water",
+      "gotItWhen": "You can keep yourself alive in water — swim well enough to reach safety, float and rest when you're tired, and judge unfamiliar water before you're in it — and when someone else is struggling, you get real help moving and reach or throw from where it's safe instead of becoming the second victim.",
+      "looksLike": [
+        "You come off the paddleboard in deep water and surface calm — float, breathe, swim in.",
+        "At an unfamiliar river you check the current, the depth, and the way out before anyone gets wet.",
+        "A younger kid is panicking in the pool; you're the one yelling for the lifeguard and pushing the foam noodle out, not the one jumping onto a drowning swimmer."
+      ],
+      "waysToBuild": [
+        "Take real swim lessons until treading water for a few minutes feels boring instead of scary.",
+        "Drill the rescue rule — reach, throw, don't go — with a parent at the pool until it's reflex.",
+        "Before your next lake or beach trip, learn to spot rip currents and what cold water does to swimmers."
+      ],
+      "comesAfter": [],
+      "assessment": "observed",
+      "outcomes": ["wellbeing"]
     },
     {
       "id": "health.change",

@@ -27,6 +27,8 @@ Content lives in `src/content/` as JSON, imported directly by the app and valida
       "comesAfter": ["money.track"],   // node ids; may cross lanes; [] for roots
       "ageFloor": 11,             // optional; "rarely before ~11"
       "assessment": "debrief",    // "self-check" | "debrief" | "observed"
+      "touch": "light",           // optional; a disposition node in a competence lane:
+                                  // character-grade handling — never a gate, never scored
       "unlock": {                 // optional; competence lanes only
         "text": "…an expanded freedom with real stakes…",
         "coSign": true            // true if it's a real privilege needing parent sign-off
@@ -42,6 +44,12 @@ Rules the validator enforces: unique ids; prefix matches lane; prerequisites exi
 graph is acyclic; exactly one finale per lane; every skill maps to ≥1 valid outcome;
 2–3 `looksLike`, 2–4 `waysToBuild`; digits are not allowed in `gotItWhen` (numbers are
 actions — they belong in `waysToBuild`); character-lane nodes carry no `unlock`.
+
+**Gate audit** (also enforced): an unlock-bearing node may never have a character-lane
+or `touch: "light"` prerequisite — that would turn shared language into a scorecard
+with stakes; fold the requirement into the node's own `gotItWhen` instead. And a
+finale unlock gating on `self-check` evidence draws a warning: the bigger the freedom,
+the more observable its gates should be, or assessment turns into negotiation.
 
 ## Other files
 

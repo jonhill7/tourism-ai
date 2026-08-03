@@ -188,7 +188,7 @@
         "Do the full loop: your plan, your list, your trip, and a dinner cooked entirely from what came home."
       ],
       "comesAfter": ["food.plan-week", "money.compare"],
-      "assessment": "self-check",
+      "assessment": "observed",
       "outcomes": ["household", "financial"]
     },
     {
