@@ -22,7 +22,9 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["financial"]
+      "outcomes": [
+        "financial"
+      ]
     },
     {
       "id": "money.save-goal",
@@ -38,9 +40,14 @@
         "Split every bit of money you get: some to spend now, some to the goal.",
         "Set a bigger goal (over $100) that takes a season, not a week."
       ],
-      "comesAfter": ["money.pay"],
+      "comesAfter": [
+        "money.pay"
+      ],
       "assessment": "self-check",
-      "outcomes": ["financial", "adversity"]
+      "outcomes": [
+        "financial",
+        "adversity"
+      ]
     },
     {
       "id": "money.earn",
@@ -56,9 +63,14 @@
         "Agree the price *before* the work, every time, and see how that changes the conversation.",
         "Try one job you've never done — figure it out well enough that they'd hire you again."
       ],
-      "comesAfter": ["money.pay"],
+      "comesAfter": [
+        "money.pay"
+      ],
       "assessment": "observed",
-      "outcomes": ["financial", "learning"]
+      "outcomes": [
+        "financial",
+        "learning"
+      ]
     },
     {
       "id": "money.track",
@@ -74,9 +86,14 @@
         "Write down each purchase the day it happens in a notebook or app for a month.",
         "Do a monthly 'where did it go?' review with a parent — no judgment, just the map."
       ],
-      "comesAfter": ["money.pay"],
+      "comesAfter": [
+        "money.pay"
+      ],
       "assessment": "debrief",
-      "outcomes": ["financial"]
+      "core": true,
+      "outcomes": [
+        "financial"
+      ]
     },
     {
       "id": "money.compare",
@@ -92,9 +109,14 @@
         "Price the same item at three places (store, online, used) before your next real purchase.",
         "Learn to read unit prices on shelf tags and use them for a whole shopping trip."
       ],
-      "comesAfter": ["money.pay"],
+      "comesAfter": [
+        "money.pay"
+      ],
       "assessment": "self-check",
-      "outcomes": ["financial", "adultworld"]
+      "outcomes": [
+        "financial",
+        "adultworld"
+      ]
     },
     {
       "id": "money.pitch",
@@ -110,10 +132,15 @@
         "Walk a store with a parent and find five things placed or priced to manipulate you.",
         "Wait a day on any 'today only' deal and see how often it's still there tomorrow."
       ],
-      "comesAfter": ["money.compare"],
+      "comesAfter": [
+        "money.compare"
+      ],
       "ageFloor": 10,
       "assessment": "debrief",
-      "outcomes": ["financial", "adultworld"]
+      "outcomes": [
+        "financial",
+        "adultworld"
+      ]
     },
     {
       "id": "money.budget",
@@ -129,10 +156,16 @@
         "Plan a real event — a birthday, a trip — with a written budget, and settle up honestly after.",
         "Do a monthly reset: compare plan vs. reality, then set next month's numbers yourself."
       ],
-      "comesAfter": ["money.track", "money.save-goal"],
+      "comesAfter": [
+        "money.track",
+        "money.save-goal"
+      ],
       "ageFloor": 11,
       "assessment": "debrief",
-      "outcomes": ["financial"]
+      "core": true,
+      "outcomes": [
+        "financial"
+      ]
     },
     {
       "id": "money.bank",
@@ -148,14 +181,20 @@
         "Read one monthly statement line by line with a parent until every line makes sense.",
         "Move your saving goal into the account and track it there instead of an envelope."
       ],
-      "comesAfter": ["money.track"],
+      "comesAfter": [
+        "money.track"
+      ],
       "ageFloor": 12,
       "assessment": "observed",
+      "core": true,
       "unlock": {
         "text": "Your own account and debit card — we co-sign at the bank, you run it.",
         "coSign": true
       },
-      "outcomes": ["financial", "adultworld"]
+      "outcomes": [
+        "financial",
+        "adultworld"
+      ]
     },
     {
       "id": "money.errand",
@@ -171,14 +210,19 @@
         "Take a short list and a $20 bill; the challenge is coming home with change.",
         "Do a full run solo where at least one item will need a judgment call."
       ],
-      "comesAfter": ["money.compare"],
+      "comesAfter": [
+        "money.compare"
+      ],
       "ageFloor": 11,
       "assessment": "observed",
       "unlock": {
         "text": "You can be sent on real errands with the family card.",
         "coSign": true
       },
-      "outcomes": ["financial", "household"]
+      "outcomes": [
+        "financial",
+        "household"
+      ]
     },
     {
       "id": "money.quality",
@@ -194,9 +238,14 @@
         "Ask a customer (or parent) afterward: 'what would make it worth more next time?' and use the answer.",
         "Redo one corner-cut job to the real standard and feel the difference."
       ],
-      "comesAfter": ["money.earn"],
+      "comesAfter": [
+        "money.earn"
+      ],
       "assessment": "observed",
-      "outcomes": ["financial", "learning"]
+      "outcomes": [
+        "financial",
+        "learning"
+      ]
     },
     {
       "id": "money.paycheck",
@@ -212,10 +261,17 @@
         "Calculate take-home pay for an imaginary job offer before looking at the answer.",
         "When your first real stub arrives, explain it to the family at dinner."
       ],
-      "comesAfter": ["money.earn"],
+      "comesAfter": [
+        "money.earn"
+      ],
       "ageFloor": 13,
       "assessment": "debrief",
-      "outcomes": ["financial", "adultworld"]
+      "core": true,
+      "region": "US",
+      "outcomes": [
+        "financial",
+        "adultworld"
+      ]
     },
     {
       "id": "money.borrow",
@@ -231,10 +287,15 @@
         "Borrow $20 from a parent at toy-interest and feel repayment eat your allowance.",
         "Find the interest rate buried in a real credit card offer that comes in the mail."
       ],
-      "comesAfter": ["money.budget"],
+      "comesAfter": [
+        "money.budget"
+      ],
       "ageFloor": 13,
       "assessment": "debrief",
-      "outcomes": ["financial"]
+      "core": true,
+      "outcomes": [
+        "financial"
+      ]
     },
     {
       "id": "money.cushion",
@@ -250,10 +311,17 @@
         "Keep the cushion somewhere slightly annoying to reach, so it survives impulses.",
         "After your next money surprise, do the post-mortem: what did the cushion save you from?"
       ],
-      "comesAfter": ["money.budget", "money.bank"],
+      "comesAfter": [
+        "money.budget",
+        "money.bank"
+      ],
       "ageFloor": 13,
       "assessment": "debrief",
-      "outcomes": ["financial", "adversity"]
+      "core": true,
+      "outcomes": [
+        "financial",
+        "adversity"
+      ]
     },
     {
       "id": "money.invest",
@@ -269,14 +337,20 @@
         "Run the compound-growth math: your age, small monthly amounts, retirement — see the absurd number.",
         "Pick one company you love, read what actually makes it money, and compare owning it vs. owning everything."
       ],
-      "comesAfter": ["money.bank", "money.borrow"],
+      "comesAfter": [
+        "money.bank",
+        "money.borrow"
+      ],
       "ageFloor": 14,
       "assessment": "debrief",
+      "region": "US",
       "unlock": {
         "text": "A custodial investment account with real money in it, yours to steer.",
         "coSign": true
       },
-      "outcomes": ["financial"]
+      "outcomes": [
+        "financial"
+      ]
     },
     {
       "id": "money.job-land",
@@ -292,10 +366,19 @@
         "Do a mock interview with an adult who will actually grill you, then trade roles.",
         "Apply somewhere real, even a long shot; the reps are the point."
       ],
-      "comesAfter": ["money.earn", "people.phone", "people.converse"],
+      "comesAfter": [
+        "money.earn",
+        "people.phone",
+        "people.converse"
+      ],
       "ageFloor": 14,
       "assessment": "observed",
-      "outcomes": ["financial", "learning", "adultworld"]
+      "core": true,
+      "outcomes": [
+        "financial",
+        "learning",
+        "adultworld"
+      ]
     },
     {
       "id": "money.job-hold",
@@ -311,10 +394,16 @@
         "Ask your boss after the first month: 'what would make me more useful?' — then do it.",
         "When you do move on, give real notice and get the reference."
       ],
-      "comesAfter": ["money.job-land"],
+      "comesAfter": [
+        "money.job-land"
+      ],
       "ageFloor": 14,
       "assessment": "debrief",
-      "outcomes": ["financial", "learning", "adversity"]
+      "outcomes": [
+        "financial",
+        "learning",
+        "adversity"
+      ]
     },
     {
       "id": "money.worth",
@@ -330,10 +419,15 @@
         "Rehearse the raise conversation out loud with a parent playing a skeptical boss.",
         "Next new job, name your price first instead of asking 'whatever you think is fair.'"
       ],
-      "comesAfter": ["money.job-hold"],
+      "comesAfter": [
+        "money.job-hold"
+      ],
       "ageFloor": 15,
       "assessment": "debrief",
-      "outcomes": ["financial", "relationships"]
+      "outcomes": [
+        "financial",
+        "relationships"
+      ]
     },
     {
       "id": "money.sign",
@@ -349,10 +443,16 @@
         "Read a real lease or car contract with a parent and mark every sentence that costs money.",
         "Make 'what does it cost to get out?' your reflex question for anything with a signature line."
       ],
-      "comesAfter": ["money.pitch"],
+      "comesAfter": [
+        "money.pitch"
+      ],
       "ageFloor": 15,
       "assessment": "debrief",
-      "outcomes": ["financial", "adultworld"]
+      "core": true,
+      "outcomes": [
+        "financial",
+        "adultworld"
+      ]
     },
     {
       "id": "money.big-buy",
@@ -368,10 +468,16 @@
         "Find the same product's fan reviews and furious reviews, and reconcile them.",
         "Help a parent research a real family purchase (appliance, car) and present your recommendation."
       ],
-      "comesAfter": ["money.compare", "money.pitch"],
+      "comesAfter": [
+        "money.compare",
+        "money.pitch"
+      ],
       "ageFloor": 12,
       "assessment": "self-check",
-      "outcomes": ["financial", "adultworld"]
+      "outcomes": [
+        "financial",
+        "adultworld"
+      ]
     },
     {
       "id": "money.project",
@@ -387,9 +493,14 @@
         "Estimate a real project's cost before a parent reveals what it actually cost them.",
         "Plan and price one event end to end — and be the one holding the money for it."
       ],
-      "comesAfter": ["money.budget"],
+      "comesAfter": [
+        "money.budget"
+      ],
       "assessment": "self-check",
-      "outcomes": ["financial", "household"]
+      "outcomes": [
+        "financial",
+        "household"
+      ]
     },
     {
       "id": "money.taxes",
@@ -405,10 +516,16 @@
         "File your first real return yourself the year you have real income; have a parent check it before submitting.",
         "Afterward, trace one tax dollar: where does it actually go?"
       ],
-      "comesAfter": ["money.paycheck"],
+      "comesAfter": [
+        "money.paycheck"
+      ],
       "ageFloor": 16,
       "assessment": "observed",
-      "outcomes": ["financial", "adultworld"]
+      "region": "US",
+      "outcomes": [
+        "financial",
+        "adultworld"
+      ]
     },
     {
       "id": "money.insurance",
@@ -424,10 +541,69 @@
         "Price real insurance for something you own (a phone, a bike) and decide honestly if it's worth it.",
         "Find the exclusion in a policy that would surprise most people."
       ],
-      "comesAfter": ["money.borrow"],
+      "comesAfter": [
+        "money.borrow"
+      ],
       "ageFloor": 16,
       "assessment": "debrief",
-      "outcomes": ["financial", "adultworld"]
+      "outcomes": [
+        "financial",
+        "adultworld"
+      ]
+    },
+    {
+      "id": "money.aid",
+      "name": "Navigate financial aid and student loans",
+      "gotItWhen": "Facing the money side of education, you can work the system yourself — file the aid application on time, read an award letter and say which parts are grants and which are loans, work out what a loan will really cost by the time it's repaid, and compare what different paths would leave you owing before you sign anything.",
+      "looksLike": [
+        "You can point at each line of a real award letter and say which money is free, which is earned, and which is borrowed.",
+        "Comparing two schools, you get past the sticker price to the number that matters: what each would actually cost you, and what you'd owe when it's over.",
+        "You know the aid application's deadline for your year and what documents it needs — before the deadline is news."
+      ],
+      "waysToBuild": [
+        "Walk through the federal aid application (or your country's equivalent) with a parent using real or sample numbers, line by line.",
+        "Take a real loan offer and compute the total repaid over the full term — then say the monthly payment out loud next to a starting salary.",
+        "Read one real award letter from an older friend or cousin (with permission) and decode every line."
+      ],
+      "comesAfter": [
+        "money.borrow",
+        "money.sign"
+      ],
+      "ageFloor": 16,
+      "assessment": "debrief",
+      "core": true,
+      "region": "US",
+      "outcomes": [
+        "financial",
+        "adultworld"
+      ]
+    },
+    {
+      "id": "money.credit",
+      "name": "Build and guard your credit",
+      "gotItWhen": "You can explain what a credit score is, who keeps it, and what it will someday decide about you — apartments, car loans, sometimes jobs — and you know the moves that build it and the traps that wreck it: paying in full and on time, keeping old accounts alive, never carrying a balance for the 'points,' and checking your own report for accounts you never opened.",
+      "looksLike": [
+        "You can say in plain words why paying a card in full every month builds credit and paying the minimum builds interest for the bank.",
+        "Asked what a landlord sees when they run your credit, you have a real answer.",
+        "You pull a free credit report and read it — and you'd notice an account on it that isn't yours."
+      ],
+      "waysToBuild": [
+        "Walk through a parent's actual credit report together (their call what to show) and decode each section.",
+        "Learn the handful of score factors — payment history, utilization, age, new accounts — and rank them by weight.",
+        "When your first card arrives, set up autopay-in-full the same week, and treat the limit as the bank's number, not your budget."
+      ],
+      "comesAfter": [
+        "money.borrow",
+        "money.bank"
+      ],
+      "ageFloor": 16,
+      "assessment": "debrief",
+      "core": true,
+      "region": "US",
+      "outcomes": [
+        "financial",
+        "adultworld"
+      ]
     },
     {
       "id": "money.finale",
@@ -443,15 +619,25 @@
         "Run a full quarter — plan, statements, cushion, giving — and review it once with a parent as colleagues, not as an audit.",
         "Manage the family grocery budget for a month: real card, real limit, real consequences for the menu."
       ],
-      "comesAfter": ["money.budget", "money.bank", "money.cushion", "money.earn"],
+      "comesAfter": [
+        "money.budget",
+        "money.bank",
+        "money.cushion",
+        "money.earn",
+        "money.credit"
+      ],
       "ageFloor": 16,
       "assessment": "debrief",
-      "finale": true,
       "unlock": {
-        "text": "🎉 We co-sign your first credit card, and a real slice of the family budget is yours to run.",
+        "text": "🎉 We co-sign your first credit card and a real slice of the family budget is yours to run — a live privilege that stays healthy the same way it was earned: by how it's used.",
         "coSign": true
       },
-      "outcomes": ["financial", "household", "adultworld"]
+      "finale": true,
+      "outcomes": [
+        "financial",
+        "household",
+        "adultworld"
+      ]
     }
   ]
 }

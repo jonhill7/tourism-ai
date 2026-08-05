@@ -27,7 +27,7 @@ export default function RecognitionView() {
 
   const kidAge = ageOf(kid)
   const sections = lanes
-    .filter((l) => l.kind === 'competence')
+    .filter((l) => l.kind === 'competence' && !state.hiddenLanes.includes(l.id))
     .map((lane) => ({
       lane,
       starters: lane.skills.filter(

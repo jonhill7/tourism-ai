@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
-import { useAppState, addKid, updateKid, removeKid, exportJson, importJson } from '../lib/store'
+import { useAppState, addKid, updateKid, removeKid, exportJson, importJson, setLaneHidden } from '../lib/store'
+import { lanes } from '../lib/content'
 import { ageOf, fmtMonth, graduationDate } from '../lib/age'
 
 export default function FamilyView() {
@@ -109,6 +110,29 @@ export default function FamilyView() {
           </button>
         </div>
         {message && <p className="form-message">{message}</p>}
+      </section>
+
+      <section>
+        <h2 className="section-title">Your family's tree</h2>
+        <p className="muted">
+          The tree is built for one family and meant to be adapted, not obeyed. Values-loaded lanes can
+          be switched off here — a family with a different faith (or none) keeps the whole rest of the
+          map. Nodes tagged 📍 carry country-specific law and paperwork (taxes, voting, aid) — keep the
+          skill, swap the specifics for where you live.
+        </p>
+        {lanes
+          .filter((l) => l.configurable)
+          .map((l) => (
+            <label key={l.id} className="lane-toggle">
+              <input
+                type="checkbox"
+                checked={!state.hiddenLanes.includes(l.id)}
+                onChange={(e) => setLaneHidden(l.id, !e.target.checked)}
+              />
+              include {l.emoji} <strong>{l.name}</strong>
+              <span className="muted small"> — a values-loaded lane; yours to keep, adapt, or hide</span>
+            </label>
+          ))}
       </section>
 
       <section>

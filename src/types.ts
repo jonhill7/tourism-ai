@@ -18,6 +18,10 @@ export interface Skill {
   assessment: AssessmentMode
   /** A disposition node in a competence lane: character-grade handling — never a gate, never scored. */
   touch?: 'light'
+  /** Launch Core: one of the ~35 college-critical skills. Everything else is an extension. */
+  core?: boolean
+  /** Jurisdiction-specific content (e.g. "US") — adapt for your country/state. */
+  region?: string
   unlock?: Unlock
   finale?: boolean
   outcomes: string[]
@@ -30,7 +34,22 @@ export interface Lane {
   cluster: string
   kind: LaneKind
   tagline: string
+  /** A values-loaded lane a family may swap or hide (e.g. the faith lane). */
+  configurable?: boolean
   skills: Skill[]
+}
+
+/** The one cross-lane launch capstone — lives outside every lane, tested against real life. */
+export interface Capstone {
+  id: string
+  name: string
+  intro: string
+  gotItWhen: string
+  looksLike: string[]
+  waysToBuild: string[]
+  comesAfter: string[]
+  ageFloor?: number
+  assessment: AssessmentMode
 }
 
 export interface Outcome {
@@ -102,4 +121,6 @@ export interface AppState {
   focus: Record<string, FocusEntry>
   /** Per-kid, per-emancipation-row: "we announced this before it arrives". */
   announced: Record<string, Record<string, boolean>>
+  /** Lane ids this family has switched off (configurable lanes only, e.g. the faith lane). */
+  hiddenLanes: string[]
 }

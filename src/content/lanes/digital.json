@@ -40,6 +40,7 @@
       ],
       "comesAfter": ["digital.drive"],
       "assessment": "observed",
+      "core": true,
       "outcomes": ["adultworld"]
     },
     {
@@ -58,6 +59,7 @@
       ],
       "comesAfter": ["digital.secure"],
       "assessment": "debrief",
+      "core": true,
       "outcomes": ["adultworld", "financial"]
     },
     {
@@ -92,7 +94,7 @@
         "Put something you're proud of online — a project, art, a genuinely useful review — and start building the record on purpose.",
         "Adopt a one-hour rule for anything written in heat: it can always post later; it can never unpost."
       ],
-      "comesAfter": ["digital.privacy"],
+      "comesAfter": [],
       "assessment": "debrief",
       "touch": "light",
       "outcomes": ["relationships", "adultworld"]
@@ -100,7 +102,7 @@
     {
       "id": "digital.info",
       "name": "Tell good information from bad",
-      "gotItWhen": "Meeting a claim online — a viral video, a screenshot, a confident post — you can ask where it actually came from, check whether it's real, edited, or machine-made, and hold off on believing or sharing until it earns it, because you know popular and true are different things.",
+      "gotItWhen": "Meeting a claim online — a viral video, a screenshot, a confident post — you can ask where it actually came from, check whether it's real, edited, or machine-made, and hold off on believing or sharing until it earns it, because you know popular and true are different things. (This is the source-judgment from Learn How to Learn run at feed speed — applied when the claim comes looking for you, not when you went looking for it.)",
       "looksLike": [
         "A shocking clip is going around, and you find the original context before repeating it.",
         "You spot the tells of an AI-made image — the hands, the text, the lighting — and check before you believe.",
@@ -111,7 +113,7 @@
         "Practice lateral reading: before finishing an article, open new tabs about the source itself.",
         "Play family fact-check: each person brings one claim from their feed, and the table runs it down together."
       ],
-      "comesAfter": [],
+      "comesAfter": ["learn.sources"],
       "assessment": "debrief",
       "outcomes": ["learning", "adultworld"]
     },
