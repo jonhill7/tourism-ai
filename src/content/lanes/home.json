@@ -22,7 +22,9 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["household"]
+      "outcomes": [
+        "household"
+      ]
     },
     {
       "id": "home.laundry",
@@ -40,7 +42,10 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["household"]
+      "core": true,
+      "outcomes": [
+        "household"
+      ]
     },
     {
       "id": "home.habit",
@@ -56,9 +61,14 @@
         "Give every category of your stuff one place it lives — anything without a home gets one, or gets donated.",
         "Have a parent take a no-warning photo of your room once a week for a month; the goal is boring photos."
       ],
-      "comesAfter": ["home.room"],
+      "comesAfter": [
+        "home.room"
+      ],
       "assessment": "observed",
-      "outcomes": ["household", "wellbeing"]
+      "outcomes": [
+        "household",
+        "wellbeing"
+      ]
     },
     {
       "id": "home.mend",
@@ -76,7 +86,10 @@
       ],
       "comesAfter": [],
       "assessment": "self-check",
-      "outcomes": ["household", "financial"]
+      "outcomes": [
+        "household",
+        "financial"
+      ]
     },
     {
       "id": "home.tools",
@@ -94,7 +107,9 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["household"]
+      "outcomes": [
+        "household"
+      ]
     },
     {
       "id": "home.hang",
@@ -110,9 +125,13 @@
         "Hang three things of increasing weight: a picture, a mirror, a loaded shelf.",
         "Practice with a stud finder and the knock test, then verify with a tiny pilot hole before committing to hardware."
       ],
-      "comesAfter": ["home.tools"],
+      "comesAfter": [
+        "home.tools"
+      ],
       "assessment": "observed",
-      "outcomes": ["household"]
+      "outcomes": [
+        "household"
+      ]
     },
     {
       "id": "home.maintain",
@@ -128,9 +147,13 @@
         "Learn every bulb and filter type your house uses and where the spares live, then do one full replacement round.",
         "Adopt a screwdriver and a can of lubricant as your first responders, and learn which problems belong to which."
       ],
-      "comesAfter": ["home.tools"],
+      "comesAfter": [
+        "home.tools"
+      ],
       "assessment": "observed",
-      "outcomes": ["household"]
+      "outcomes": [
+        "household"
+      ]
     },
     {
       "id": "home.drain",
@@ -148,7 +171,9 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["household"]
+      "outcomes": [
+        "household"
+      ]
     },
     {
       "id": "home.systems",
@@ -166,7 +191,10 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["household", "adversity"]
+      "outcomes": [
+        "household",
+        "adversity"
+      ]
     },
     {
       "id": "home.assemble",
@@ -182,9 +210,14 @@
         "Use the two-pass method: read the whole instruction sheet once before touching a single part.",
         "Volunteer for the next assembly job that enters the house — grill, desk, trampoline — and own it end to end."
       ],
-      "comesAfter": ["home.tools"],
+      "comesAfter": [
+        "home.tools"
+      ],
       "assessment": "observed",
-      "outcomes": ["household", "learning"]
+      "outcomes": [
+        "household",
+        "learning"
+      ]
     },
     {
       "id": "home.deep-clean",
@@ -200,9 +233,13 @@
         "Learn which cleaner goes with which surface, and why bleach and ammonia products must never meet.",
         "Own the pre-holiday deep-clean of one bathroom, top to bottom."
       ],
-      "comesAfter": ["home.room"],
+      "comesAfter": [
+        "home.room"
+      ],
       "assessment": "observed",
-      "outcomes": ["household"]
+      "outcomes": [
+        "household"
+      ]
     },
     {
       "id": "home.yard",
@@ -218,10 +255,15 @@
         "Sit down with a parent and write your yard's calendar: what each season demands, on one page.",
         "Take on one neighbor's yard job for pay and treat them like a client."
       ],
-      "comesAfter": ["home.tools"],
+      "comesAfter": [
+        "home.tools"
+      ],
       "ageFloor": 11,
       "assessment": "observed",
-      "outcomes": ["household", "financial"]
+      "outcomes": [
+        "household",
+        "financial"
+      ]
     },
     {
       "id": "home.together",
@@ -237,10 +279,17 @@
         "Spend a week noticing: every time someone covers for you unasked, and every time you cover for them.",
         "Split a real shared cost — trip snacks, a group gift, the pizza — fairly, without a parent doing the math."
       ],
-      "comesAfter": ["home.habit", "people.disagree"],
+      "comesAfter": [
+        "home.habit",
+        "people.disagree"
+      ],
       "ageFloor": 13,
       "assessment": "debrief",
-      "outcomes": ["household", "relationships"]
+      "core": true,
+      "outcomes": [
+        "household",
+        "relationships"
+      ]
     },
     {
       "id": "home.emergency",
@@ -256,10 +305,43 @@
         "Learn the grease-fire rule cold, and practice the extinguisher's pull-aim-squeeze-sweep on an expired one outside.",
         "Talk through three scenarios with a parent — burst pipe, outage, gas smell — and name your first three moves for each."
       ],
-      "comesAfter": ["home.systems", "facing.steady"],
+      "comesAfter": [
+        "home.systems",
+        "facing.steady"
+      ],
       "ageFloor": 12,
       "assessment": "debrief",
-      "outcomes": ["household", "adversity"]
+      "outcomes": [
+        "household",
+        "adversity"
+      ]
+    },
+    {
+      "id": "home.lease",
+      "name": "Rent a place without getting burned",
+      "gotItWhen": "Before your name goes on a lease, you know what you're walking into — you can read the lease and say what it commits you to and what it costs to leave, you know what a deposit is and how people lose them, you can get utilities set up in your own name, and with roommates you get the money, chores, and guest rules agreed out loud before anyone signs anything.",
+      "looksLike": [
+        "Touring a rental, you ask about the deposit, what counts as damage, and what happens if a roommate bails — before you fall in love with the place.",
+        "Move-in day starts with a photo walkthrough of every scuff and stain, sent to the landlord in writing, because that's how deposits come home.",
+        "The roommate conversation — rent split, bills, dishes, overnight guests — happens on purpose in week zero, not in a blowup in month three."
+      ],
+      "waysToBuild": [
+        "Read a real lease with a parent and mark every sentence that costs money or is hard to undo — then say the three big ones from memory.",
+        "Interview two adults about a deposit they lost or nearly lost, and work out what paperwork would have saved it.",
+        "Draft a one-page roommate agreement for a pretend apartment — money, chores, guests, quiet, leaving early — and pressure-test it against the stories you collected."
+      ],
+      "comesAfter": [
+        "home.together",
+        "money.sign"
+      ],
+      "ageFloor": 16,
+      "assessment": "debrief",
+      "core": true,
+      "outcomes": [
+        "household",
+        "financial",
+        "adultworld"
+      ]
     },
     {
       "id": "home.finale",
@@ -275,15 +357,23 @@
         "Write the week's checklist yourself first: the daily jobs, the weekly ones, and which day the trash goes out.",
         "Do a real house-sit for a relative or neighbor — mail, plants, pets — as the dress rehearsal."
       ],
-      "comesAfter": ["home.habit", "home.laundry", "home.systems", "home.deep-clean"],
+      "comesAfter": [
+        "home.habit",
+        "home.laundry",
+        "home.systems",
+        "home.deep-clean"
+      ],
       "ageFloor": 14,
       "assessment": "observed",
-      "finale": true,
       "unlock": {
         "text": "🎉 You can be the one in charge at home — an evening or a weekend day, siblings included — and take paid house-sitting jobs.",
         "coSign": true
       },
-      "outcomes": ["household", "financial"]
+      "finale": true,
+      "outcomes": [
+        "household",
+        "financial"
+      ]
     }
   ]
 }

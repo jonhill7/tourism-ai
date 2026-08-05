@@ -61,7 +61,15 @@ for (const lane of lanes) {
       if (lane.kind === 'character') warn(`${S}: touch:"light" is redundant on a character lane — the whole lane is light`)
       if (s.finale) err(`${S}: a light-touch node cannot be a finale`)
       if (s.unlock) err(`${S}: a light-touch node cannot carry an unlock — light nodes are language, never gates`)
+      if ((s.comesAfter ?? []).length > 0)
+        err(`${S}: a light-touch node cannot carry prerequisites — "never gated" has to mean never gated, in either direction`)
     }
+    if (s.core !== undefined) {
+      if (s.core !== true) err(`${S}: core must be true if present`)
+      if (lane.kind === 'character') err(`${S}: character-lane nodes cannot be core — the Launch Core is a checklist, character is never one`)
+      if (s.touch === 'light') err(`${S}: light-touch nodes cannot be core`)
+    }
+    if (s.region !== undefined && typeof s.region !== 'string') err(`${S}: region must be a string (e.g. "US")`)
     if (s.finale) finales++
     if (s.unlock) {
       if (lane.kind === 'character') err(`${S}: character lanes carry no unlocks`)
@@ -115,6 +123,29 @@ const visit = (id, path) => {
 }
 for (const id of allSkills.keys()) visit(id, [])
 
+// Launch Core size — small enough to feel like a launch list, not another compliance sweep
+const coreCount = [...allSkills.values()].filter((s) => s.core).length
+if (coreCount < 25 || coreCount > 40)
+  warn(`Launch Core has ${coreCount} skills — aim for 25–40 so it stays a launch list, not a second tree`)
+
+// capstone — the one cross-lane node; lives outside every lane
+const cap = JSON.parse(readFileSync(join(contentDir, 'capstone.json'), 'utf8'))
+if (!cap.id || !cap.name || !cap.gotItWhen || cap.gotItWhen.length < 40) err('capstone: missing id/name/gotItWhen')
+if (/\d/.test(cap.gotItWhen ?? '')) err('capstone: digits in gotItWhen — numbers are actions, move them to waysToBuild')
+if (!/\byou\b|\byour\b|\byou'/i.test(cap.gotItWhen ?? '')) err('capstone: gotItWhen must be written to the kid ("you…")')
+if (!Array.isArray(cap.looksLike) || cap.looksLike.length < 2 || cap.looksLike.length > 3) err('capstone: looksLike must have 2–3 entries')
+if (!Array.isArray(cap.waysToBuild) || cap.waysToBuild.length < 2 || cap.waysToBuild.length > 4) err('capstone: waysToBuild must have 2–4 entries')
+for (const p of cap.comesAfter ?? []) {
+  if (!allSkills.has(p)) err(`capstone: comesAfter references unknown skill "${p}"`)
+  else {
+    const pre = allSkills.get(p)
+    if (pre.laneKind === 'character' || pre.touch === 'light')
+      err(`capstone: gates on character/light node "${p}" — fold the requirement into its own gotItWhen instead`)
+  }
+}
+const capLanes = new Set((cap.comesAfter ?? []).map((p) => p.split('.')[0]))
+if (capLanes.size < 4) err(`capstone: must draw on at least four lanes (draws on ${capLanes.size}) — the whole point is cross-lane`)
+
 // emancipation + expectations shape
 const em = JSON.parse(readFileSync(join(contentDir, 'emancipation.json'), 'utf8'))
 if (!Array.isArray(em.rows) || em.rows.length < 3) err('emancipation.json: rows missing')
@@ -124,7 +155,7 @@ for (const r of em.rows ?? [])
 const ex = JSON.parse(readFileSync(join(contentDir, 'expectations.json'), 'utf8'))
 for (const e of ex.expectations ?? []) if (!e.expectation || !e.consequence) err(`expectations ${e.id}: bad shape`)
 
-const totals = `${lanes.length} lanes, ${allSkills.size} skills, ${[...allSkills.values()].filter((s) => s.finale).length} finales, ${[...allSkills.values()].filter((s) => s.unlock).length} unlocks`
+const totals = `${lanes.length} lanes, ${allSkills.size} skills (${coreCount} core), ${[...allSkills.values()].filter((s) => s.finale).length} finales, ${[...allSkills.values()].filter((s) => s.unlock).length} unlocks, 1 capstone`
 for (const w of warnings) console.log(`⚠️  ${w}`)
 if (errors.length) {
   for (const e of errors) console.error(`✗ ${e}`)

@@ -9,12 +9,18 @@ Built for one family (five kids); designed to be customized and shared, not obey
 
 ## What's here
 
-- **14 lanes, 206 skills** in `src/content/lanes/` — each node has an observable
+- **14 lanes, 212 skills** in `src/content/lanes/` — each node has an observable
   "got it when" description, concrete examples, build suggestions, prerequisites, and
   (on competence lanes) real-world unlocks. Two reference lanes set the style:
   **Money & Work** (competence) and **Facing Hard Things** (character). Disposition
   nodes living in competence lanes carry a 🪶 `touch: "light"` flag — character-grade
-  handling (never a gate, never scored) wherever they live.
+  handling (no prerequisites, never a gate, never scored) wherever they live.
+  A 🎯 **Launch Core** of ~35 college-critical skills keeps the map from reading as a
+  compliance checklist — everything else is an extension. A 🏁 **cross-lane capstone**
+  (*run a week of your life*) is the integration test lane finales can't be. A
+  college-transition set (course loads, financial aid, credit, leases, health coverage,
+  substance emergencies) lives inside existing lanes; jurisdiction-bound nodes are
+  tagged 📍 `region`, and the faith lane can be switched off in-app.
 - **The Emancipation Track** in `src/content/emancipation.json` — the default freedom
   calendar (ages adjustable in-app), the four rules, the sorting test, and a starter
   Expectations & Consequences list.

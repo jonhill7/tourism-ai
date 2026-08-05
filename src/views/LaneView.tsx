@@ -39,12 +39,28 @@ const DetailPanel = ({ lane, skill }: { lane: Lane; skill: Skill }) => {
         </h2>
         <div className="detail-meta">
           <span className={`assess-badge a-${skill.assessment}`}>{skill.assessment}</span>
+          {skill.core && (
+            <span
+              className="core-badge"
+              title="Launch Core — one of the ~three dozen college-critical skills. Everything outside the core is an extension, not a requirement."
+            >
+              🎯 launch core
+            </span>
+          )}
           {skill.touch === 'light' && (
             <span
               className="light-badge"
-              title="Light touch — shared language to notice with your kid; never a gate, never scored."
+              title="Light touch — shared language to notice with your kid; no prerequisites, never a gate, never scored. Its assessment mode only says how growth gets noticed together."
             >
               🪶 light touch
+            </span>
+          )}
+          {skill.region && (
+            <span
+              className="region-chip"
+              title={`Written for ${skill.region} law and paperwork — keep the skill, swap the specifics for your country or state.`}
+            >
+              📍 {skill.region}
             </span>
           )}
           {skill.ageFloor !== undefined && (
@@ -89,6 +105,15 @@ const DetailPanel = ({ lane, skill }: { lane: Lane; skill: Skill }) => {
             <li key={i}>{x}</li>
           ))}
         </ul>
+        <p className="muted small adult-arc">
+          The adult side of every skill runs <em>model → practise together → observe → step back</em> —
+          {skill.assessment === 'observed'
+            ? ' this one ends with you watching from a step back.'
+            : skill.assessment === 'debrief'
+              ? ' this one ends in a conversation, not an inspection.'
+              : " this one ends with their own call — it was never yours to grade."}{' '}
+          And the check can run kid-first: "I think I've got this — watch me" is always a valid opening move.
+        </p>
       </section>
 
       {skill.comesAfter.length > 0 && (
@@ -141,6 +166,12 @@ const DetailPanel = ({ lane, skill }: { lane: Lane; skill: Skill }) => {
               parent co-signed{current !== 'got-it' ? ' (after "got it")' : ''}
             </label>
           )}
+          <p className="muted small unlock-note">
+            An unlock is a privilege, not a Track B freedom: it arrives by demonstration, stays live
+            with continued judgment, and can pause when safety, law, or the household says so — the
+            co-sign is the "context still fits" check, and it's reversible on purpose. Only calendar
+            freedoms never come back.
+          </p>
         </section>
       )}
 
@@ -314,6 +345,7 @@ export default function LaneView({ laneId, skillId }: { laneId?: string; skillId
                 </span>
                 <span className="node-badges">
                   {st === 'got-it' ? <span className="node-check">✓</span> : st === 'working' ? <span className="node-working">…</span> : null}
+                  {skill.core && <span title="Launch Core — college-critical">🎯</span>}
                   {skill.touch === 'light' && <span title="light touch — language, not a gate">🪶</span>}
                   {skill.unlock && <span title="carries an unlock">🔓</span>}
                   {crossPrereqs && <span title="has prerequisites in other lanes">⇄</span>}

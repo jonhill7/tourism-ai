@@ -22,7 +22,9 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["household"]
+      "outcomes": [
+        "household"
+      ]
     },
     {
       "id": "food.knife",
@@ -40,7 +42,9 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["household"]
+      "outcomes": [
+        "household"
+      ]
     },
     {
       "id": "food.recipe",
@@ -56,9 +60,14 @@
         "Practice mise en place: set out every ingredient before you turn anything on, and notice how much calmer cooking gets.",
         "Pick a recipe with a timing trap (marinate, chill, preheat) and plan backwards from when you want to eat."
       ],
-      "comesAfter": ["food.breakfast"],
+      "comesAfter": [
+        "food.breakfast"
+      ],
       "assessment": "self-check",
-      "outcomes": ["household", "learning"]
+      "outcomes": [
+        "household",
+        "learning"
+      ]
     },
     {
       "id": "food.lunch",
@@ -74,9 +83,14 @@
         "Build a rotation of four or five lunches you actually like, so it never gets boring or skipped.",
         "Check yourself mid-afternoon for a week: still running fine, or dragging? Let the answer redesign tomorrow's bag."
       ],
-      "comesAfter": ["food.breakfast"],
+      "comesAfter": [
+        "food.breakfast"
+      ],
       "assessment": "self-check",
-      "outcomes": ["household", "wellbeing"]
+      "outcomes": [
+        "household",
+        "wellbeing"
+      ]
     },
     {
       "id": "food.hot-meal",
@@ -92,9 +106,15 @@
         "Cook yourself dinner once a week for a month.",
         "Master one foundation at a time: eggs your favorite way, a pasta with real sauce, a stir-fry."
       ],
-      "comesAfter": ["food.knife", "food.recipe"],
+      "comesAfter": [
+        "food.knife",
+        "food.recipe"
+      ],
       "assessment": "observed",
-      "outcomes": ["household"]
+      "core": true,
+      "outcomes": [
+        "household"
+      ]
     },
     {
       "id": "food.safety",
@@ -110,9 +130,15 @@
         "Do a fridge audit with a parent: what goes on which shelf, what's expired, and what the different date labels actually mean.",
         "Narrate cross-contamination out loud while cooking one raw-meat meal: what touched what, and what needs washing before it touches anything else."
       ],
-      "comesAfter": ["food.hot-meal"],
+      "comesAfter": [
+        "food.hot-meal"
+      ],
       "assessment": "observed",
-      "outcomes": ["household", "wellbeing"]
+      "core": true,
+      "outcomes": [
+        "household",
+        "wellbeing"
+      ]
     },
     {
       "id": "food.clean-go",
@@ -128,9 +154,13 @@
         "Cook one full meal with the rule: every pause in the recipe is a cleaning move.",
         "Time your after-dinner cleanup for a week of cooking and watch it shrink as clean-as-you-go kicks in."
       ],
-      "comesAfter": ["food.hot-meal"],
+      "comesAfter": [
+        "food.hot-meal"
+      ],
       "assessment": "observed",
-      "outcomes": ["household"]
+      "outcomes": [
+        "household"
+      ]
     },
     {
       "id": "food.family-dinner",
@@ -146,13 +176,19 @@
         "Write the timeline on paper for your first few dinners: what starts when, counted back from serving time.",
         "Level up one component per dinner: first a main, then a main plus a side, then the whole plate."
       ],
-      "comesAfter": ["food.hot-meal", "food.safety"],
+      "comesAfter": [
+        "food.hot-meal",
+        "food.safety"
+      ],
       "assessment": "observed",
       "unlock": {
         "text": "The kitchen is yours to run solo — cook unsupervised, and have a friend over to cook together.",
         "coSign": true
       },
-      "outcomes": ["household", "relationships"]
+      "outcomes": [
+        "household",
+        "relationships"
+      ]
     },
     {
       "id": "food.plan-week",
@@ -168,10 +204,14 @@
         "Interview the family: everyone's top three dinners become the backbone of your rotation.",
         "Plan next week around what's already in the fridge and freezer before adding anything new."
       ],
-      "comesAfter": ["food.family-dinner"],
+      "comesAfter": [
+        "food.family-dinner"
+      ],
       "ageFloor": 12,
       "assessment": "debrief",
-      "outcomes": ["household"]
+      "outcomes": [
+        "household"
+      ]
     },
     {
       "id": "food.shop-list",
@@ -187,9 +227,15 @@
         "Walk your store once just to learn its layout, then order your next list to match it.",
         "Do the full loop: your plan, your list, your trip, and a dinner cooked entirely from what came home."
       ],
-      "comesAfter": ["food.plan-week", "money.compare"],
+      "comesAfter": [
+        "food.plan-week",
+        "money.compare"
+      ],
       "assessment": "observed",
-      "outcomes": ["household", "financial"]
+      "outcomes": [
+        "household",
+        "financial"
+      ]
     },
     {
       "id": "food.pantry",
@@ -205,10 +251,14 @@
         "Do one full pantry excavation: pull everything out, toss the expired, restock it oldest-in-front.",
         "Pick ten staples the family always needs and make yourself the person who never lets them hit zero."
       ],
-      "comesAfter": ["food.shop-list"],
+      "comesAfter": [
+        "food.shop-list"
+      ],
       "ageFloor": 13,
       "assessment": "self-check",
-      "outcomes": ["household"]
+      "outcomes": [
+        "household"
+      ]
     },
     {
       "id": "food.adapt",
@@ -224,9 +274,14 @@
         "Cook one meal for a real dietary need (vegetarian, gluten-free, dairy-free) that the eater genuinely enjoys.",
         "Learn the classic rescues — too salty, too spicy, too thin, too thick — and keep them in your back pocket."
       ],
-      "comesAfter": ["food.family-dinner"],
+      "comesAfter": [
+        "food.family-dinner"
+      ],
       "assessment": "self-check",
-      "outcomes": ["household", "learning"]
+      "outcomes": [
+        "household",
+        "learning"
+      ]
     },
     {
       "id": "food.crowd",
@@ -242,10 +297,15 @@
         "Cook once for a group of ten or more — a team dinner, a youth-group night — and write down what you'd change.",
         "Practice scaling on paper: take a four-person recipe to twelve and find what doesn't simply multiply (pans, salt, time)."
       ],
-      "comesAfter": ["food.family-dinner"],
+      "comesAfter": [
+        "food.family-dinner"
+      ],
       "ageFloor": 13,
       "assessment": "observed",
-      "outcomes": ["household", "relationships"]
+      "outcomes": [
+        "household",
+        "relationships"
+      ]
     },
     {
       "id": "food.finale",
@@ -261,15 +321,22 @@
         "Agree the budget with your parents up front and keep every receipt in one envelope for the reckoning.",
         "Run the real week during school-term chaos, not vacation — the schedule is part of the test."
       ],
-      "comesAfter": ["food.plan-week", "food.shop-list", "money.errand"],
+      "comesAfter": [
+        "food.plan-week",
+        "food.shop-list",
+        "money.errand"
+      ],
       "ageFloor": 14,
       "assessment": "observed",
-      "finale": true,
       "unlock": {
         "text": "🎉 A real slice of the family food budget is yours — you plan and cook a night every week, menu and shopping included, your call.",
         "coSign": true
       },
-      "outcomes": ["household", "financial"]
+      "finale": true,
+      "outcomes": [
+        "household",
+        "financial"
+      ]
     }
   ]
 }

@@ -22,7 +22,9 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["relationships"]
+      "outcomes": [
+        "relationships"
+      ]
     },
     {
       "id": "people.introduce",
@@ -38,9 +40,13 @@
         "At the next gathering, be the one who introduces any two people who haven't met.",
         "Trade practice intros with a sibling: name, connection, one hook the other person can grab."
       ],
-      "comesAfter": ["people.greet"],
+      "comesAfter": [
+        "people.greet"
+      ],
       "assessment": "observed",
-      "outcomes": ["relationships"]
+      "outcomes": [
+        "relationships"
+      ]
     },
     {
       "id": "people.converse",
@@ -56,9 +62,13 @@
         "Play the follow-up game at dinner: every answer earns one follow-up question before anyone may change the subject.",
         "After your next good conversation, tell a parent two things you learned about the other person."
       ],
-      "comesAfter": ["people.introduce"],
+      "comesAfter": [
+        "people.introduce"
+      ],
       "assessment": "observed",
-      "outcomes": ["relationships"]
+      "outcomes": [
+        "relationships"
+      ]
     },
     {
       "id": "people.ask",
@@ -74,9 +84,14 @@
         "Be the family's designated asker on the next shopping trip: every 'where is…?' goes through you.",
         "Next time an order comes out wrong, you do the talking while a parent watches from the table."
       ],
-      "comesAfter": ["people.greet"],
+      "comesAfter": [
+        "people.greet"
+      ],
       "assessment": "observed",
-      "outcomes": ["adultworld", "relationships"]
+      "outcomes": [
+        "adultworld",
+        "relationships"
+      ]
     },
     {
       "id": "people.phone",
@@ -92,9 +107,14 @@
         "Make three low-stakes calls in a month: store hours, a price check, a hold request.",
         "Take over one recurring family call — the haircut booking, the prescription refill — as permanently yours."
       ],
-      "comesAfter": ["people.ask"],
+      "comesAfter": [
+        "people.ask"
+      ],
       "assessment": "observed",
-      "outcomes": ["adultworld"]
+      "core": true,
+      "outcomes": [
+        "adultworld"
+      ]
     },
     {
       "id": "people.email",
@@ -112,7 +132,11 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["adultworld", "learning"]
+      "core": true,
+      "outcomes": [
+        "adultworld",
+        "learning"
+      ]
     },
     {
       "id": "people.listen",
@@ -128,9 +152,13 @@
         "In your next long conversation, hold your own story until you've asked two questions about theirs.",
         "The day after someone tells you something, check yourself: can you recall the details? The details are the proof of the listening."
       ],
-      "comesAfter": ["people.converse"],
+      "comesAfter": [
+        "people.converse"
+      ],
       "assessment": "observed",
-      "outcomes": ["relationships"]
+      "outcomes": [
+        "relationships"
+      ]
     },
     {
       "id": "people.small-talk",
@@ -146,9 +174,14 @@
         "Start one small conversation with a stranger each week — cashiers, neighbors, and waiting rooms all count.",
         "Watch a parent work a room at one event, then name the moves you saw on the drive home."
       ],
-      "comesAfter": ["people.converse"],
+      "comesAfter": [
+        "people.converse"
+      ],
       "assessment": "observed",
-      "outcomes": ["relationships", "adultworld"]
+      "outcomes": [
+        "relationships",
+        "adultworld"
+      ]
     },
     {
       "id": "people.speak",
@@ -166,7 +199,10 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["learning", "adultworld"]
+      "outcomes": [
+        "learning",
+        "adultworld"
+      ]
     },
     {
       "id": "people.disagree",
@@ -182,9 +218,13 @@
         "In your next real disagreement, earn one 'yes, that's what I mean' before you say the word 'but.'",
         "Learn to spot the moment a debate turns personal — in other people first, then in yourself."
       ],
-      "comesAfter": ["people.listen"],
+      "comesAfter": [
+        "people.listen"
+      ],
       "assessment": "debrief",
-      "outcomes": ["relationships"]
+      "outcomes": [
+        "relationships"
+      ]
     },
     {
       "id": "people.hard-convo",
@@ -200,10 +240,16 @@
         "Rehearse it once with a parent playing the other person — including the version where they get defensive.",
         "Adopt the one-day rule: hard things get said within a day, before they calcify."
       ],
-      "comesAfter": ["people.disagree", "facing.own-it"],
+      "comesAfter": [
+        "people.disagree",
+        "facing.own-it"
+      ],
       "ageFloor": 12,
       "assessment": "debrief",
-      "outcomes": ["relationships", "adversity"]
+      "outcomes": [
+        "relationships",
+        "adversity"
+      ]
     },
     {
       "id": "people.room",
@@ -219,10 +265,14 @@
         "Build the scan into every gathering: pause once and ask yourself, 'who here is not having a good time?'",
         "Agree a quiet signal with a parent that means 'read the room' — and treat every use as data, not criticism."
       ],
-      "comesAfter": ["people.listen"],
+      "comesAfter": [
+        "people.listen"
+      ],
       "ageFloor": 11,
       "assessment": "debrief",
-      "outcomes": ["relationships"]
+      "outcomes": [
+        "relationships"
+      ]
     },
     {
       "id": "people.host",
@@ -238,9 +288,15 @@
         "At every event you help host, find the least-connected person in the room and give them ten real minutes.",
         "Plan and run one small gathering yourself — invitations, food, what happens when — start to finish."
       ],
-      "comesAfter": ["people.small-talk"],
+      "comesAfter": [
+        "people.small-talk"
+      ],
       "assessment": "observed",
-      "outcomes": ["relationships", "household", "beyond"]
+      "outcomes": [
+        "relationships",
+        "household",
+        "beyond"
+      ]
     },
     {
       "id": "people.advocate",
@@ -257,15 +313,23 @@
         "Keep a paper trail on your next issue — names, dates, what was promised — and quote it in the follow-up.",
         "When the first answer is no, practice the calm next move: ask what would change it, or ask who else can help."
       ],
-      "comesAfter": ["people.phone", "people.email", "people.hard-convo"],
+      "comesAfter": [
+        "people.phone",
+        "people.email",
+        "people.hard-convo"
+      ],
       "ageFloor": 13,
       "assessment": "observed",
-      "finale": true,
+      "core": true,
       "unlock": {
         "text": "🎉 you speak for yourself with schools, doctors, coaches, and businesses — we only step in when you ask us to",
         "coSign": true
       },
-      "outcomes": ["adultworld", "adversity"]
+      "finale": true,
+      "outcomes": [
+        "adultworld",
+        "adversity"
+      ]
     }
   ]
 }

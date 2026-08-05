@@ -131,8 +131,9 @@
       "comesAfter": [],
       "ageFloor": 11,
       "assessment": "debrief",
+      "core": true,
       "unlock": {
-        "text": "Your own meds move to your keeping — you hold them and take them yourself.",
+        "text": "Everyday meds move to your keeping — you hold them and take them yourself. Anything where a missed or doubled dose is genuinely dangerous stays a shared system for as long as the risk says so — that's the medicine, not you.",
         "coSign": true
       },
       "outcomes": ["wellbeing", "adultworld"]
@@ -173,12 +174,13 @@
       "comesAfter": ["people.converse"],
       "ageFloor": 12,
       "assessment": "observed",
+      "core": true,
       "outcomes": ["wellbeing", "adultworld"]
     },
     {
       "id": "health.mind",
       "name": "Tend your mind",
-      "gotItWhen": "You keep watch over your own inner weather — you notice when a worry is spiraling or a mood has been sinking for a stretch, you know which things genuinely help you and which just burn the time, and you bring in people you trust early, while the thing is still small.",
+      "gotItWhen": "You keep watch over your own inner weather — you notice when a worry is spiraling or a mood has been sinking for a stretch, you know which things genuinely help you and which just burn the time, and you bring in people you trust early, while the thing is still small. (This is the slow weather over weeks; the in-the-moment storm skills — naming a feeling, settling yourself down — live in Facing Hard Things.)",
       "looksLike": [
         "You catch yourself re-running the same worry at midnight, and get up and dump it onto paper instead of another lap.",
         "You know your top three helps — a run, a friend, prayer, real sleep — and reach for one before the whole day is lost.",
@@ -189,7 +191,7 @@
         "Try a daily mood check — one word or a number at dinner — for a month and see what patterns surface.",
         "Agree with a parent or trusted adult on the open-door signal: the words you'll use when you need to talk, no crisis required."
       ],
-      "comesAfter": ["health.signals", "facing.help"],
+      "comesAfter": [],
       "ageFloor": 12,
       "assessment": "debrief",
       "touch": "light",
@@ -249,7 +251,50 @@
       "comesAfter": [],
       "ageFloor": 12,
       "assessment": "debrief",
+      "core": true,
       "outcomes": ["wellbeing", "adversity"]
+    },
+    {
+      "id": "health.emergency-friend",
+      "name": "Get a friend through a substance emergency",
+      "gotItWhen": "When someone has had too much — alcohol, pills, anything — you know the signs that make it an emergency: can't be woken, slow or strange breathing, vomiting while out of it, cold clammy skin. You put them on their side, stay with them, and call for real help without weighing the trouble anyone might get in, because a friend alive and grounded beats a friend dead and covered for.",
+      "looksLike": [
+        "A friend at a party is beyond drunk and fading; you turn them on their side, stay, and make the call — even though everyone there will know it was you.",
+        "You can say out loud what separates 'sleeping it off' from 'dying': it's whether they can be woken, and how they're breathing.",
+        "Someone needs to get home and the driver has been drinking; you're the one who finds the other way, even when it's awkward."
+      ],
+      "waysToBuild": [
+        "Learn the red flags — unwakeable, breathing wrong, vomiting while unresponsive — and the recovery position, and practice it once on a sibling on the living-room floor.",
+        "Agree the family amnesty deal out loud: a call for help in an emergency never becomes a punishment conversation that night.",
+        "Learn what a naloxone kit is, where it's kept in your community, and how it's used — before anyone you love needs it.",
+        "Talk through two real scenarios with a parent: the fading friend at the party, and the ride home nobody sober can drive."
+      ],
+      "comesAfter": ["health.substances", "health.serious"],
+      "ageFloor": 14,
+      "assessment": "debrief",
+      "core": true,
+      "outcomes": ["wellbeing", "adversity", "beyond"]
+    },
+    {
+      "id": "health.coverage",
+      "name": "Use your health coverage",
+      "gotItWhen": "You know how getting care actually gets paid for and where to take each kind of problem — you can say whose insurance covers you and what your card is for, fill a prescription and request the refill yourself, tell urgent care from the emergency room from a regular appointment, and you know where to go for the private stuff — mental health and sexual health included — and that going is normal.",
+      "looksLike": [
+        "You show up to an appointment with your insurance card and can answer the front desk's questions without a phone call home.",
+        "A prescription runs out; you call the pharmacy, handle the refill, and know roughly what it should cost with your coverage.",
+        "It's a sprained ankle on a Saturday, and you can say why that's urgent care, not the ER — and what each choice costs."
+      ],
+      "waysToBuild": [
+        "Walk through the family's actual insurance card and one real medical bill with a parent: premium, deductible, copay, what the letters mean.",
+        "Handle your own next prescription end to end — drop-off, pickup, refill request — with a parent on call only.",
+        "Make your own care map for where you'll live next: the nearest pharmacy, urgent care, ER, and where student or community health services live, including mental and sexual health care."
+      ],
+      "comesAfter": ["health.appointments", "health.meds"],
+      "ageFloor": 16,
+      "assessment": "debrief",
+      "core": true,
+      "region": "US",
+      "outcomes": ["wellbeing", "adultworld", "financial"]
     },
     {
       "id": "health.finale",

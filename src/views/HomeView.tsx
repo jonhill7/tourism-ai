@@ -1,6 +1,19 @@
-import { clusters, lanes, outcomes, scoredTotal, scoredSkillIds, getLane, emancipation } from '../lib/content'
-import { useAppState, setFocus } from '../lib/store'
+import {
+  clusters,
+  lanes,
+  outcomes,
+  scoredTotal,
+  scoredSkillIds,
+  coreSkillIds,
+  coreTotal,
+  capstone,
+  skillById,
+  getLane,
+  emancipation,
+} from '../lib/content'
+import { useAppState, setFocus, skillStateFor } from '../lib/store'
 import { fmtMonth, rowArrival } from '../lib/age'
+import { StateButtons } from './StateButtons'
 import type { Lane } from '../types'
 
 const STALE_DAYS = 90
@@ -62,6 +75,7 @@ export default function HomeView() {
   const scoredEntries = Object.entries(progress).filter(([id]) => scoredSkillIds.has(id))
   const gotTotal = scoredEntries.filter(([, p]) => p.state === 'got-it').length
   const workingTotal = scoredEntries.filter(([, p]) => p.state === 'working').length
+  const coreGot = scoredEntries.filter(([id, p]) => coreSkillIds.has(id) && p.state === 'got-it').length
 
   const now = new Date()
   const staleCutoff = new Date(now.getTime() - STALE_DAYS * 86400000).toISOString().slice(0, 10)
@@ -107,13 +121,16 @@ export default function HomeView() {
           <h2>
             {kid.name}'s tree
             <span className="kid-summary-stats">
-              {gotTotal} of {scoredTotal} skills · {workingTotal} in progress
+              🎯 launch core {coreGot} of {coreTotal} · {gotTotal} of {scoredTotal} skills overall ·{' '}
+              {workingTotal} in progress
             </span>
           </h2>
           <p className="muted">
             Three states, no failing: <strong>not yet</strong> · <strong>working on it</strong> ·{' '}
             <strong>got it</strong>. Mark anything already true — start with the{' '}
-            <a href="#/recognition">recognition pass</a>.
+            <a href="#/recognition">recognition pass</a>. The 🎯 <strong>Launch Core</strong> is the
+            three dozen college-critical skills; the other {scoredTotal - coreTotal} are extensions —
+            a map to wander, never a checklist to finish.
           </p>
           {staleWorking > 0 && (
             <p className="muted small stale-nudge">
@@ -179,17 +196,56 @@ export default function HomeView() {
         </div>
       </section>
 
-      {clusters.map((c) => (
-        <section key={c.id} className="cluster">
-          <h2 className="section-title">{c.id}</h2>
-          <div className="lane-grid">
-            {c.lanes.map((id) => {
-              const lane = lanes.find((l) => l.id === id)
-              return lane ? <LaneCard key={id} lane={lane} kidId={kid?.id ?? null} /> : null
-            })}
-          </div>
-        </section>
-      ))}
+      {clusters.map((c) => {
+        const shown = c.lanes.filter((id) => !state.hiddenLanes.includes(id))
+        if (shown.length === 0) return null
+        return (
+          <section key={c.id} className="cluster">
+            <h2 className="section-title">{c.id}</h2>
+            <div className="lane-grid">
+              {shown.map((id) => {
+                const lane = lanes.find((l) => l.id === id)
+                return lane ? <LaneCard key={id} lane={lane} kidId={kid?.id ?? null} /> : null
+              })}
+            </div>
+          </section>
+        )
+      })}
+
+      <section className="capstone-card">
+        <h2 className="section-title">🏁 The launch capstone — {capstone.name}</h2>
+        <p className="muted">{capstone.intro}</p>
+        <p>
+          <strong>Got it when…</strong> {capstone.gotItWhen}
+        </p>
+        <div className="prereq-chips">
+          {capstone.comesAfter.map((p) => {
+            const pre = skillById.get(p)
+            if (!pre) return null
+            const done = kid ? skillStateFor(state, kid.id, p) === 'got-it' : false
+            return (
+              <a key={p} className={`prereq-chip cross ${done ? 'done' : ''}`} href={`#/lane/${pre.laneId}/${p}`}>
+                {done ? '✓ ' : ''}
+                {getLane(pre.laneId)?.emoji} {pre.name}
+              </a>
+            )
+          })}
+        </div>
+        {kid ? (
+          <>
+            <StateButtons kidId={kid.id} skill={capstone} />
+            <p className="muted small">
+              Rarely before ~{capstone.ageFloor} — and it's observed by living through it: one real week,
+              ordinary life running, adults strictly on-call.
+            </p>
+          </>
+        ) : (
+          <p className="muted small">
+            Lane finales prove skills one at a time; this proves them all at once. <a href="#/family">Add
+            your kids</a> to track it.
+          </p>
+        )}
+      </section>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import { useAppState, setSkillState, skillStateFor } from '../lib/store'
-import type { Skill, SkillState } from '../types'
+import type { SkillState } from '../types'
 
 export const stateLabel: Record<SkillState, string> = {
   'not-yet': 'not yet',
@@ -7,7 +7,8 @@ export const stateLabel: Record<SkillState, string> = {
   'got-it': 'got it',
 }
 
-export const StateButtons = ({ kidId, skill }: { kidId: string; skill: Skill }) => {
+// only the id is needed, so the capstone (which lives outside every lane) can use these too
+export const StateButtons = ({ kidId, skill }: { kidId: string; skill: { id: string } }) => {
   const state = useAppState()
   const current = skillStateFor(state, kidId, skill.id)
   return (

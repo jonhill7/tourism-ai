@@ -53,6 +53,16 @@ only a tint** (an age *floor* means "rarely before ~N", never "should have by N"
 Lanes leak into each other on purpose — cross-lane prerequisites are encouraged where
 real (a first job needs People skills).
 
+Read it as a **map, not a checklist**: many branches deliberately feed no finale —
+they're territory to wander, not steps to complete. Two markers keep ~210 nodes
+navigable. The **🎯 Launch Core** flags the ~35 college-critical skills (`core: true`;
+competence lanes only — character never gets a checklist); everything outside the core
+is an extension, and a family that only ever works the core has used the tool
+correctly. The **🏁 launch capstone** (`capstone.json`) is the one cross-lane node —
+*run a week of your life*: meals, money, transport, appointments, deadlines, paperwork,
+and an unexpected problem, all at once, adults on-call only. Lane finales prove skills
+in isolation; the capstone is the integration test.
+
 On **character lanes**, prerequisites are *soft* — suggestions, not locks (character
 develops in a spiral). Character finales carry a celebration, not a privilege unlock —
 lightest possible touch: shared language for noticing growth *with* a kid, never a
@@ -80,8 +90,13 @@ a fact. Fields:
   whose hand marked them.
 - **Touch** (optional) — `"light"` marks a disposition node living in a competence lane
   (attention, footprint, inner weather). Light nodes get character-grade handling
-  wherever they live: soft prereqs, never a gate for an unlock, never counted in
-  progress numbers, marked in retrospect.
+  wherever they live: **no prerequisites at all** ("never gated" runs in both
+  directions), never a gate for an unlock, never counted in progress numbers, marked in
+  retrospect. Their assessment mode only names how growth gets noticed together — it is
+  never a scored checkpoint.
+- **Core** (optional) — `true` marks a Launch Core skill (see above).
+- **Region** (optional) — e.g. `"US"`: the node's specifics (taxes, voting, financial
+  aid, legal rights) are jurisdiction-bound. Keep the skill, swap the specifics.
 - **Finale** flag — one per lane; the only place a 🎉 celebration lives.
 
 **Three states per kid: not yet · working on it · got it.** "Working on it" is the
@@ -102,6 +117,10 @@ what's already there** (e.g. something school taught) — no busywork.
 6. **Many roads in** — build ideas suggest, never gate.
 7. **Right grain** — not "put your plate away," not "be responsible."
 8. **Worth carrying into adulthood.**
+9. **Mastery may not depend on luck or elapsed time.** "A friendship measured in years"
+   and "a trial life handed you" can't be practised on demand — assess the underlying
+   behaviors (the tending, the toolkit), and let the life event be *optional evidence*,
+   never the entry bar.
 
 **Governing test:** *reading this about myself, would I honestly know whether I have it?*
 
@@ -141,6 +160,15 @@ a freedom is "it's no longer up to me."**
 **Unlock audit rule:** any Track A unlock that would arrive by age anyway is a
 scheduled freedom masquerading as an earned one — move it to Track B. Track A unlocks
 must be genuinely enforceable privileges with real stakes.
+
+**Unlocks are conditional and reversible — on purpose.** An unlock is a privilege, not
+a freedom: one demonstration opens the door, but it stays open through ongoing judgment.
+Law, medication risk, other families' consent, and the household's standing rules always
+still apply; a privilege can pause when context changes (the co-sign is the "context
+still fits" check, and un-checking it is a supported move, not a betrayal). Unlock text
+should carry its own standing conditions where the stakes demand it (meds custody,
+overnights, the credit card). Only Track B freedoms get the never-comes-back guarantee —
+that asymmetry is what makes handing a freedom over mean something.
 
 **Gate audit rule** (the audit run backwards): an unlock may never gate on a
 character-lane or light-touch node — that converts shared language into a scorecard
@@ -226,6 +254,42 @@ temperament with a focus on evaluation — produced these standing decisions:
    the roommate tier (`home.together`). Still open: in-app node editing (today,
    customization means editing JSON — fine for a developer-family, a wall for
    everyone else).
+
+## Lessons from the external review (2026-08)
+
+A structured critique of the full tree produced these standing decisions:
+
+1. **A Launch Core, not a smaller tree.** ~35 college-critical skills flagged
+   `core: true`; the other ~175 relabeled (in the Guide and the home screen) as
+   extensions. The fix for "206 nodes feels like a compliance checklist" is a smaller
+   *foreground*, not less content.
+2. **One cross-lane capstone.** Lane finales test skills in isolation; `capstone.json`
+   (*run a week of your life*) is the integration test, and the only node outside every
+   lane.
+3. **A college-transition overlay without a new lane**: `learn.college` (registration,
+   syllabi, drop deadlines, office hours, integrity), `money.aid`, `money.credit`,
+   `home.lease`, `health.coverage`, `health.emergency-friend` (helping an intoxicated
+   friend, overdose recognition, safe transport) — slotted into existing lanes at
+   floors ~14–17, most of them core.
+4. **Light-touch means never gated, both directions.** Light nodes now carry no
+   prerequisites (validator-enforced), and their assessment mode is documented as "how
+   growth gets noticed," never a checkpoint.
+5. **No luck-gated mastery** (rule 9): the relationships and facing finales were
+   rewritten to assess tending behaviors and the toolkit reflex; the years-long
+   friendship and the real trial became optional evidence.
+6. **Deliberate near-duplicates now differentiate themselves in-text** (initiative vs.
+   unasked help; mistake-analysis vs. retry vs. own-it; inner weather vs. in-the-moment
+   settling; source-judgment vs. feed-speed media literacy — the last pair now also a
+   cross-lane ladder). Ladders stay ladders; the differentiation just stopped being
+   implicit.
+7. **The parent arc is first-class**: model → practise together → observe → step back,
+   surfaced per-node (derived from assessment mode), plus the kid-first check ("watch
+   me") and appeal path (description arbitrates → two-week focus with agreed evidence).
+   Supervision — shown → together → observed → cleared solo — is the real dial on
+   blades/flames/wheels/meds nodes; age floors stay tints.
+8. **Jurisdiction and values are tagged, not baked in**: `region: "US"` on
+   taxes/voting/aid/rights nodes; the faith lane is `configurable` and can be switched
+   off in-app without orphaning the other thirteen lanes.
 
 ## Guiding philosophy
 

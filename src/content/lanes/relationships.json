@@ -95,6 +95,7 @@
       "comesAfter": ["relationships.judge"],
       "ageFloor": 11,
       "assessment": "debrief",
+      "core": true,
       "outcomes": ["relationships", "adversity"]
     },
     {
@@ -247,16 +248,16 @@
     },
     {
       "id": "relationships.finale",
-      "name": "Build a friendship that lasts years",
-      "gotItWhen": "You have a real friendship measured in years, not months — one that has crossed moves, fights, busy seasons, and changes in both of you — because you kept choosing it: showing up, repairing, reaching out when it stopped being convenient.",
+      "name": "Tend a friendship for the long haul",
+      "gotItWhen": "You keep friendships alive on purpose, across time and change — you're the one who reaches out when it goes quiet, repairs after the fights, shows up when it stopped being convenient, and keeps choosing the friendship through moves, busy seasons, and changes in both of you. A friendship already measured in years is the best evidence — but the tending is the skill, and it shows in whatever friendships you've had the chance to run.",
       "looksLike": [
-        "There's a friend who has known several versions of you — and is still here.",
-        "The friendship survived a real test — a move, a big falling-out, a year on different tracks — because somebody reached out first, and it was you.",
-        "You can name what this friendship has cost you to keep, and you'd pay it again."
+        "A friendship goes quiet for a stretch, and you're the reacher-outer — friendships die from two people both waiting, and you refuse to be one of them.",
+        "A friendship survives a real test — a move, a big falling-out, a season on different tracks — because somebody chose it again first, and it was you.",
+        "There's a friend who has known more than one version of you and is still here — and you can name what keeping them has cost, and you'd pay it again."
       ],
       "waysToBuild": [
         "Pick the friendship you'd want standing next to you at your wedding and tend it like it matters: reach out first, remember the big days, visit when you can.",
-        "When it goes quiet, be the reacher-outer — friendships die from two people both waiting.",
+        "When it goes quiet, be the reacher-outer, and count each time you were — the reaching is the rep.",
         "Build one tradition into it: a yearly trip, a same-day-every-year call, a running joke with a calendar date."
       ],
       "comesAfter": ["relationships.repair", "relationships.distance"],
@@ -264,7 +265,7 @@
       "assessment": "debrief",
       "finale": true,
       "unlock": {
-        "text": "🎉 open-door privileges — your people are welcome here on your say-so, including overnights, no pre-clearing needed",
+        "text": "🎉 open-door privileges — your people are welcome here on your say-so, overnights included. The house's standing rules still stand, and other families still get their own say about their own kids.",
         "coSign": true
       },
       "outcomes": ["relationships", "wellbeing"]

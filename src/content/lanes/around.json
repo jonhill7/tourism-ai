@@ -22,7 +22,10 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["adultworld", "wellbeing"]
+      "outcomes": [
+        "adultworld",
+        "wellbeing"
+      ]
     },
     {
       "id": "around.foot",
@@ -38,14 +41,19 @@
         "Learn the bike rules of the road (signals, riding with traffic, lights at dusk) and teach them back on a family ride.",
         "Do a solo round trip to an agreed spot, with a check-in text from the far end."
       ],
-      "comesAfter": ["around.home-base"],
+      "comesAfter": [
+        "around.home-base"
+      ],
       "ageFloor": 10,
       "assessment": "observed",
       "unlock": {
         "text": "your roam radius grows — solo trips to the places we've agreed, no escort",
         "coSign": true
       },
-      "outcomes": ["adultworld", "wellbeing"]
+      "outcomes": [
+        "adultworld",
+        "wellbeing"
+      ]
     },
     {
       "id": "around.map",
@@ -61,9 +69,14 @@
         "Do one deliberately-lost drill: a parent drives you somewhere unfamiliar, and you navigate everyone home.",
         "Plan and lead a walk using a paper map only, phone zipped away for emergencies."
       ],
-      "comesAfter": ["around.home-base"],
+      "comesAfter": [
+        "around.home-base"
+      ],
       "assessment": "observed",
-      "outcomes": ["adultworld", "learning"]
+      "outcomes": [
+        "adultworld",
+        "learning"
+      ]
     },
     {
       "id": "around.transit",
@@ -79,14 +92,19 @@
         "Do one 'you lead, we follow' trip where the parent is cargo and says nothing.",
         "On the next family trip, plan and lead one transit journey from the hotel and back."
       ],
-      "comesAfter": ["around.map"],
+      "comesAfter": [
+        "around.map"
+      ],
       "ageFloor": 12,
       "assessment": "observed",
+      "core": true,
       "unlock": {
         "text": "solo transit rides on routes you've done with us",
         "coSign": true
       },
-      "outcomes": ["adultworld"]
+      "outcomes": [
+        "adultworld"
+      ]
     },
     {
       "id": "around.new-place",
@@ -102,9 +120,13 @@
         "At any big venue, be the one who finds the seats, the bathrooms, and two exits.",
         "Practice the ask: at the next confusing building, you're the one who walks up to the desk."
       ],
-      "comesAfter": ["around.map"],
+      "comesAfter": [
+        "around.map"
+      ],
       "assessment": "observed",
-      "outcomes": ["adultworld"]
+      "outcomes": [
+        "adultworld"
+      ]
     },
     {
       "id": "around.lost",
@@ -120,9 +142,15 @@
         "Run practice-lost drills: a parent walks you into an unfamiliar spot and shadows silently while you work your way out.",
         "Learn to share your live location and drop a pin, and do it once for real from somewhere random."
       ],
-      "comesAfter": ["around.map"],
+      "comesAfter": [
+        "around.map"
+      ],
       "assessment": "debrief",
-      "outcomes": ["adversity", "adultworld"]
+      "core": true,
+      "outcomes": [
+        "adversity",
+        "adultworld"
+      ]
     },
     {
       "id": "around.bike-fix",
@@ -140,7 +168,10 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["household", "adultworld"]
+      "outcomes": [
+        "household",
+        "adultworld"
+      ]
     },
     {
       "id": "around.plan-route",
@@ -156,10 +187,15 @@
         "Do the buffer math out loud: what's the latest bus that technically works, and which earlier one do you actually take?",
         "For your next plan, write the plan B before you leave: which leg is most likely to fail, and what you'll do."
       ],
-      "comesAfter": ["around.transit"],
+      "comesAfter": [
+        "around.transit"
+      ],
       "ageFloor": 13,
       "assessment": "debrief",
-      "outcomes": ["adultworld", "learning"]
+      "outcomes": [
+        "adultworld",
+        "learning"
+      ]
     },
     {
       "id": "around.drive",
@@ -182,7 +218,10 @@
         "text": "solo driving, expanding with your graduated license",
         "coSign": true
       },
-      "outcomes": ["adultworld", "wellbeing"]
+      "outcomes": [
+        "adultworld",
+        "wellbeing"
+      ]
     },
     {
       "id": "around.car-care",
@@ -199,10 +238,15 @@
         "Jump-start a car once with a parent supervising, saying the cable order out loud as you go.",
         "Go through the owner's manual warning-light pages once, sorting them into 'pull over now' versus 'book the shop.'"
       ],
-      "comesAfter": ["around.drive"],
+      "comesAfter": [
+        "around.drive"
+      ],
       "ageFloor": 15,
       "assessment": "observed",
-      "outcomes": ["adultworld", "household"]
+      "outcomes": [
+        "adultworld",
+        "household"
+      ]
     },
     {
       "id": "around.car-trouble",
@@ -218,10 +262,15 @@
         "Run the traffic-stop script with a parent playing officer: hands, words, documents — in that order.",
         "Build the car's trouble kit together — cables, flashlight, phone charger, insurance card — and know where everything lives."
       ],
-      "comesAfter": ["around.drive"],
+      "comesAfter": [
+        "around.drive"
+      ],
       "ageFloor": 16,
       "assessment": "debrief",
-      "outcomes": ["adultworld", "adversity"]
+      "outcomes": [
+        "adultworld",
+        "adversity"
+      ]
     },
     {
       "id": "around.book",
@@ -237,10 +286,15 @@
         "Price the same trip three ways — the carrier's own site, an aggregator, in person — and find where the fees hide.",
         "Make a confirmations folder (an email label or a screenshots album) and use it for every booking from now on."
       ],
-      "comesAfter": ["around.plan-route"],
+      "comesAfter": [
+        "around.plan-route"
+      ],
       "ageFloor": 14,
       "assessment": "observed",
-      "outcomes": ["adultworld", "financial"]
+      "outcomes": [
+        "adultworld",
+        "financial"
+      ]
     },
     {
       "id": "around.finale",
@@ -256,15 +310,23 @@
         "Plan the real trip on paper: every leg, every cost, one backup per leg — then walk a parent through it like a briefing.",
         "Pack from your own written list, live out of the bag the whole trip, and add whatever you forgot to next trip's list."
       ],
-      "comesAfter": ["around.plan-route", "around.book", "around.lost"],
+      "comesAfter": [
+        "around.plan-route",
+        "around.book",
+        "around.lost"
+      ],
       "ageFloor": 15,
       "assessment": "debrief",
-      "finale": true,
       "unlock": {
         "text": "🎉 travel privileges — trips with friends or solo, planned by you, on your signature",
         "coSign": true
       },
-      "outcomes": ["adultworld", "adversity", "financial"]
+      "finale": true,
+      "outcomes": [
+        "adultworld",
+        "adversity",
+        "financial"
+      ]
     }
   ]
 }
