@@ -47,6 +47,11 @@ npm run build      # validate + typecheck + production build (static, in dist/)
 The build is fully static — host `dist/` anywhere (GitHub Pages workflow included in
 `.github/workflows/deploy.yml`; enable Pages → GitHub Actions in repo settings).
 
+The app is a **PWA**: install it from the browser ("Add to Home Screen" / install
+icon) and it runs like a native app, fully offline — the whole tree is precached by a
+service worker, and progress already lives on-device. New deploys are picked up
+automatically on the next online visit.
+
 ## The design in 30 seconds
 
 Three levels, designed backwards: **Outcomes ← Lanes ← Skills.** Nine outcomes define
