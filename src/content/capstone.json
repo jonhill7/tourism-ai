@@ -1,0 +1,26 @@
+{
+  "id": "capstone.launch",
+  "name": "Run a week of your life",
+  "intro": "The one cross-lane capstone. Lane finales prove skills one lane at a time; real life arrives all at once. This is the dress rehearsal for launch — and the only node that belongs to every lane and none.",
+  "gotItWhen": "For one real week, the whole machine is yours at once — you feed yourself, run your money, get yourself everywhere you're going, keep your appointments and deadlines, handle whatever paperwork the week brings — and when something goes sideways mid-week (something always does), you absorb it, adjust, and keep the week on the rails, with the adults strictly on-call and hearing about most of it afterward.",
+  "looksLike": [
+    "Meals happen from your plan and your cooking, the budget holds, and you're on time to the things you committed to — all in the same seven days.",
+    "The week's admin — a form, a refill, a bill, a booking — gets handled by you, in the gaps, without the week derailing.",
+    "The surprise arrives — a canceled ride, a dead phone, a schedule collision, a burned dinner — and the family hears how you solved it after it's already solved."
+  ],
+  "waysToBuild": [
+    "Schedule it like a real event during ordinary life — school, activities, everything running — not during a quiet vacation week.",
+    "Agree the scope up front with your parents: the budget, the check-in rhythm, and what genuinely counts as call-us territory.",
+    "Debrief once at the end as colleagues: what ran itself, what leaked, and which lane the leaks point back to."
+  ],
+  "comesAfter": [
+    "food.plan-week",
+    "money.budget",
+    "around.plan-route",
+    "health.appointments",
+    "selfdir.deadline",
+    "civics.forms"
+  ],
+  "ageFloor": 16,
+  "assessment": "observed"
+}

@@ -4,6 +4,7 @@
   "emoji": "✝️",
   "cluster": "Character",
   "kind": "character",
+  "configurable": true,
   "tagline": "A faith that slowly becomes your own — prayed, questioned, practiced, and freely chosen, until it's yours whether or not anyone is watching. Prerequisites here are suggestions; faith grows in a spiral.",
   "skills": [
     {
@@ -22,7 +23,9 @@
       ],
       "comesAfter": [],
       "assessment": "self-check",
-      "outcomes": ["faith"]
+      "outcomes": [
+        "faith"
+      ]
     },
     {
       "id": "jesus.bible",
@@ -40,7 +43,10 @@
       ],
       "comesAfter": [],
       "assessment": "self-check",
-      "outcomes": ["faith", "learning"]
+      "outcomes": [
+        "faith",
+        "learning"
+      ]
     },
     {
       "id": "jesus.notice",
@@ -56,9 +62,14 @@
         "Keep a noticing list for a week: one gift a day, one line each.",
         "Take one walk a week where the only assignment is to pay attention."
       ],
-      "comesAfter": ["jesus.pray"],
+      "comesAfter": [
+        "jesus.pray"
+      ],
       "assessment": "self-check",
-      "outcomes": ["faith", "wellbeing"]
+      "outcomes": [
+        "faith",
+        "wellbeing"
+      ]
     },
     {
       "id": "jesus.questions",
@@ -76,7 +87,10 @@
       ],
       "comesAfter": [],
       "assessment": "debrief",
-      "outcomes": ["faith", "learning"]
+      "outcomes": [
+        "faith",
+        "learning"
+      ]
     },
     {
       "id": "jesus.sermon",
@@ -92,9 +106,14 @@
         "Do the car-ride trade: everyone shares one thing that landed, parents first.",
         "Pick one thing from a sermon to actually try that week, and see what happens."
       ],
-      "comesAfter": ["jesus.bible"],
+      "comesAfter": [
+        "jesus.bible"
+      ],
       "assessment": "debrief",
-      "outcomes": ["faith", "learning"]
+      "outcomes": [
+        "faith",
+        "learning"
+      ]
     },
     {
       "id": "jesus.rhythm",
@@ -110,10 +129,16 @@
         "Anchor it to something that already happens — after breakfast, before lights out.",
         "Test different formats — audio Bible, journal, sketching, memorizing — until one actually fits you."
       ],
-      "comesAfter": ["jesus.pray", "jesus.bible"],
+      "comesAfter": [
+        "jesus.pray",
+        "jesus.bible"
+      ],
       "ageFloor": 11,
       "assessment": "self-check",
-      "outcomes": ["faith", "wellbeing"]
+      "outcomes": [
+        "faith",
+        "wellbeing"
+      ]
     },
     {
       "id": "jesus.worship",
@@ -129,10 +154,14 @@
         "Pick one line of one song and actually mean it all the way through.",
         "Ask what worship looks like outside of music — serving, stillness, giving — and try one form for a season."
       ],
-      "comesAfter": ["jesus.pray"],
+      "comesAfter": [
+        "jesus.pray"
+      ],
       "ageFloor": 11,
       "assessment": "self-check",
-      "outcomes": ["faith"]
+      "outcomes": [
+        "faith"
+      ]
     },
     {
       "id": "jesus.forgive",
@@ -148,9 +177,16 @@
         "Write down what they owe you and what releasing it would mean — then tear the paper up on purpose.",
         "When an old hurt resurfaces, talk it through with someone you trust instead of feeding it quietly."
       ],
-      "comesAfter": ["jesus.pray", "facing.own-it"],
+      "comesAfter": [
+        "jesus.pray",
+        "facing.own-it"
+      ],
       "assessment": "self-check",
-      "outcomes": ["faith", "relationships", "wellbeing"]
+      "outcomes": [
+        "faith",
+        "relationships",
+        "wellbeing"
+      ]
     },
     {
       "id": "jesus.grace",
@@ -166,9 +202,15 @@
         "Read the stories of great returns — Peter by the fire, the prodigal's road home — and notice what the welcome is like every time.",
         "When the blow-it involved a person, make both repairs: the one with God and the one with them."
       ],
-      "comesAfter": ["jesus.pray"],
+      "comesAfter": [
+        "jesus.pray"
+      ],
       "assessment": "self-check",
-      "outcomes": ["faith", "wellbeing", "adversity"]
+      "outcomes": [
+        "faith",
+        "wellbeing",
+        "adversity"
+      ]
     },
     {
       "id": "jesus.share",
@@ -184,10 +226,15 @@
         "Have a parent play the genuinely curious (or genuinely skeptical) friend, and practice answering like a human.",
         "Ask a friend who believes differently real questions about their faith, and just listen — sharing goes both directions."
       ],
-      "comesAfter": ["jesus.questions"],
+      "comesAfter": [
+        "jesus.questions"
+      ],
       "ageFloor": 12,
       "assessment": "debrief",
-      "outcomes": ["faith", "relationships"]
+      "outcomes": [
+        "faith",
+        "relationships"
+      ]
     },
     {
       "id": "jesus.suffering",
@@ -203,10 +250,16 @@
         "In a hard season, write your own psalm: the complaint, the honest question, and whatever trust you can truthfully sign.",
         "Ask an adult you trust about their hardest season and what their faith actually looked like in the middle of it."
       ],
-      "comesAfter": ["jesus.questions", "facing.grieve"],
+      "comesAfter": [
+        "jesus.questions",
+        "facing.grieve"
+      ],
       "ageFloor": 12,
       "assessment": "self-check",
-      "outcomes": ["faith", "adversity"]
+      "outcomes": [
+        "faith",
+        "adversity"
+      ]
     },
     {
       "id": "jesus.practices",
@@ -222,10 +275,15 @@
         "Write your rule of life on a single page: what, when, and the why beside each line.",
         "Review it once a season with someone further down the road — as a consultant you invited, not an inspector."
       ],
-      "comesAfter": ["jesus.rhythm"],
+      "comesAfter": [
+        "jesus.rhythm"
+      ],
       "ageFloor": 13,
       "assessment": "self-check",
-      "outcomes": ["faith", "wellbeing"]
+      "outcomes": [
+        "faith",
+        "wellbeing"
+      ]
     },
     {
       "id": "jesus.finale",
@@ -241,11 +299,17 @@
         "When it's true, say it somewhere that matters to you: a journal, a conversation, a baptism, your own words at your own table.",
         "Remember: church attendance becomes your call at the age the family set, no matter what — ownership was always the goal, never attendance."
       ],
-      "comesAfter": ["jesus.questions", "jesus.practices", "jesus.grace"],
+      "comesAfter": [
+        "jesus.questions",
+        "jesus.practices",
+        "jesus.grace"
+      ],
       "ageFloor": 14,
       "assessment": "self-check",
       "finale": true,
-      "outcomes": ["faith"]
+      "outcomes": [
+        "faith"
+      ]
     }
   ]
 }

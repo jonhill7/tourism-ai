@@ -520,6 +520,40 @@ a:hover { color: var(--accent-deep); }
 .tree-node.light-touch { border-style: dashed; }
 .prereq-chip.soft { border-style: dashed; font-style: italic; opacity: 0.85; }
 
+/* ————— launch core, regions, adult arc ————— */
+
+.core-badge {
+  font-size: 0.72rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  color: var(--accent-deep);
+  background: transparent;
+}
+.region-chip {
+  font-size: 0.72rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px dotted var(--line);
+  color: var(--muted);
+}
+.adult-arc { margin-top: 10px; border-top: 1px dotted var(--line); padding-top: 8px; }
+.unlock-note { margin-top: 8px; }
+
+/* ————— launch capstone + lane toggles ————— */
+
+.capstone-card {
+  background: var(--card);
+  border: 1.5px solid var(--accent);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 14px 18px;
+  margin: 22px 0;
+}
+.capstone-card .prereq-chips { margin: 10px 0 12px; }
+.lane-toggle { display: block; margin: 8px 0; }
+.lane-toggle input { margin-right: 8px; }
+
 /* ————— evaluation: notes, marked-by, dates ————— */
 
 .note-field { display: block; margin-top: 14px; }

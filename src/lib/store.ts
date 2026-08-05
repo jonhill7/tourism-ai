@@ -12,6 +12,7 @@ const emptyState = (): AppState => ({
   emancipationAges: {},
   focus: {},
   announced: {},
+  hiddenLanes: [],
 })
 
 const load = (): AppState => {
@@ -146,6 +147,14 @@ export const grantUnlock = (kidId: string, skillId: string, granted: boolean) =>
       ...s.unlocksGranted,
       [kidId]: { ...(s.unlocksGranted[kidId] ?? {}), [skillId]: granted },
     },
+  }))
+
+export const setLaneHidden = (laneId: string, hidden: boolean) =>
+  setState((s) => ({
+    ...s,
+    hiddenLanes: hidden
+      ? [...new Set([...s.hiddenLanes, laneId])]
+      : s.hiddenLanes.filter((id) => id !== laneId),
   }))
 
 export const setEmancipationAge = (rowId: string, age: number | 'graduation' | null) =>

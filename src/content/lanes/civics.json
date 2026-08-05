@@ -22,7 +22,9 @@
       ],
       "comesAfter": [],
       "assessment": "debrief",
-      "outcomes": ["adultworld"]
+      "outcomes": [
+        "adultworld"
+      ]
     },
     {
       "id": "civics.neighbors",
@@ -40,7 +42,9 @@
       ],
       "comesAfter": [],
       "assessment": "self-check",
-      "outcomes": ["relationships"]
+      "outcomes": [
+        "relationships"
+      ]
     },
     {
       "id": "civics.join",
@@ -58,7 +62,10 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["relationships", "beyond"]
+      "outcomes": [
+        "relationships",
+        "beyond"
+      ]
     },
     {
       "id": "civics.role",
@@ -74,10 +81,15 @@
         "Run one event end to end: the plan, the people, the day-of, the cleanup.",
         "Ask the adult who runs the group: 'what's a job I could take off your plate for the rest of the season?'"
       ],
-      "comesAfter": ["civics.join"],
+      "comesAfter": [
+        "civics.join"
+      ],
       "ageFloor": 12,
       "assessment": "observed",
-      "outcomes": ["beyond", "learning"]
+      "outcomes": [
+        "beyond",
+        "learning"
+      ]
     },
     {
       "id": "civics.issue",
@@ -94,10 +106,15 @@
         "Write both sides' best arguments on one page, then — only then — your own view underneath.",
         "Interview two adults who disagree about it and just listen."
       ],
-      "comesAfter": ["civics.town"],
+      "comesAfter": [
+        "civics.town"
+      ],
       "ageFloor": 13,
       "assessment": "debrief",
-      "outcomes": ["adultworld", "learning"]
+      "outcomes": [
+        "adultworld",
+        "learning"
+      ]
     },
     {
       "id": "civics.rights",
@@ -116,7 +133,11 @@
       "comesAfter": [],
       "ageFloor": 12,
       "assessment": "debrief",
-      "outcomes": ["adultworld", "adversity"]
+      "region": "US",
+      "outcomes": [
+        "adultworld",
+        "adversity"
+      ]
     },
     {
       "id": "civics.forms",
@@ -135,7 +156,10 @@
       "comesAfter": [],
       "ageFloor": 12,
       "assessment": "observed",
-      "outcomes": ["adultworld"]
+      "core": true,
+      "outcomes": [
+        "adultworld"
+      ]
     },
     {
       "id": "civics.documents",
@@ -151,10 +175,15 @@
         "Set up your own folder (or your section of the family fireproof box) and be the one who files your documents in it.",
         "Read one real story of identity theft together and trace exactly which leaked piece made it possible."
       ],
-      "comesAfter": ["civics.forms"],
+      "comesAfter": [
+        "civics.forms"
+      ],
       "ageFloor": 14,
       "assessment": "debrief",
-      "outcomes": ["adultworld", "financial"]
+      "outcomes": [
+        "adultworld",
+        "financial"
+      ]
     },
     {
       "id": "civics.bureaucracy",
@@ -170,10 +199,16 @@
         "Before any agency trip, make the checklist: what do I need, what do I bring, what are the hours, what's plan B?",
         "Debrief a failed attempt like a pro: what was missing, whose rule was it, what does round two look like?"
       ],
-      "comesAfter": ["civics.forms"],
+      "comesAfter": [
+        "civics.forms"
+      ],
       "ageFloor": 14,
       "assessment": "observed",
-      "outcomes": ["adultworld", "adversity"]
+      "core": true,
+      "outcomes": [
+        "adultworld",
+        "adversity"
+      ]
     },
     {
       "id": "civics.law",
@@ -189,10 +224,15 @@
         "Walk through one real contract a young adult typically signs (phone plan, apartment lease, car loan) and find what it binds you to.",
         "If selective service applies to you, learn what registering means and when it happens — before the deadline does."
       ],
-      "comesAfter": ["civics.rights"],
+      "comesAfter": [
+        "civics.rights"
+      ],
       "ageFloor": 15,
       "assessment": "debrief",
-      "outcomes": ["adultworld"]
+      "region": "US",
+      "outcomes": [
+        "adultworld"
+      ]
     },
     {
       "id": "civics.vote",
@@ -209,10 +249,15 @@
         "Register (or pre-register, where your state allows it) the first day you can.",
         "Find two voter guides from opposing perspectives and read both on the same race."
       ],
-      "comesAfter": ["civics.issue"],
+      "comesAfter": [
+        "civics.issue"
+      ],
       "ageFloor": 16,
       "assessment": "debrief",
-      "outcomes": ["adultworld"]
+      "region": "US",
+      "outcomes": [
+        "adultworld"
+      ]
     },
     {
       "id": "civics.finale",
@@ -228,15 +273,21 @@
         "Keep your own documents folder current for six months: nothing expired, nothing missing, nothing 'somewhere.'",
         "When the family hits a real bureaucratic snag, volunteer to be the one who untangles it."
       ],
-      "comesAfter": ["civics.bureaucracy", "civics.documents"],
+      "comesAfter": [
+        "civics.bureaucracy",
+        "civics.documents"
+      ],
       "ageFloor": 16,
       "assessment": "observed",
-      "finale": true,
       "unlock": {
         "text": "🎉 Your documents move into your keeping — ID, records, and accounts in your name, held and managed by you.",
         "coSign": true
       },
-      "outcomes": ["adultworld", "household"]
+      "finale": true,
+      "outcomes": [
+        "adultworld",
+        "household"
+      ]
     }
   ]
 }

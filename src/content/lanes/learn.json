@@ -63,7 +63,7 @@
     {
       "id": "learn.mistake",
       "name": "Learn from a mistake",
-      "gotItWhen": "After something goes wrong, you can look at it squarely, say plainly what happened and why, pull out the lesson, and change something specific in how you do it next time — so the mistake buys you something.",
+      "gotItWhen": "After something goes wrong, you can look at it squarely, say plainly what happened and why, pull out the lesson, and change something specific in how you do it next time — so the mistake buys you something. (This is the analysis; the courage to take another swing, and owning it to the people it touched, are their own skills in Facing Hard Things.)",
       "looksLike": [
         "You bomb a quiz and work out it was the word problems specifically — so that's what next week's practice becomes.",
         "Your cake sinks, and you go back through the recipe until you find the step you skipped.",
@@ -130,6 +130,7 @@
       ],
       "comesAfter": ["learn.practice"],
       "assessment": "self-check",
+      "core": true,
       "outcomes": ["learning"]
     },
     {
@@ -148,6 +149,7 @@
       ],
       "comesAfter": ["learn.lookup"],
       "assessment": "debrief",
+      "core": true,
       "outcomes": ["learning", "adultworld"]
     },
     {
@@ -222,6 +224,26 @@
       "ageFloor": 12,
       "assessment": "self-check",
       "outcomes": ["learning", "wellbeing"]
+    },
+    {
+      "id": "learn.college",
+      "name": "Run your own course load",
+      "gotItWhen": "In any system where the classes are yours to manage — dual enrollment, college, a certification program — you run the machinery yourself: you register on time, read every syllabus in week one and put its deadlines on your calendar, know the drop and refund dates before they pass, show up to office hours as a normal tool rather than a last resort, and know exactly where the line sits between getting help and cheating — because your name on the work means you can defend it.",
+      "looksLike": [
+        "Registration opens and you're in the classes you planned for, because you knew the date and had backups picked.",
+        "By the end of week one, every due date from every syllabus lives in your calendar — and the drop deadline is marked in red.",
+        "A class is going sideways by week three, and you're at office hours with specific questions — before the first exam, not after the grade."
+      ],
+      "waysToBuild": [
+        "Take one real course where you run everything — a dual-enrollment class, a community-college summer course, a certification — with parents never touching the logistics.",
+        "Practice the syllabus pass on a real syllabus: extract every date, every grading rule, and the professor's help channels in one sitting.",
+        "Read one real academic-integrity policy and talk through the gray cases with a parent: the study group, the AI draft, the old exams folder."
+      ],
+      "comesAfter": ["learn.study", "selfdir.deadline"],
+      "ageFloor": 16,
+      "assessment": "debrief",
+      "core": true,
+      "outcomes": ["learning", "adultworld"]
     },
     {
       "id": "learn.finale",

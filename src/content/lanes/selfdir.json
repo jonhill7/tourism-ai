@@ -23,7 +23,11 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["household", "wellbeing"]
+      "core": true,
+      "outcomes": [
+        "household",
+        "wellbeing"
+      ]
     },
     {
       "id": "selfdir.stuff",
@@ -41,7 +45,9 @@
       ],
       "comesAfter": [],
       "assessment": "self-check",
-      "outcomes": ["household"]
+      "outcomes": [
+        "household"
+      ]
     },
     {
       "id": "selfdir.word",
@@ -59,25 +65,33 @@
       ],
       "comesAfter": [],
       "assessment": "observed",
-      "outcomes": ["relationships", "adultworld"]
+      "outcomes": [
+        "relationships",
+        "adultworld"
+      ]
     },
     {
       "id": "selfdir.initiative",
       "name": "Start without being told",
-      "gotItWhen": "You notice what needs doing — the trash is full, the homework is assigned, a guest is arriving — and you begin on your own, because you saw it, not because someone pointed at it.",
+      "gotItWhen": "You notice what needs doing in your own lane — the trash is full, the homework is assigned, the gear needs packing — and you begin on your own, because you saw it, not because someone pointed at it. (Starting your own work unprompted is this skill; spotting and meeting other people's needs is Serve & Give's territory.)",
       "looksLike": [
-        "You open the dishwasher, find it clean, and empty it — because you're the one who opened it.",
+        "The trash is overflowing on your watch, and it's at the curb before anyone mentions it.",
         "Homework gets started the day it's assigned, before anyone mentions it.",
-        "Company's coming in an hour, and you pick a room and start making it right."
+        "The night before the game, you notice your uniform is still in the wash and deal with it — nobody's problem but yours."
       ],
       "waysToBuild": [
         "Once a day for two weeks, find one thing that needs doing and do it before anyone can ask.",
         "Walk into a room and play 'what would a helpful adult notice?' — then act on the first thing you see.",
         "Ask a parent to keep a running list of things they usually have to request — and make the list shrink."
       ],
-      "comesAfter": ["selfdir.word"],
+      "comesAfter": [
+        "selfdir.word"
+      ],
       "assessment": "observed",
-      "outcomes": ["household", "learning"]
+      "outcomes": [
+        "household",
+        "learning"
+      ]
     },
     {
       "id": "selfdir.plan",
@@ -95,7 +109,9 @@
       ],
       "comesAfter": [],
       "assessment": "debrief",
-      "outcomes": ["learning"]
+      "outcomes": [
+        "learning"
+      ]
     },
     {
       "id": "selfdir.steps",
@@ -111,9 +127,14 @@
         "Practice the question 'what's the very next physical action?' on three stuck projects.",
         "Shrink steps until none takes more than twenty minutes; if one still feels heavy, split it again."
       ],
-      "comesAfter": ["selfdir.plan"],
+      "comesAfter": [
+        "selfdir.plan"
+      ],
       "assessment": "self-check",
-      "outcomes": ["learning", "adversity"]
+      "outcomes": [
+        "learning",
+        "adversity"
+      ]
     },
     {
       "id": "selfdir.deadline",
@@ -129,9 +150,14 @@
         "Break the work into three calendar sessions and treat each one like a practice you can't skip.",
         "After it's turned in, do a two-minute review: what did the plan get right, and what surprised you?"
       ],
-      "comesAfter": ["selfdir.steps"],
+      "comesAfter": [
+        "selfdir.steps"
+      ],
       "assessment": "observed",
-      "outcomes": ["learning"]
+      "core": true,
+      "outcomes": [
+        "learning"
+      ]
     },
     {
       "id": "selfdir.finish",
@@ -147,9 +173,14 @@
         "Name the boring middle out loud when you hit it — 'this is the part where people quit' — then set one tiny next step.",
         "Keep a finished-things list for a season and watch it grow."
       ],
-      "comesAfter": ["selfdir.word"],
+      "comesAfter": [
+        "selfdir.word"
+      ],
       "assessment": "self-check",
-      "outcomes": ["adversity", "learning"]
+      "outcomes": [
+        "adversity",
+        "learning"
+      ]
     },
     {
       "id": "selfdir.habit",
@@ -165,9 +196,14 @@
         "Track it on a paper chain or calendar for a month; make the streak something you can see.",
         "Start embarrassingly small — one push-up, one sentence — and let it grow only after it's automatic."
       ],
-      "comesAfter": ["selfdir.plan"],
+      "comesAfter": [
+        "selfdir.plan"
+      ],
       "assessment": "self-check",
-      "outcomes": ["wellbeing", "learning"]
+      "outcomes": [
+        "wellbeing",
+        "learning"
+      ]
     },
     {
       "id": "selfdir.schedule",
@@ -183,10 +219,17 @@
         "Do a five-minute Sunday review: look at the week, spot the collisions, plan around them.",
         "Pick one category of thing (practices, appointments) and ask your parents to stop reminding you of it — then own it fully."
       ],
-      "comesAfter": ["selfdir.deadline", "selfdir.stuff"],
+      "comesAfter": [
+        "selfdir.deadline",
+        "selfdir.stuff"
+      ],
       "ageFloor": 12,
       "assessment": "observed",
-      "outcomes": ["adultworld", "household"]
+      "core": true,
+      "outcomes": [
+        "adultworld",
+        "household"
+      ]
     },
     {
       "id": "selfdir.decide",
@@ -204,7 +247,10 @@
       ],
       "comesAfter": [],
       "assessment": "debrief",
-      "outcomes": ["adversity", "learning"]
+      "outcomes": [
+        "adversity",
+        "learning"
+      ]
     },
     {
       "id": "selfdir.try",
@@ -222,7 +268,10 @@
       ],
       "comesAfter": [],
       "assessment": "debrief",
-      "outcomes": ["learning", "wellbeing"]
+      "outcomes": [
+        "learning",
+        "wellbeing"
+      ]
     },
     {
       "id": "selfdir.quit",
@@ -238,10 +287,17 @@
         "Do the telling yourself — the coach, the teacher, the group leader — instead of letting a parent do it.",
         "After you leave something, run one honest debrief: right call or not, and how you'd know earlier next time."
       ],
-      "comesAfter": ["selfdir.try", "selfdir.decide"],
+      "comesAfter": [
+        "selfdir.try",
+        "selfdir.decide"
+      ],
       "ageFloor": 12,
       "assessment": "debrief",
-      "outcomes": ["learning", "adversity", "relationships"]
+      "outcomes": [
+        "learning",
+        "adversity",
+        "relationships"
+      ]
     },
     {
       "id": "selfdir.goal",
@@ -257,10 +313,16 @@
         "Tell one person the goal and ask them to ask you about it — chosen accountability, not surveillance.",
         "Keep a simple log; on the flat weeks, read the early pages to see how far you've actually come."
       ],
-      "comesAfter": ["selfdir.plan", "selfdir.finish"],
+      "comesAfter": [
+        "selfdir.plan",
+        "selfdir.finish"
+      ],
       "ageFloor": 12,
       "assessment": "debrief",
-      "outcomes": ["learning", "adversity"]
+      "outcomes": [
+        "learning",
+        "adversity"
+      ]
     },
     {
       "id": "selfdir.priorities",
@@ -276,10 +338,16 @@
         "Practice one kind, complete no this week: 'thanks for asking — I can't, I've committed to something.'",
         "Do a season audit with a parent: list everything you're in, and ask honestly which ones your goal would cut."
       ],
-      "comesAfter": ["selfdir.decide", "selfdir.goal"],
+      "comesAfter": [
+        "selfdir.decide",
+        "selfdir.goal"
+      ],
       "ageFloor": 13,
       "assessment": "debrief",
-      "outcomes": ["wellbeing", "learning"]
+      "outcomes": [
+        "wellbeing",
+        "learning"
+      ]
     },
     {
       "id": "selfdir.finale",
@@ -295,15 +363,23 @@
         "Take over the logistics of one whole commitment — forms, fees, rides, gear — end to end.",
         "Do a weekly self-review for a season: what did I say I'd do, what happened, what changes next week?"
       ],
-      "comesAfter": ["selfdir.mornings", "selfdir.schedule", "selfdir.priorities"],
+      "comesAfter": [
+        "selfdir.mornings",
+        "selfdir.schedule",
+        "selfdir.priorities"
+      ],
       "ageFloor": 14,
       "assessment": "debrief",
-      "finale": true,
       "unlock": {
         "text": "🎉 You can commit yourself to activities, trips, and plans on your own signature — the family calendar is yours to write on, no pre-approval. Standing expectations still stand: we know where you are, and named family events hold.",
         "coSign": true
       },
-      "outcomes": ["learning", "household", "adultworld"]
+      "finale": true,
+      "outcomes": [
+        "learning",
+        "household",
+        "adultworld"
+      ]
     }
   ]
 }

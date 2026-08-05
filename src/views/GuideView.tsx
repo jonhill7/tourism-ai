@@ -47,6 +47,44 @@ export default function GuideView() {
       </section>
 
       <section className="guide-block">
+        <h2 className="section-title">How to read the map</h2>
+        <p>
+          Two hundred–odd nodes is a landscape, not a to-do list — most branches exist to be wandered,
+          and plenty of nodes deliberately feed no finale at all. Two markers keep it navigable.{' '}
+          <strong>🎯 The Launch Core</strong> is the three dozen college-critical skills — the ones
+          where "never got there" actually costs a young adult something. If the tree ever starts to
+          feel like a compliance checklist, retreat to the core and let everything else be extension
+          credit. And <strong>🏁 the launch capstone</strong> — <em>run a week of your life</em> — is
+          the one cross-lane node: lane finales prove skills one at a time; the capstone proves them
+          all at once, against a real week with a real surprise in it.
+        </p>
+      </section>
+
+      <section className="guide-block">
+        <h2 className="section-title">The parent's side of every node</h2>
+        <p>
+          Every skill runs the same adult arc: <strong>model → practise together → observe → step
+          back</strong>. Your job moves along it — first they watch you, then you do it together, then
+          you watch them, then you leave. The assessment mode names where the arc ends:{' '}
+          <em>observed</em> ends with you watching from a step back, <em>debrief</em> ends in a
+          conversation, <em>self-check</em> ends with their own call and was never yours to grade.
+        </p>
+        <p>
+          For anything with blades, flames, wheels, water, or medicine, the middle of the arc is the
+          point: age floors are only tints, and the real dial is supervision —{' '}
+          <em>shown → done together → observed close → cleared for solo</em>. "Cleared for solo" is
+          what the unlock records; until then, observed means observed.
+        </p>
+        <p>
+          And the arc runs kid-first too: any kid can call for a check on any skill — "I think I've got
+          this, watch me" — and any kid can appeal a "not yet." The description arbitrates; if you two
+          read the same description and still disagree, make the skill the next two-week focus with
+          agreed evidence, and let the evidence settle it. A tree that only parents can move is
+          surveillance; this one is supposed to build agency.
+        </p>
+      </section>
+
+      <section className="guide-block">
         <h2 className="section-title">Why freedom, not treats</h2>
         <p>
           Rewards are expanded autonomy, never prizes. Tangible rewards can smother intrinsic motivation
@@ -71,6 +109,14 @@ export default function GuideView() {
           performance · it never comes back · boundaries exist only to protect everyone else. A privilege
           is "I'll be nice and let you." A freedom is <strong>"it's no longer up to me."</strong>
         </p>
+        <p>
+          That distinction cuts both ways, and it's why <strong>unlocks are conditional and reversible
+          on purpose</strong>. A Track A unlock is a privilege: one demonstration opens the door, but it
+          stays open through ongoing judgment — law, medication risk, other families' consent, and the
+          household's standing rules always still apply, and a privilege can pause when the context
+          changes. That's not a loophole; it's the definition. Only Track B freedoms carry the
+          never-comes-back guarantee — which is exactly what makes handing them over mean something.
+        </p>
       </section>
 
       <section className="guide-block">
@@ -81,6 +127,7 @@ export default function GuideView() {
           <li>Disagree about whether a skill is "got"? The description arbitrates — if it can't, the description needs editing, and that's a finding, not a fight.</li>
           <li>Character lanes are conversation fuel. If a character check-in ever feels like a performance review, stop and shrink it.</li>
           <li>Move ages. Rewrite nodes. A calendar you can move is not a commitment you're locked into. The system is meant to be customized, not obeyed.</li>
+          <li>Not from a US Christian family? Nodes tagged 📍 carry country-specific law and paperwork — keep the skill, swap the specifics. The faith lane can be switched off (or forked) under <a href="#/family">Family</a>; the other thirteen lanes stand on their own.</li>
         </ul>
       </section>
 

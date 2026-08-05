@@ -354,17 +354,17 @@
     },
     {
       "id": "facing.finale",
-      "name": "Walk through a real trial",
-      "gotItWhen": "Life has handed you something genuinely hard — a real loss, a real failure, a real long valley — and you walked through it, not around it: you felt it honestly, asked for help, kept going, and came out the other side someone who knows they can do hard things, because they have.",
+      "name": "Meet hard things with your whole toolkit",
+      "gotItWhen": "When something genuinely hard lands on you — whatever size life happens to send — reaching for the tools is what you do now: you name what you're feeling, settle yourself, ask for help early, grieve what's lost, hold hope out loud, and keep going. The tools come out by reflex, not by coaching, and each hard thing you've met this way is quiet proof you can meet the next one.",
       "looksLike": [
-        "The year everything went wrong — and you can tell the story now: what broke, who helped, what grew.",
-        "You went through the thing you'd have said you couldn't handle, and you handled it.",
-        "A friend hits their own valley, and you're the one who knows the terrain."
+        "A hard week hits — the cut list, the friend drama, the bad news — and someone watching would see the whole kit in use: named, settled, help asked, still moving.",
+        "You can point at real moments where you reached for a tool without anyone prompting you — and say which tool, and what it did.",
+        "If a real valley has found you already, you walked through it, not around it — and a friend who hits their own valley finds that you know the terrain."
       ],
       "waysToBuild": [
-        "This one can't be scheduled — the trial finds you. Everything else in this lane is training for it.",
-        "When you're in it, use it all: name it, settle, ask for help, grieve, hold hope.",
-        "When you're through, tell the story somewhere it counts — the family table, a journal, a younger kid who needs it."
+        "The big trial can't be scheduled — but hard things of every size arrive weekly. Use each one on purpose: name it, settle, ask for help, grieve, hold hope.",
+        "After a hard stretch, do the replay with someone you trust: which tools came out on their own, and which one you'd reach for sooner.",
+        "When a real trial does find you, use it all — and when you're through, tell the story somewhere it counts: the family table, a journal, a younger kid who needs it."
       ],
       "comesAfter": ["facing.help", "facing.retry", "facing.grieve", "facing.hope"],
       "ageFloor": 13,
