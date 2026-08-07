@@ -99,11 +99,36 @@ a fact. Fields:
   aid, legal rights) are jurisdiction-bound. Keep the skill, swap the specifics.
 - **Finale** flag — one per lane; the only place a 🎉 celebration lives.
 
+### What "got it" means — self-correcting, not flawless
+
+Two kinds of node share one format. **Threshold skills** you cross once and you're
+across (read a pay stub, change a tire, cook an unfamiliar recipe). **Practice skills**
+never terminate, because they're maintenance — keeping track of your stuff, keeping
+your word, keeping a cushion. Adults work on those forever; that is the nature of the
+skill, not evidence the adult failed. Written as a permanent steady state, a practice
+node describes a person who doesn't exist, nobody can honestly mark it, and the bar
+quietly becomes perfectionism.
+
+So "got it" means **ownership with self-repair**, not permanent success: they have a
+working method, they run it themselves, and when it breaks *they* are the one who
+notices and repairs it. Two tests, both observable:
+
+- **The recovery test** — when it fails, who catches it? Them, or you (or a consequence
+  landing on someone else)?
+- **The reliance test** — is anyone else quietly load-bearing for this?
+
+**The adult test** is how you audit a description: *would a competent adult honestly
+mark this "got it"?* If not, ask whether that's because they're genuinely not launched —
+or because the description is wrong. Where it's the description, it needs the repair
+clause (rule 10). This is the governing test pointed at an adult instead of a kid, and
+it applies to the ~17 practice-flavored nodes rewritten in 2026-08; character and
+light-touch nodes are exempt by construction — they're never scored, so no bar to clear.
+
 **Three states per kid: not yet · working on it · got it.** "Working on it" is the
 normal, non-failing state. Any skill can be marked "got it" immediately to **recognize
 what's already there** (e.g. something school taught) — no busywork.
 
-### The 8 rules for writing a good node
+### The rules for writing a good node
 
 1. **A capability, not an activity** — *extract* the real ability, don't substitute a
    neighbor. ("Get a job" → "Land a job" = run a search end to end, *and* "Hold down a
@@ -121,8 +146,18 @@ what's already there** (e.g. something school taught) — no busywork.
    and "a trial life handed you" can't be practised on demand — assess the underlying
    behaviors (the tending, the toolkit), and let the life event be *optional evidence*,
    never the entry bar.
+10. **A practice skill must name the repair, not just the steady state.** If the skill is
+    maintenance rather than a threshold, say who catches the failure and what they do
+    about it — "when it slips, you're the one who notices and puts it back." Steady state
+    alone sets a bar no adult clears. Threshold skills ("you can…") need no repair clause,
+    and high-stakes safety nodes (meds, water, emergencies) keep their strict bar on
+    purpose. This does not bend rule 3: the repair clause describes *competent behavior*
+    in response to an ordinary, expected event — it never defines mastery as the absence
+    of a slip.
 
 **Governing test:** *reading this about myself, would I honestly know whether I have it?*
+**Audit test:** *would a competent adult honestly mark this "got it"?* (See "What 'got
+it' means" above — if not, the description is usually what's wrong.)
 
 Same skill at different sizes/ages is a **developmental ladder**, not duplication —
 keep those.
@@ -290,6 +325,29 @@ A structured critique of the full tree produced these standing decisions:
 8. **Jurisdiction and values are tagged, not baked in**: `region: "US"` on
    taxes/voting/aid/rights nodes; the faith lane is `configurable` and can be switched
    off in-app without orphaning the other thirteen lanes.
+
+## Lessons from the mastery-criteria pass (2026-08)
+
+The question that prompted it: *many of these nodes are things adults are still working
+on — how do I know when a kid has it enough to move on?*
+
+1. **Threshold vs. practice** is the distinction that was missing — not a fourth state,
+   and emphatically not a return to the collapsed skill/habit/knowledge kinds. It's about
+   the shape of *mastery*, so it lives in the writing rules, not in the schema.
+2. **"Got it" = ownership with self-repair**, checked by the recovery test and the
+   reliance test. This is also the honest line between a launched adult and a dependent
+   one, which is why it belongs at the center rather than as a caveat.
+3. **The adult test audits descriptions, not kids.** Seventeen practice nodes failed it
+   and got repair clauses; the rest were already written as capabilities ("you can…"),
+   already hedged ("roughly," "mostly"), or already carried the repair
+   (`money.budget`, `money.cushion`, `health.move` were the models to copy).
+4. **Character and light-touch lanes were left alone** — they're never scored, so there
+   is no bar to make honest, and adding repair clauses would have imported assessment
+   machinery into exactly the place the spec keeps it out of.
+5. **"Enough to move on" is mostly a non-question structurally.** The graph is a map;
+   `comesAfter` is readiness for the next thing, not proof of mastery. Only unlocks
+   genuinely gate, and there a high bar is correct — the gate audit rule already guards it.
+   Everywhere else, "working on it" is a fine permanent home for a skill.
 
 ## Guiding philosophy
 

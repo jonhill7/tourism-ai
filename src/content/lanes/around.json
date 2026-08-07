@@ -226,7 +226,7 @@
     {
       "id": "around.car-care",
       "name": "Keep a car alive",
-      "gotItWhen": "The car you drive stays healthy because of you — you keep it fueled, keep the tires at pressure and check their tread, check the oil, keep the wipers and washer fluid working, can jump-start a dead battery, and when a warning light comes on you know what it means and what to do next.",
+      "gotItWhen": "The car you drive stays healthy because of you — you keep it fueled, keep the tires at pressure and check their tread, check the oil, keep the wipers and washer fluid working, can jump-start a dead battery, and when a warning light comes on you know what it means and what to do next. Maintenance slips sometimes; what makes the car yours is that you're the one who notices the service is overdue or the tire looks low, and books it in rather than driving on and hoping.",
       "looksLike": [
         "The low-tire light comes on, and you're at the air pump that same day, gauge in hand.",
         "You check the oil in the driveway — pull, wipe, dip, read — and know what a good level looks like.",

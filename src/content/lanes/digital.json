@@ -27,7 +27,7 @@
     {
       "id": "digital.secure",
       "name": "Lock your accounts down",
-      "gotItWhen": "Every account you care about has a strong password no other account shares, you keep them in a manager or a system you actually maintain, and your important logins have a second factor — so one leaked password stays one leaked password.",
+      "gotItWhen": "Every account you care about has a strong password no other account shares, you keep them in a manager or a system you actually maintain, and your important logins have a second factor — so one leaked password stays one leaked password. When a breach notice lands, or you catch yourself reusing one, you go and fix that account then — not someday.",
       "looksLike": [
         "Signing up somewhere new, you generate a fresh password instead of typing the one you always use.",
         "A site you use announces a breach, and you know exactly which single account it touches.",
@@ -215,7 +215,7 @@
     {
       "id": "digital.admin",
       "name": "Run your digital life",
-      "gotItWhen": "The boring machinery of your digital life runs because you run it — backups exist and you've proven you can restore from them, updates get applied, storage gets cleared before it fills, and you know every account and subscription you have, keeping the ones you chose and closing the rest.",
+      "gotItWhen": "The boring machinery of your digital life runs because you run it — backups exist and you've proven you can restore from them, updates get applied, storage gets cleared before it fills, and you know every account and subscription you have, keeping the ones you chose and closing the rest. It drifts, because this kind of thing always drifts — and you're the one who notices the drift and does a pass, before a full disk or a forgotten charge does the noticing for you.",
       "looksLike": [
         "Your phone dies, and it's an inconvenience, not a tragedy — the photos and files live somewhere else too.",
         "You run a seasonal sweep: unused apps out, forgotten logins closed, mystery subscriptions canceled.",
@@ -234,7 +234,7 @@
     {
       "id": "digital.finale",
       "name": "Run your own digital household",
-      "gotItWhen": "Your whole digital life is yours and in order — devices maintained, accounts locked down, backups proven, footprint deliberate, attention pointed where you choose — running steadily over time with nobody auditing, and if anyone did look over your shoulder, everything they'd find is what you'd show them anyway.",
+      "gotItWhen": "Your whole digital life is yours and in order — devices maintained, accounts locked down, backups proven, footprint deliberate, attention pointed where you choose — running steadily over time with nobody auditing. Where it slips, you're the one who catches it and puts it back, because nobody else is going to — and if anyone did look over your shoulder, everything they'd find is what you'd show them anyway.",
       "looksLike": [
         "A new device gets set up right by reflex: passwords into the manager, two-factor on, backup running, junk permissions declined.",
         "Something goes wrong — a breach notice, a dead phone, a friend's hacked account asking you for money — and you work the steps calmly, like a sysadmin.",

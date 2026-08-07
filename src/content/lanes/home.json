@@ -29,7 +29,7 @@
     {
       "id": "home.laundry",
       "name": "Do your own laundry",
-      "gotItWhen": "Your laundry is simply yours, by habit — you sort it, wash it, dry it, fold it, and put it away on your own schedule — and you know which of your clothes shrink, which bleed color, and which never go near the dryer.",
+      "gotItWhen": "Your laundry is simply yours, by habit — you sort it, wash it, dry it, fold it, and put it away on your own schedule — and you know which of your clothes shrink, which bleed color, and which never go near the dryer. When it gets away from you and the basket overflows, you're the one who notices you're out of clean clothes and runs a load, not somebody else noticing for you.",
       "looksLike": [
         "The new red hoodie gets its own cold wash the first time, because you know what color bleed does to whites.",
         "You run a full cycle — sort, settings, wash, dry, fold, drawers — with no questions asked of anyone.",
@@ -50,7 +50,7 @@
     {
       "id": "home.habit",
       "name": "Keep your space livable by habit",
-      "gotItWhen": "Your space stays livable through an ordinary week because of small habits, not heroic cleanups — things return to where they live as you go, and the room a friend would see on a random Tuesday is one you're fine with them seeing.",
+      "gotItWhen": "Your space stays livable through an ordinary week because of small habits, not heroic cleanups — things return to where they live as you go, and when the room does slide, in a busy week or a bad stretch, you're the one who sees it and resets it, so the room a friend would find on a random Tuesday is one you're fine with them seeing.",
       "looksLike": [
         "The dirty clothes are in the hamper because that's simply where they go.",
         "A friend shows up with ten minutes' notice and your room needs no panic.",
@@ -268,7 +268,7 @@
     {
       "id": "home.together",
       "name": "Share a home well",
-      "gotItWhen": "Living alongside other people — family now, roommates soon — you carry your share of the common work without scorekeeping, keep shared spaces the way the group agreed rather than the way you'd keep your own, and raise frictions with the person involved while they're still small.",
+      "gotItWhen": "Living alongside other people — family now, roommates soon — you carry your share of the common work without scorekeeping, keep shared spaces the way the group agreed rather than the way you'd keep your own, and raise frictions with the person involved while they're still small. And when you're the one who let their share slip, you own it and put it right yourself, rather than waiting to be told.",
       "looksLike": [
         "The sink is full and it isn't your mess — and sometimes you just handle it, because you live here too.",
         "You negotiate who cooks and who cleans for the week, and hold up your end without being chased.",
