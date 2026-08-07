@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 concurrency:
   group: pages
@@ -20,7 +21,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # Best-effort: turns Pages on if it's off (e.g. after the gh-pages branch was
+      # deleted, which un-provisions the site). Never fatal — publishing only needs the
+      # branch push below, so if the API is unavailable this step must not block it.
       - uses: actions/configure-pages@v4
+        continue-on-error: true
         with:
           enablement: true
       - uses: actions/setup-node@v4
