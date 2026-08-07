@@ -61,6 +61,53 @@ export default function GuideView() {
       </section>
 
       <section className="guide-block">
+        <h2 className="section-title">What "got it" actually means</h2>
+        <p>
+          Sooner or later you'll read a node about yourself and wince. <em>Not all my things have
+          homes. I still lose things.</em> That's the right reaction to the wrong reading. Two kinds
+          of skill live in this tree: <strong>thresholds</strong> you cross once and are across —
+          read a pay stub, change a tire, cook an unfamiliar recipe — and <strong>practices</strong>
+          that never finish, because they're maintenance. Keeping track of your stuff. Keeping your
+          word. Keeping a cushion. Adults work on those forever. That's the nature of the skill, not
+          a verdict on the adult.
+        </p>
+        <p>
+          So "got it" doesn't mean the problem is solved for good. It means{' '}
+          <strong>they own it and they repair it</strong>: they have a method that works, they run
+          it themselves, and when it breaks <em>they</em> are the one who notices and puts it back.
+          Two questions settle nearly every case:
+        </p>
+        <ul>
+          <li>
+            <strong>The recovery test</strong> — when it fails, who catches it? Them, or you, or a
+            consequence landing on somebody else?
+          </li>
+          <li>
+            <strong>The reliance test</strong> — is anyone else quietly load-bearing for this?
+          </li>
+        </ul>
+        <p>
+          By that standard, an adult who occasionally loses the charger but notices and goes and
+          finds it — with nobody else managing their stuff — has it. An adult whose losing things
+          means someone else covers for them doesn't. That's the same line that separates a launched
+          adult from one still living on somebody's help, which is exactly why it's the bar here.
+        </p>
+        <p>
+          And if a node still reads as impossible — <em>would a competent adult honestly mark
+          this?</em> If the answer is no, and they're plainly launched, <strong>the description is
+          what's wrong</strong>, not the kid. Rewrite it so it names the repair. That's a finding,
+          not a fight.
+        </p>
+        <p className="muted small">
+          One more thing worth saying plainly, because it takes most of the pressure off: nothing
+          waits on "got it." The tree is a map, not a ladder — what comes after is about
+          <em> readiness for the next thing</em>, not proof you finished the last one. The only place
+          the bar has real teeth is an <strong>unlock</strong>, where a high bar is the point.
+          Everywhere else, "working on it" is a perfectly good place for a skill to live for years.
+        </p>
+      </section>
+
+      <section className="guide-block">
         <h2 className="section-title">The parent's side of every node</h2>
         <p>
           Every skill runs the same adult arc: <strong>model → practise together → observe → step

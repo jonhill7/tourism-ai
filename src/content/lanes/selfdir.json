@@ -9,7 +9,7 @@
     {
       "id": "selfdir.mornings",
       "name": "Get yourself up and out",
-      "gotItWhen": "You get yourself out of bed on your own alarm, run your morning — dressed, fed, packed — and stand ready at the door on time, by habit, with nobody knocking and nobody calling up the stairs.",
+      "gotItWhen": "You get yourself out of bed on your own alarm, run your morning — dressed, fed, packed — and stand ready at the door on time, by habit, with nobody knocking and nobody calling up the stairs. On the morning it goes wrong — slept through, ran late — the recovery is yours too: you sort yourself out and get out the door without drafting the whole house into it.",
       "looksLike": [
         "Your alarm goes off, and you're the one who gets you up.",
         "On a school morning you're at the door, fed and packed, with minutes to spare.",
@@ -32,7 +32,7 @@
     {
       "id": "selfdir.stuff",
       "name": "Keep track of your stuff",
-      "gotItWhen": "Your things have homes and you put them back — so when the cleats, the charger, or the permission slip is needed, you can lay hands on it in moments and it's ready to go.",
+      "gotItWhen": "Your things have homes and you put them back — so when the cleats, the charger, or the permission slip is needed, you can lay hands on it in moments and it's ready to go. Things still go missing sometimes; what makes this yours is that you're the one who notices, hunts it down, and tightens the system rather than abandoning it.",
       "looksLike": [
         "It's game day, and your uniform, cleats, and water bottle are where they live — you grab and go.",
         "A permission slip comes home and makes it back to school signed, because you have a spot where papers wait.",
@@ -52,7 +52,7 @@
     {
       "id": "selfdir.word",
       "name": "Do what you said you'd do",
-      "gotItWhen": "When you tell someone you'll do a thing, it gets done — on time, to the standard you promised — and nobody has to chase you or check up, because your word is how it happens.",
+      "gotItWhen": "When you tell someone you'll do a thing, it gets done — on time, to the standard you promised — and nobody has to chase you or check up, because your word is how it happens. And when you're going to miss, they hear it from you first and early, with a new time you then keep — rather than finding out when the thing simply didn't happen.",
       "looksLike": [
         "You said you'd feed the dog before school, and the dog is fed before school.",
         "You promised a friend you'd bring the game Saturday, and Saturday you're at the door with it.",
@@ -208,7 +208,7 @@
     {
       "id": "selfdir.schedule",
       "name": "Run your own schedule",
-      "gotItWhen": "You keep your own calendar — practices, rehearsals, appointments, deadlines, family plans — you check it before saying yes to anything new, and you're where you said you'd be, when you said, with what you need.",
+      "gotItWhen": "You keep your own calendar — practices, rehearsals, appointments, deadlines, family plans — you check it before saying yes to anything new, and you're where you said you'd be, when you said, with what you need. When you double-book yourself or miss an entry, you're the one who spots it and sorts it out with the people affected, rather than someone else discovering the clash for you.",
       "looksLike": [
         "A friend invites you Saturday, and you check your calendar before answering — because you honestly don't know until you look.",
         "You show up to your orthodontist appointment because it was in your system, not because a parent ran the reminders.",
