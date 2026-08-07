@@ -87,6 +87,10 @@ const DetailPanel = ({ lane, skill }: { lane: Lane; skill: Skill }) => {
       <section className="detail-block got-it-when">
         <h3>Got it when…</h3>
         <p>{skill.gotItWhen}</p>
+        <p className="muted small">
+          "Got it" means owning it and repairing it, not never slipping — when it goes wrong, are
+          they the one who notices and puts it back? (<a href="#/guide">More on the bar</a>.)
+        </p>
       </section>
 
       <section className="detail-block">

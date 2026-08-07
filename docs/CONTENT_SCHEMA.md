@@ -46,6 +46,14 @@ Content lives in `src/content/` as JSON, imported directly by the app and valida
 }
 ```
 
+**Writing `gotItWhen` for a practice skill.** If the skill is maintenance rather than a
+threshold — something an adult still works on forever (keeping track of your stuff, your
+laundry, your word, your calendar) — the description must name the **repair**, not only
+the steady state: who notices when it slips, and what they do about it. "Got it" means
+ownership with self-repair, never flawlessness (see SPEC "What 'got it' means"). Threshold
+skills written as "you can…" need no repair clause, and high-stakes safety nodes keep
+their strict bar deliberately.
+
 Rules the validator enforces: unique ids; prefix matches lane; prerequisites exist;
 graph is acyclic; exactly one finale per lane; every skill maps to ≥1 valid outcome;
 2–3 `looksLike`, 2–4 `waysToBuild`; digits are not allowed in `gotItWhen` (numbers are

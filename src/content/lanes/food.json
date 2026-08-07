@@ -72,7 +72,7 @@
     {
       "id": "food.lunch",
       "name": "Pack your own lunch",
-      "gotItWhen": "Packing your own lunch is just something you do — by habit, ahead of the morning rush — and what goes in the bag is food that actually carries you through the afternoon: something real to run on, not a bag of snacks wearing a lunch costume.",
+      "gotItWhen": "Packing your own lunch is just something you do — by habit, ahead of the morning rush — and what goes in the bag is food that actually carries you through the afternoon: something real to run on, not a bag of snacks wearing a lunch costume. On the morning it doesn't happen, you're the one who catches it and sorts yourself out, rather than leaving it to become somebody else's problem at noon.",
       "looksLike": [
         "The night before a school day, your lunch is in the fridge, made, with nobody having mentioned it.",
         "There's a main thing, something that grew in the ground, and a drink — and you'd genuinely eat all of it.",
@@ -240,7 +240,7 @@
     {
       "id": "food.pantry",
       "name": "Keep a pantry stocked",
-      "gotItWhen": "You keep track of the kitchen's staples so the basics are simply there — you notice what's running low before it runs out, put it on the list, use the oldest first, and nothing quietly dies in the back of a shelf.",
+      "gotItWhen": "You keep track of the kitchen's staples so the basics are simply there — you notice what's running low before it runs out, put it on the list, and use the oldest first — and when something has quietly died in the back of a shelf, you're the one who finds it, clears it out, and buys differently next time.",
       "looksLike": [
         "You use the last of the flour and it's on the list before the empty bag hits the recycling.",
         "New cans go in behind old cans, so the oldest always gets used first.",
